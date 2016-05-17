@@ -25,5 +25,6 @@ module.exports = {
         "no-loop-func": 0,                          // http://eslint.org/docs/rules/no-loop-func
         "func-names": 0,                            // http://eslint.org/docs/rules/func-names
         "no-empty": 0,
+        "no-shadow": 0,
     }
 };
