@@ -8,11 +8,6 @@
   },
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
-  "dependencies": {
-    "babel-eslint": "^6.0.2",
-    "eslint-config-airbnb": "^6.2.0",
-    "eslint-plugin-react": "^4.2.3"
-  },
   "peerDependencies": {
     "eslint": "^2.0.0"
   }
