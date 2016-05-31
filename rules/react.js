@@ -7,6 +7,7 @@ module.exports = {
 
         // changed rules
         "react/jsx-indent-props": [2, 4],
+        "react/jsx-indent": [2, 4],
 
         // babel plugin react-require
         "react/react-in-jsx-scope": 0,
