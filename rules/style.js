@@ -26,5 +26,6 @@ module.exports = {
         "func-names": 0,                            // http://eslint.org/docs/rules/func-names
         "no-empty": 0,
         "no-shadow": 0,
+        "no-underscore-dangle": 0,
     }
 };
