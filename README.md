@@ -13,7 +13,7 @@ Based on Airbnb.
 
 Lint with babel parser
 
-1. `npm install --save-dev eslint eslint-config-pob eslint-config-airbnb-base eslint-plugin-import`
+1. `npm install --save-dev eslint babel-eslint eslint-config-pob eslint-config-airbnb-base eslint-plugin-import`
 2. add `"extends": "pob/babel"` to your .eslintrc
 
 ### eslint-config-pob/react
