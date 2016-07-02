@@ -10,6 +10,6 @@
   "license": "ISC",
   "repository": "christophehurpeau/eslint-config-pob",
   "peerDependencies": {
-    "eslint": "^2.0.0"
+    "eslint": "^2.0.0 || ^3.0.0"
   }
 }
