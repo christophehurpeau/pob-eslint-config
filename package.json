@@ -4,7 +4,8 @@
   "description": "eslint config files",
   "main": "base.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "pob-repository-check-clean && pob-release",
+    "version": "pob-version"
   },
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
     "eslint-plugin-react": "^6.1.1"
+  },
+  "dependencies": {
+    "pob-release": "^2.1.0"
   }
 }
