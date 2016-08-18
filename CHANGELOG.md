@@ -1,3 +1,7 @@
+### v7.0.1
+
+- [`9b8b9b6`](https://github.com/christophehurpeau/eslint-config-pob/commit/9b8b9b66df776d1ba32b7b3be5df93d36b46a758) jsx 2 spaces indent (Christophe Hurpeau)
+
 ### v7.0.0
 
 - [`fdf6841`](https://github.com/christophehurpeau/eslint-config-pob/commit/fdf6841201de4a6c360648cbfa9883c265ef66f4) review rules, use 2 spaces indentation (Christophe Hurpeau)
