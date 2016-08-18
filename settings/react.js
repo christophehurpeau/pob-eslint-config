@@ -1,5 +1,5 @@
 module.exports = {
-    'settings': {
-        'import/extensions': ['.js', '.jsx'],
-    }
+  settings: {
+    'import/extensions': ['.js', '.jsx'],
+  },
 };

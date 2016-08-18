@@ -4,6 +4,7 @@
   "description": "eslint config files",
   "main": "base.js",
   "scripts": {
+    "lint": "eslint --ext .js,.jsx --fix rules/ settings/ *.js",
     "release": "pob-repository-check-clean && pob-release",
     "version": "pob-version"
   },
