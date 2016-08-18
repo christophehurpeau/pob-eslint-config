@@ -1,3 +1,7 @@
+### v7.0.0
+
+- [`fdf6841`](https://github.com/christophehurpeau/eslint-config-pob/commit/fdf6841201de4a6c360648cbfa9883c265ef66f4) review rules, use 2 spaces indentation (Christophe Hurpeau)
+
 ### v6.1.6
 
 - [`cb0e858`](https://github.com/christophehurpeau/eslint-config-pob/commit/cb0e858c94d1466f2c2b9fe16351ce79c22dcaec) add license file, per package.json (Waldir Pimenta)
