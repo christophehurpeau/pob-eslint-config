@@ -13,7 +13,7 @@ module.exports = {
     'object-shorthand': 0,
     'babel/object-shorthand': [2, 'methods'],
 
-    'babel/flow-object-type': [1, 'semicolon'],
+    'babel/flow-object-type': [1, 'comma'],
     'babel/func-params-comma-dangle': [2, 'always-multiline'],
   },
 };
