@@ -1,3 +1,7 @@
+### v7.3.0
+
+- [`2d4097c`](https://github.com/christophehurpeau/eslint-config-pob/commit/2d4097c91d74cdae762f493a5b7e1a5bf231fdb9) upgrade dependencies and disable no-plusplus (Christophe Hurpeau)
+
 ### v7.2.0
 
 - [`721a31f`](https://github.com/christophehurpeau/eslint-config-pob/commit/721a31fcfb4eec817fb72d354ff62081692f8ca3) update dependencies (Christophe Hurpeau)
