@@ -24,6 +24,7 @@ module.exports = {
     'no-shadow': 0,                             // http://eslint.org/docs/rules/no-shadow
     'no-underscore-dangle': 0,                  // http://eslint.org/docs/rules/no-underscore-dangle
     'no-continue': 0,                           // http://eslint.org/docs/rules/no-continue
+    'no-plusplus': 0,                           // http://eslint.org/docs/rules/no-plusplus
     'import/prefer-default-export': 0,          // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
   },
 };
