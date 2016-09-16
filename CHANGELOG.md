@@ -1,3 +1,7 @@
+### v7.3.2
+
+- [`0d91187`](https://github.com/christophehurpeau/eslint-config-pob/commit/0d911878c5d15ce7fe102b137e07e3451277df35) disable import/no-named-as-default (Christophe Hurpeau)
+
 ### v7.3.1
 
 - [`d5426b1`](https://github.com/christophehurpeau/eslint-config-pob/commit/d5426b1da36d33cb053c2cf77d29a35fecba43bb) disable arrow-parens because it breaks with flow (Christophe Hurpeau)
