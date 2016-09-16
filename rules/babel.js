@@ -15,5 +15,8 @@ module.exports = {
 
     'babel/flow-object-type': [1, 'comma'],
     'babel/func-params-comma-dangle': [2, 'always-multiline'],
+
+    // disable arrow-parens because it breaks with flow
+    'arrow-parens': 'off',
   },
 };
