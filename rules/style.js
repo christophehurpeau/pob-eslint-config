@@ -26,5 +26,7 @@ module.exports = {
     'no-continue': 0,                           // http://eslint.org/docs/rules/no-continue
     'no-plusplus': 0,                           // http://eslint.org/docs/rules/no-plusplus
     'import/prefer-default-export': 0,          // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
+
+    'class-methods-use-this': 0,
   },
 };
