@@ -1,3 +1,10 @@
+### v7.4.0
+
+- [`82b8484`](https://github.com/christophehurpeau/eslint-config-pob/commit/82b8484a0b7e9fec264f0d4e904f1502fe5228f6) babel support import type vs import for duplicates (Christophe Hurpeau)
+- [`70408ec`](https://github.com/christophehurpeau/eslint-config-pob/commit/70408ec18e62cbb3733cd8302a8bd210847bd686) disable class-methods-use-this (Christophe Hurpeau)
+- [`793afe3`](https://github.com/christophehurpeau/eslint-config-pob/commit/793afe3abdfc12e5ca7defa67af22d6d21f79bf3) peerDependencies: remove eslint 2.0 (Christophe Hurpeau)
+- [`6f02579`](https://github.com/christophehurpeau/eslint-config-pob/commit/6f02579963b4da0ca855e7cb8cccb8f4c2c4aa54) update dev dependencies (Christophe Hurpeau)
+
 ### v7.3.2
 
 - [`0d91187`](https://github.com/christophehurpeau/eslint-config-pob/commit/0d911878c5d15ce7fe102b137e07e3451277df35) disable import/no-named-as-default (Christophe Hurpeau)
