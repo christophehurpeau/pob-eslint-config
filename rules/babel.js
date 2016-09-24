@@ -22,5 +22,8 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
     // `export default from './foo'` should work
     'import/no-named-as-default': 'off',
+
+    'no-duplicate-imports': 'off',
+    'import/no-duplicates': 'error',
   },
 };
