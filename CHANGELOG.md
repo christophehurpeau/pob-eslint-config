@@ -1,3 +1,7 @@
+### v7.5.0
+
+- [`b582f07`](https://github.com/christophehurpeau/eslint-config-pob/commit/b582f07dd54849d9435c1873c87814ce81c2788a) flow: remove valid-syntax (deprecated), add no-dupe-keys, boolean-style, semi, space-before-generic-bracket, union-intersection-spacing (Christophe Hurpeau)
+
 ### v7.4.0
 
 - [`82b8484`](https://github.com/christophehurpeau/eslint-config-pob/commit/82b8484a0b7e9fec264f0d4e904f1502fe5228f6) babel support import type vs import for duplicates (Christophe Hurpeau)
