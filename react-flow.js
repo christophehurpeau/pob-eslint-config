@@ -9,4 +9,7 @@ module.exports = {
     './rules/react',
   ].map(require.resolve),
   parser: 'babel-eslint',
+  rules: {
+    'react/forbid-prop-types': 'off',
+  },
 };
