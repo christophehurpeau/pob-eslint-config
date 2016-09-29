@@ -1,3 +1,8 @@
+### v7.6.0
+
+- [`e24e281`](https://github.com/christophehurpeau/eslint-config-pob/commit/e24e281151e6da7b297fcedf5d37d142bcfc45b5) disable react/forbid-prop-types with flow (Christophe Hurpeau)
+- [`cc9b10b`](https://github.com/christophehurpeau/eslint-config-pob/commit/cc9b10b9e486ee4aca6365a63774ace200b22586) update dependencies (Christophe Hurpeau)
+
 ### v7.5.0
 
 - [`b582f07`](https://github.com/christophehurpeau/eslint-config-pob/commit/b582f07dd54849d9435c1873c87814ce81c2788a) flow: remove valid-syntax (deprecated), add no-dupe-keys, boolean-style, semi, space-before-generic-bracket, union-intersection-spacing (Christophe Hurpeau)
