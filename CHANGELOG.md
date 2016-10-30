@@ -1,3 +1,7 @@
+### v8.0.0
+
+- [`d4e09c2`](https://github.com/christophehurpeau/eslint-config-pob/commit/d4e09c202ddd745a387ba43646b89fe93407b4a6) remove changed rule no-use-before-define (Christophe Hurpeau)
+
 ### v7.6.0
 
 - [`e24e281`](https://github.com/christophehurpeau/eslint-config-pob/commit/e24e281151e6da7b297fcedf5d37d142bcfc45b5) disable react/forbid-prop-types with flow (Christophe Hurpeau)
