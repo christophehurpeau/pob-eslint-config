@@ -8,7 +8,6 @@ module.exports = {
 
     // changed rules
     'no-unused-vars': [2, { args: 'none' }],
-    'no-use-before-define': [2, 'nofunc'],
     'object-shorthand': [2, 'methods'],
 
     // disabled rules
