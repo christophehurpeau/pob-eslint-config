@@ -1,3 +1,16 @@
+### v9.0.0
+
+#### Added rules
+
+- flow: object-type-delimiter
+- flow: delimiter-dangle (always multiline)
+- flow: warning no-weak-types
+
+#### Commits
+
+- [`9413c1d`](https://github.com/christophehurpeau/eslint-config-pob/commit/9413c1daf05815cb0ef30f7cc8908c1ff9dc803e) add flowtype rules, disable react/proptypes with flow (Christophe Hurpeau)
+
+
 ### v8.0.0
 
 - [`d4e09c2`](https://github.com/christophehurpeau/eslint-config-pob/commit/d4e09c202ddd745a387ba43646b89fe93407b4a6) remove changed rule no-use-before-define (Christophe Hurpeau)
