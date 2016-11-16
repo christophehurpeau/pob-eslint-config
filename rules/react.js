@@ -1,14 +1,17 @@
 module.exports = {
   rules: {
-    'react/jsx-curly-spacing': 2,
-    'react/jsx-no-duplicate-props': 2,
-    // 'react/no-deprecated': 2,
-    'react/no-direct-mutation-state': 2,
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
+    // don't ignore case
+    'react/jsx-no-duplicate-props': 'error',
+
+    // Prevent direct mutation of this.state
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
+    'react/no-direct-mutation-state': 'error',
 
     // babel plugin react-require
-    'react/react-in-jsx-scope': 0,
+    'react/react-in-jsx-scope': 'off',
 
     // deprecated rule (now import/extensions)
-    'react/require-extension': 0,
+    'react/require-extension': 'off',
   },
 };
