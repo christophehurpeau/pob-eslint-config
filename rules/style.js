@@ -8,7 +8,8 @@ module.exports = {
 
     // changed rules
     'no-unused-vars': [2, { args: 'none' }],
-    'object-shorthand': [2, 'methods'],
+    'object-shorthand': [2, 'always'],
+    'comma-dangle': ['error', 'always-multiline'],
 
     // disabled rules
     'prefer-const': 0,                          // http://eslint.org/docs/rules/prefer-const
