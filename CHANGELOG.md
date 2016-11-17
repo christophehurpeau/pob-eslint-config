@@ -1,3 +1,7 @@
+### v10.0.1
+
+- [`8b2bad4`](https://github.com/christophehurpeau/eslint-config-pob/commit/8b2bad4677533236811a8c75c25eaa4b537b1381) eslint-plugin-babel@4 (Christophe Hurpeau)
+
 ### v9.0.1
 
 - [`d0e5d08`](https://github.com/christophehurpeau/eslint-config-pob/commit/d0e5d084c9a331545e35ba4f6592d8b4e8e8725d) babel remove babel/flow-object-type (Christophe Hurpeau)
