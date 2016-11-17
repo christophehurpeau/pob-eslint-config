@@ -1,3 +1,8 @@
+### v10.0.0
+
+- [`c8410ce`](https://github.com/christophehurpeau/eslint-config-pob/commit/c8410ce65a1397e9a0dcec04d61b0617a9241348) update react rules doc (Christophe Hurpeau)
+- [`a6d6945`](https://github.com/christophehurpeau/eslint-config-pob/commit/a6d6945817c7f94090359564a05fb0b4def3919c) eslint-plugin-babel@4 (Christophe Hurpeau)
+
 ### v9.0.1
 
 - [`d0e5d08`](https://github.com/christophehurpeau/eslint-config-pob/commit/d0e5d084c9a331545e35ba4f6592d8b4e8e8725d) babel remove babel/flow-object-type (Christophe Hurpeau)
