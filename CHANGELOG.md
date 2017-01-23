@@ -1,3 +1,7 @@
+### v11.0.0
+
+- [`2ed2f28`](https://github.com/christophehurpeau/eslint-config-pob/commit/2ed2f289790390dc52bc09bd0fa4d29a9f998132) add code quality (Christophe Hurpeau)
+
 ### v10.0.1
 
 - [`8b2bad4`](https://github.com/christophehurpeau/eslint-config-pob/commit/8b2bad4677533236811a8c75c25eaa4b537b1381) eslint-plugin-babel@4 (Christophe Hurpeau)
