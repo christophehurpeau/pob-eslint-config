@@ -3,6 +3,7 @@ module.exports = {
     'eslint-config-airbnb',
     './settings/react',
     './settings/globals',
+    './rules/code-quality',
     './rules/style',
     './rules/babel',
     './rules/react',
