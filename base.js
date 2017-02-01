@@ -4,5 +4,6 @@ module.exports = {
     './settings/globals',
     './rules/code-quality',
     './rules/style',
+    './rules/expert',
   ].map(require.resolve),
 };

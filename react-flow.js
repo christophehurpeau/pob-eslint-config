@@ -5,6 +5,7 @@ module.exports = {
     './settings/globals',
     './rules/code-quality',
     './rules/style',
+    './rules/expert',
     './rules/babel',
     './rules/flow',
     './rules/react',
