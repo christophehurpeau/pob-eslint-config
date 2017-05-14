@@ -1,3 +1,18 @@
+<a name="12.0.0"></a>
+# [12.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v11.1.0...v12.0.0) (2017-05-14)
+
+
+### Features
+
+* add SERVER global ([7638f11](https://github.com/christophehurpeau/eslint-config-pob/commit/7638f11))
+* enable arrow-parens https://github.com/eslint/eslint/pull/7436 ([bafe419](https://github.com/christophehurpeau/eslint-config-pob/commit/bafe419))
+
+
+### BREAKING CHANGES
+
+* enabled rule arrow-parens
+
+
 ### v11.1.0
 
 - [`33925b6`](https://github.com/christophehurpeau/eslint-config-pob/commit/33925b63cd618c2d3e3ed24171e45f694e20902c) add expert file and disable no-await-in-loop, allow for of (Christophe Hurpeau)
