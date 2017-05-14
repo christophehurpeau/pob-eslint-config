@@ -10,8 +10,5 @@ module.exports = {
 
     // babel plugin react-require
     'react/react-in-jsx-scope': 'off',
-
-    // deprecated rule (now import/extensions)
-    'react/require-extension': 'off',
   },
 };
