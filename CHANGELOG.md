@@ -1,3 +1,12 @@
+<a name="12.1.0"></a>
+# [12.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v12.0.0...v12.1.0) (2017-06-17)
+
+
+### Features
+
+* update dependencies ([ca414d3](https://github.com/christophehurpeau/eslint-config-pob/commit/ca414d3))
+
+
 <a name="12.0.0"></a>
 # [12.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v11.1.0...v12.0.0) (2017-05-14)
 
