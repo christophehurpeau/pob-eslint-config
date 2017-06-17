@@ -12,15 +12,15 @@
   "license": "ISC",
   "repository": "christophehurpeau/eslint-config-pob",
   "peerDependencies": {
-    "eslint": "^3.6.0"
+    "eslint": "^3.6.0 || ^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-flowtype": "^2.32.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.7.1",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-flowtype": "^2.34.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.1.0",
     "pob-release": "^3.1.0"
   }
 }

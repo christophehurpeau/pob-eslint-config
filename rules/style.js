@@ -12,6 +12,6 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
 
     // disabled rules
-    'no-else-return': 'off',                // http://eslint.org/docs/rules/no-else-return
+    'no-else-return': 'off', // http://eslint.org/docs/rules/no-else-return
   },
 };
