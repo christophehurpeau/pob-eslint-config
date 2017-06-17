@@ -10,5 +10,42 @@ module.exports = {
 
     // babel plugin react-require
     'react/react-in-jsx-scope': 'off',
+
+    'react/sort-comp': ['error', {
+      order: [
+        'type-annotations', // added this
+        'static-methods',
+        'lifecycle',
+        '/^on.+$/',
+        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
+        'everything-else',
+        '/^render.+$/',
+        'render',
+      ],
+      groups: {
+        lifecycle: [
+          'displayName',
+          'propTypes',
+          'contextTypes',
+          'childContextTypes',
+          'mixins',
+          'statics',
+          'defaultProps',
+          // 'constructor', moved constructor
+          'getDefaultProps',
+          'getInitialState',
+          'state',
+          'constructor',
+          'getChildContext',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount',
+        ],
+      },
+    }],
   },
 };
