@@ -1,3 +1,17 @@
+<a name="13.0.0"></a>
+# [13.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v12.1.0...v13.0.0) (2017-06-17)
+
+
+### Features
+
+* react/sort-comp add type-annotations and move constructor after state ([f11910c](https://github.com/christophehurpeau/eslint-config-pob/commit/f11910c))
+
+
+### BREAKING CHANGES
+
+* react/sort-comp
+
+
 <a name="12.1.0"></a>
 # [12.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v12.0.0...v12.1.0) (2017-06-17)
 
