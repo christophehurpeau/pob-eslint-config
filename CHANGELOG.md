@@ -1,3 +1,12 @@
+<a name="14.0.0"></a>
+# [14.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v13.0.0...v14.0.0) (2017-06-25)
+
+
+### Features
+
+* prettier ([d47645a](https://github.com/christophehurpeau/eslint-config-pob/commit/d47645a))
+
+
 <a name="13.0.0"></a>
 # [13.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v12.1.0...v13.0.0) (2017-06-17)
 
