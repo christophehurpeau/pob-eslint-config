@@ -1,3 +1,12 @@
+<a name="14.0.1"></a>
+## [14.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.0.0...v14.0.1) (2017-06-25)
+
+
+### Bug Fixes
+
+* prettier printWidth ([5681969](https://github.com/christophehurpeau/eslint-config-pob/commit/5681969))
+
+
 <a name="14.0.0"></a>
 # [14.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v13.0.0...v14.0.0) (2017-06-25)
 
