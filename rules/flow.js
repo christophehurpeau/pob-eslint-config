@@ -6,10 +6,7 @@ module.exports = {
     'flowtype/delimiter-dangle': ['error', 'always-multiline'],
     'flowtype/no-weak-types': 'warn',
     'flowtype/object-type-delimiter': 'error',
-    'flowtype/require-parameter-type': [
-      'warn',
-      { excludeArrowFunctions: 'expressionsOnly' },
-    ],
+    'flowtype/require-parameter-type': ['warn', { excludeArrowFunctions: 'expressionsOnly' }],
     'flowtype/require-return-type': [
       'warn',
       'always',
