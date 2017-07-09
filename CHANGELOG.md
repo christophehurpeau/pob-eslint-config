@@ -1,3 +1,12 @@
+<a name="14.1.0"></a>
+# [14.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.0.1...v14.1.0) (2017-07-09)
+
+
+### Features
+
+* add pob/es5 ([1305d00](https://github.com/christophehurpeau/eslint-config-pob/commit/1305d00))
+
+
 <a name="14.0.1"></a>
 ## [14.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.0.0...v14.0.1) (2017-06-25)
 

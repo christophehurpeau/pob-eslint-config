@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pob",
-  "version": "14.0.1",
+  "version": "14.1.0",
   "description": "eslint config files",
   "main": "base.js",
   "scripts": {
