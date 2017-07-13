@@ -21,6 +21,6 @@ module.exports = {
     'flowtype/space-before-type-colon': 'error',
     'flowtype/type-id-match': 'error',
     'flowtype/union-intersection-spacing': 'error',
-    'flowtype/use-flow-type': ['error', { 'no-unused-vars': 1 }],
+    'flowtype/use-flow-type': 'error',
   },
 };
