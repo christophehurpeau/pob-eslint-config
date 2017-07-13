@@ -1,3 +1,12 @@
+<a name="14.1.1"></a>
+## [14.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.1.0...v14.1.1) (2017-07-13)
+
+
+### Bug Fixes
+
+* flowtype/use-flow-type ([99f4a1a](https://github.com/christophehurpeau/eslint-config-pob/commit/99f4a1a))
+
+
 <a name="14.1.0"></a>
 # [14.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.0.1...v14.1.0) (2017-07-09)
 
