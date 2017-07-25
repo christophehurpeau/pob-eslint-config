@@ -1,3 +1,12 @@
+<a name="14.1.2"></a>
+## [14.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.1.1...v14.1.2) (2017-07-25)
+
+
+### Bug Fixes
+
+* remove indent rule, disabled in eslint-config-prettier ([9fa3ad3](https://github.com/christophehurpeau/eslint-config-pob/commit/9fa3ad3))
+
+
 <a name="14.1.1"></a>
 ## [14.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.1.0...v14.1.1) (2017-07-13)
 
