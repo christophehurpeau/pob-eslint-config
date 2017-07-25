@@ -1,8 +1,5 @@
 module.exports = {
   rules: {
-    // 4 spaces
-    indent: [2, 2, { SwitchCase: 1, VariableDeclarator: 1 }],
-
     // added rules
     camelcase: [2, { properties: 'always' }],
 
