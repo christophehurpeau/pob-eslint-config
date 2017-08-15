@@ -4,6 +4,7 @@ module.exports = {
     './settings/globals',
     './settings/prettier',
     './settings/react',
+    './settings/jest',
     './rules/code-quality',
     './rules/style',
     './rules/expert',

@@ -12,7 +12,7 @@
   "license": "ISC",
   "repository": "christophehurpeau/eslint-config-pob",
   "peerDependencies": {
-    "eslint": "^3.6.0 || ^4.0.0",
+    "eslint": "^4.0.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.1.2",
     "prettier": "^1.5.2"

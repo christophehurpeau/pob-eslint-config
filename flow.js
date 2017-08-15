@@ -4,6 +4,7 @@ module.exports = {
     'eslint-config-airbnb-base/rules/strict',
     './settings/globals',
     './settings/prettier',
+    './settings/jest',
     './rules/code-quality',
     './rules/style',
     './rules/expert',
