@@ -1,3 +1,12 @@
+<a name="16.0.4"></a>
+## [16.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.3...v16.0.4) (2017-08-16)
+
+
+### Bug Fixes
+
+* previous config ([bae612d](https://github.com/christophehurpeau/eslint-config-pob/commit/bae612d))
+
+
 <a name="16.0.3"></a>
 ## [16.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.2...v16.0.3) (2017-08-16)
 
