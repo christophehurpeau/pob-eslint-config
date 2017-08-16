@@ -1,3 +1,17 @@
+<a name="16.0.0"></a>
+# [16.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v15.0.0...v16.0.0) (2017-08-16)
+
+
+### Features
+
+* replace config es5 by node-lts ([9e2c113](https://github.com/christophehurpeau/eslint-config-pob/commit/9e2c113))
+
+
+### BREAKING CHANGES
+
+* removed config es5
+
+
 <a name="15.0.0"></a>
 # [15.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v14.1.2...v15.0.0) (2017-08-15)
 
