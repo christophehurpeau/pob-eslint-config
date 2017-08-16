@@ -1,3 +1,12 @@
+<a name="16.0.1"></a>
+## [16.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.0...v16.0.1) (2017-08-16)
+
+
+### Bug Fixes
+
+* add eslint-plugin-node for node-lts ([701a91c](https://github.com/christophehurpeau/eslint-config-pob/commit/701a91c))
+
+
 <a name="16.0.0"></a>
 # [16.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v15.0.0...v16.0.0) (2017-08-16)
 
