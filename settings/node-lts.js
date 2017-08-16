@@ -1,6 +1,4 @@
 module.exports = {
-  plugins: ['node'],
-  extends: ['plugin:node/recommended'],
   parserOptions: {
     ecmaVersion: 2015,
     sourceType: 'script',
