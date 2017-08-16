@@ -1,3 +1,12 @@
+<a name="16.0.2"></a>
+## [16.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.1...v16.0.2) (2017-08-16)
+
+
+### Bug Fixes
+
+* remove optional peerDependency plugin node ([86b8137](https://github.com/christophehurpeau/eslint-config-pob/commit/86b8137))
+
+
 <a name="16.0.1"></a>
 ## [16.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.0...v16.0.1) (2017-08-16)
 
