@@ -1,3 +1,12 @@
+<a name="16.0.3"></a>
+## [16.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.2...v16.0.3) (2017-08-16)
+
+
+### Bug Fixes
+
+* disable node rule no-process-exit ([0faabe5](https://github.com/christophehurpeau/eslint-config-pob/commit/0faabe5))
+
+
 <a name="16.0.2"></a>
 ## [16.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.1...v16.0.2) (2017-08-16)
 
