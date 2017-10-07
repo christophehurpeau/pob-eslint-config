@@ -1,3 +1,17 @@
+<a name="17.0.0"></a>
+# [17.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.4...v17.0.0) (2017-10-07)
+
+
+### Features
+
+* update dependencies ([6279e81](https://github.com/christophehurpeau/eslint-config-pob/commit/6279e81))
+
+
+### BREAKING CHANGES
+
+* peer dependencies updated
+
+
 <a name="16.0.4"></a>
 ## [16.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.3...v16.0.4) (2017-08-16)
 
