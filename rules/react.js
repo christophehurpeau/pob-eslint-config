@@ -11,6 +11,9 @@ module.exports = {
     // babel plugin react-require
     'react/react-in-jsx-scope': 'off',
 
+    // https://github.com/yannickcr/eslint-plugin-react/issues/1009
+    'react/require-default-props': 'off',
+
     'react/sort-comp': [
       'error',
       {

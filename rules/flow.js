@@ -5,6 +5,7 @@ module.exports = {
     'flowtype/no-dupe-keys': 'error',
     'flowtype/delimiter-dangle': ['error', 'always-multiline'],
     'flowtype/no-weak-types': 'warn',
+    'flowtype/no-unused-expressions': 'warn',
     'flowtype/object-type-delimiter': 'error',
     'flowtype/require-parameter-type': ['warn', { excludeArrowFunctions: 'expressionsOnly' }],
     'flowtype/require-return-type': [
