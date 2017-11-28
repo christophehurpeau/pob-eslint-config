@@ -1,3 +1,12 @@
+<a name="17.1.0"></a>
+# [17.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v17.0.0...v17.1.0) (2017-11-28)
+
+
+### Features
+
+* expert rule prefer-destructuring ([5303692](https://github.com/christophehurpeau/eslint-config-pob/commit/5303692))
+
+
 <a name="17.0.0"></a>
 # [17.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v16.0.4...v17.0.0) (2017-10-07)
 
