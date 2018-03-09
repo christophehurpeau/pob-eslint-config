@@ -1,3 +1,31 @@
+<a name="18.0.0"></a>
+# [18.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v17.1.0...v18.0.0) (2018-03-09)
+
+
+### Features
+
+* add eslint-config-airbnb-base as a dependency and update README ([54b0dab](https://github.com/christophehurpeau/eslint-config-pob/commit/54b0dab))
+* add eslint-config-airbnb-base as a dependency, node config, and update README ([79103ca](https://github.com/christophehurpeau/eslint-config-pob/commit/79103ca))
+* add import/order and import/no-self-import ([ed9171f](https://github.com/christophehurpeau/eslint-config-pob/commit/ed9171f))
+* add prefer-class-properties ([745c605](https://github.com/christophehurpeau/eslint-config-pob/commit/745c605))
+* enable import/no-commonjs when using babel ([298023a](https://github.com/christophehurpeau/eslint-config-pob/commit/298023a))
+* enable no-return-assign ([a3ff02b](https://github.com/christophehurpeau/eslint-config-pob/commit/a3ff02b))
+* enable prefer-const ([9c4d59c](https://github.com/christophehurpeau/eslint-config-pob/commit/9c4d59c))
+* move eslint-config-prettier to a dependency ([b510e6f](https://github.com/christophehurpeau/eslint-config-pob/commit/b510e6f))
+* react enable react/jsx-handler-names ([a169acc](https://github.com/christophehurpeau/eslint-config-pob/commit/a169acc))
+
+
+### BREAKING CHANGES
+
+* enabled prefer-class-properties
+* no need for eslint-config-prettier as a peer dependency
+* import/order and import/no-self-import enabled
+* enabled react/jsx-handler-names
+* import/no-commonjs enabled
+* http://eslint.org/docs/rules/prefer-const
+* https://eslint.org/docs/rules/no-return-assign
+
+
 <a name="17.1.0"></a>
 # [17.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v17.0.0...v17.1.0) (2017-11-28)
 
