@@ -14,18 +14,22 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/issues/1009
     'react/require-default-props': 'off',
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/sort-comp.md
     'react/sort-comp': [
       'error',
       {
         order: [
           'type-annotations', // added this
           'static-methods',
+          'instance-variables',
           'lifecycle',
           '/^on.+$/',
+          'getters',
+          'setters',
           '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
+          'instance-methods',
           'everything-else',
-          '/^render.+$/',
-          'render',
+          'rendering',
         ],
         groups: {
           lifecycle: [
@@ -40,7 +44,7 @@ module.exports = {
             'getDefaultProps',
             'getInitialState',
             'state',
-            'constructor',
+            'constructor', // constructor moved here
             'getChildContext',
             'componentWillMount',
             'componentDidMount',
@@ -49,6 +53,10 @@ module.exports = {
             'componentWillUpdate',
             'componentDidUpdate',
             'componentWillUnmount',
+          ],
+          rendering: [
+            '/^render.+$/',
+            'render'
           ],
         },
       },
