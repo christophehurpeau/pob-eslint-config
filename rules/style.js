@@ -4,7 +4,7 @@ module.exports = {
     camelcase: [2, { properties: 'always' }],
 
     // changed rules
-    'no-unused-vars': [2, { args: 'none' }],
+    'no-unused-vars': [2, { vars: 'all', args: 'none', ignoreRestSiblings: true }],
     'object-shorthand': [2, 'always'],
 
     // disabled rules
