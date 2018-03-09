@@ -12,8 +12,7 @@ module.exports = {
     'no-plusplus': 'off', // http://eslint.org/docs/rules/no-plusplus
     'no-shadow': 'off', // http://eslint.org/docs/rules/no-shadow
     'no-underscore-dangle': 'off', // http://eslint.org/docs/rules/no-underscore-dangle
-    'prefer-const': 'off', // http://eslint.org/docs/rules/prefer-const
-    'prefer-destructuring': 'off', // http://eslint.org/docs/rules/prefer-const
+    'prefer-destructuring': 'off', // http://eslint.org/docs/rules/prefer-destructuring
     'import/prefer-default-export': 'off', // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
 
     // Allow for-of, now supported by node 6 and modern browsers
