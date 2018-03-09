@@ -7,6 +7,6 @@ module.exports = {
     './rules/code-quality',
     './rules/style',
     './rules/expert',
-    './rules/node-lts',
+    './rules/node',
   ].map(require.resolve),
 };
