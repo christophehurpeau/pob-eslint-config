@@ -1,5 +1,6 @@
+'use strict';
+
 module.exports = {
-  plugins: ['babel'],
   rules: {
     // 'new-cap': 0,
     // 'babel/new-cap':  [2, { newIsCap: true }],

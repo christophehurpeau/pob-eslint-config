@@ -1,8 +1,8 @@
+'use strict';
+
 module.exports = (es5 = false) => ({
   plugins: ['prettier'],
-  extends: [
-    require.resolve('eslint-config-prettier')
-  ],
+  extends: [require.resolve('eslint-config-prettier')],
 
   rules: {
     'prettier/prettier': [

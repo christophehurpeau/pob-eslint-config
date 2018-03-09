@@ -1,13 +1,11 @@
+'use strict';
+
 module.exports = {
   extends: [
-    'eslint-config-airbnb-base',
+    './index',
     'eslint-config-airbnb-base/rules/strict',
-    './settings/globals',
-    './settings/prettier',
+    './settings/babel',
     './settings/jest',
-    './rules/code-quality',
-    './rules/expert',
-    './rules/style',
     './rules/babel',
   ].map(require.resolve),
   parser: 'babel-eslint',

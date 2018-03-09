@@ -1,2 +1,2 @@
-exports.extends = './base.js';
+exports.extends = './node.js';
 
