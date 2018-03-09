@@ -10,7 +10,6 @@ module.exports = {
     'no-loop-func': 'off', // http://eslint.org/docs/rules/no-loop-func
     'no-param-reassign': 'off', // http://eslint.org/docs/rules/no-param-reassign
     'no-plusplus': 'off', // http://eslint.org/docs/rules/no-plusplus
-    'no-return-assign': 'off', // http://eslint.org/docs/rules/no-return-assign
     'no-shadow': 'off', // http://eslint.org/docs/rules/no-shadow
     'no-underscore-dangle': 'off', // http://eslint.org/docs/rules/no-underscore-dangle
     'prefer-const': 'off', // http://eslint.org/docs/rules/prefer-const
