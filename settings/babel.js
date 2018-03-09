@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  plugins: ['babel'],
+  plugins: ['babel', 'prefer-class-properties'],
   parserOptions: {
     sourceType: 'module',
   },

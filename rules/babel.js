@@ -10,5 +10,8 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
     // disallow require when using babel
     'import/no-commonjs': 'error',
+
+    // https://www.npmjs.com/package/eslint-plugin-prefer-class-properties
+    'prefer-class-properties/prefer-class-properties': 'error',
   },
 };
