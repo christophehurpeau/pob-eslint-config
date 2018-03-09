@@ -11,16 +11,17 @@
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
   "repository": "christophehurpeau/eslint-config-pob",
+  "dependencies": {
+    "eslint-config-prettier": "^2.9.0"
+  },
   "peerDependencies": {
     "eslint": "^4.0.0",
-    "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-prettier": "^2.3.1",
     "prettier": "^1.7.4"
   },
   "devDependencies": {
     "eslint": "^4.12.0",
     "eslint-config-airbnb": "^16.0.0",
-    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",

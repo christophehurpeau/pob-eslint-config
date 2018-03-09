@@ -1,3 +1,5 @@
 module.exports = {
-  extends: ['prettier/react'],
+  extends: [
+    require.resolve('eslint-config-prettier/react')
+  ],
 };
