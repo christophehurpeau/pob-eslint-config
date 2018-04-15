@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pob",
-  "version": "18.0.0",
+  "version": "19.0.0",
   "description": "eslint config files",
   "main": "base.js",
   "engines": {

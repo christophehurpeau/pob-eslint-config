@@ -1,3 +1,7 @@
+<a name="19.0.0"></a>
+# [19.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v18.0.0...v19.0.0) (2018-04-15)
+
+
 <a name="18.0.0"></a>
 # [18.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v17.1.0...v18.0.0) (2018-03-09)
 
