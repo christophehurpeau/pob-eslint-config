@@ -1,3 +1,12 @@
+<a name="19.0.1"></a>
+## [19.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v19.0.0...v19.0.1) (2018-04-15)
+
+
+### Bug Fixes
+
+* react config with typescript ([9bdf4a8](https://github.com/christophehurpeau/eslint-config-pob/commit/9bdf4a8))
+
+
 <a name="19.0.0"></a>
 # [19.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v18.0.0...v19.0.0) (2018-04-15)
 
