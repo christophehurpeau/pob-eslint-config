@@ -7,14 +7,14 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.mjs', '.js', '.json', '.ts', '.tsx'],
+        extensions: ['.mjs', '.js', '.json', '.ts'],
       },
     },
-    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx'],
+    'import/extensions': ['.js', '.mjs', '.ts'],
   },
 
   rules: {
-    'import/extensions': ['error', { extensions: ['ts', 'tsx', 'js'] }],
+    'import/extensions': ['error', { extensions: ['ts', 'js'] }],
 
     // typescript plugin
     'typescript/adjacent-overload-signatures': 'error',
