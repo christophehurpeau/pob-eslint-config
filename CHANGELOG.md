@@ -1,3 +1,12 @@
+<a name="19.0.2"></a>
+## [19.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v19.0.1...v19.0.2) (2018-04-20)
+
+
+### Bug Fixes
+
+* remove globals (errors in compiled code) ([bd54e1b](https://github.com/christophehurpeau/eslint-config-pob/commit/bd54e1b))
+
+
 <a name="19.0.1"></a>
 ## [19.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v19.0.0...v19.0.1) (2018-04-15)
 
