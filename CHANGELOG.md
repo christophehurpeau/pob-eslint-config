@@ -1,3 +1,12 @@
+<a name="19.1.0"></a>
+# [19.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v19.0.2...v19.1.0) (2018-04-21)
+
+
+### Features
+
+* typescript add pob-babel in core-modules (global typings) ([9fc15bc](https://github.com/christophehurpeau/eslint-config-pob/commit/9fc15bc))
+
+
 <a name="19.0.2"></a>
 ## [19.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v19.0.1...v19.0.2) (2018-04-20)
 
