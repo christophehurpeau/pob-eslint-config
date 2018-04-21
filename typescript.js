@@ -11,6 +11,10 @@ module.exports = {
       },
     },
     'import/extensions': ['.js', '.mjs', '.ts'],
+
+    'import/core-modules': [
+      'pob-babel', // import typings
+    ],
   },
 
   rules: {
