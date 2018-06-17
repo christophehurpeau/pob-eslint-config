@@ -1,3 +1,17 @@
+<a name="20.0.0"></a>
+# [20.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v19.1.0...v20.0.0) (2018-06-17)
+
+
+### Features
+
+* update dependencies and add some rules ([4ac2e0a](https://github.com/christophehurpeau/eslint-config-pob/commit/4ac2e0a))
+
+
+### BREAKING CHANGES
+
+* enabled rules: react/jsx-props-no-multi-spaces, import/named, import/no-cycle, import/no-useless-path-segments
+
+
 <a name="19.1.0"></a>
 # [19.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v19.0.2...v19.1.0) (2018-04-21)
 
