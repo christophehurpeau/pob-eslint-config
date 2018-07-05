@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    complexity: ['warn', { max: 5 }],
+    complexity: ['warn', { max: 6 }],
     'max-depth': ['warn', 6],
     'max-lines': [
       'error',

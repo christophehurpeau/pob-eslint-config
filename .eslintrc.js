@@ -1,2 +1,2 @@
-exports.extends = './node.js';
+exports.extends = ['./index.js', './node.js'];
 

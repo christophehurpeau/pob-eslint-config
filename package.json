@@ -14,6 +14,10 @@
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
   "repository": "christophehurpeau/eslint-config-pob",
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true
+  },
   "dependencies": {
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
@@ -33,6 +37,7 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-prettier": "^2.6.1",
     "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-unicorn": "^4.0.3",
     "pob-release": "^3.1.0",
     "prettier": "^1.13.7"
   }

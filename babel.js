@@ -2,10 +2,15 @@
 
 module.exports = {
   extends: [
-    './index',
+    'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
-    './settings/consistency',
-    './rules/consistency',
+    './plugins/prettier',
+    './plugins/prefer-class-properties',
+    './plugins/unicorn',
+    './rules/best-practices',
+    './rules/code-quality',
+    './rules/style',
+    './rules/expert',
   ].map(require.resolve),
 
   plugins: ['babel'],
@@ -23,5 +28,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
     // disallow require when using babel
     'import/no-commonjs': 'error',
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-extraneous-dependencies.md
+    // override default airbnb exceptions
+    'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
   },
 };

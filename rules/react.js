@@ -33,10 +33,10 @@ module.exports = {
           'static-methods',
           'instance-variables',
           'lifecycle',
-          '/^on.+$/',
           'getters',
           'setters',
           'instance-methods',
+          '/^(on|handle).+$/',
           'everything-else',
           'rendering',
         ],
@@ -74,5 +74,8 @@ module.exports = {
 
     // disable force destructuring for state and props
     'react/destructuring-assignment': 'off',
+
+    // project should use babel-plugin-transform-react-remove-prop-types
+    'react/forbid-foreign-prop-types': 'off',
   },
 };

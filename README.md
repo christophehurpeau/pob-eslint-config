@@ -38,4 +38,4 @@ Lint with babel parser with react and flow
 ### node
 
 1. `npm install --save-dev eslint eslint-config-pob eslint-plugin-prettier eslint-plugin-node`
-2. add `"extends": "pob/node"` to your .eslintrc
+2. add `"extends": ["pob/node"]` to your .eslintrc

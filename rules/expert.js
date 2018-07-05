@@ -19,15 +19,27 @@ module.exports = {
     // Allow for-of, now supported by node 6 and modern browsers
     'no-restricted-syntax': [
       'error',
-      'ForInStatement',
+      {
+        selector: 'ForInStatement',
+        message:
+          'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+      },
       // => allow 'ForOfStatement',
-      'LabeledStatement',
-      'WithStatement',
+      // {
+      //   selector: 'ForOfStatement',
+      //   message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
+      // },
+      {
+        selector: 'LabeledStatement',
+        message:
+          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+      },
+      {
+        selector: 'WithStatement',
+        message:
+          '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+      },
     ],
-
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
-    // `export default from './foo'` should work
-    'import/no-named-as-default': 'off',
 
     'import/prefer-default-export': 'off', // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
   },
