@@ -29,39 +29,34 @@ module.exports = {
       'error',
       {
         order: [
-          'type-annotations', // added this
+          'react-statics',
           'static-methods',
           'instance-variables',
           'lifecycle',
           '/^on.+$/',
           'getters',
           'setters',
-          '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
           'instance-methods',
           'everything-else',
           'rendering',
         ],
         groups: {
+          'react-statics': ['propTypes', 'defaultProps'],
           lifecycle: [
-            'displayName',
-            'propTypes',
-            'contextTypes',
-            'childContextTypes',
-            'mixins',
-            'statics',
-            'defaultProps',
-            // 'constructor', moved constructor
-            'getDefaultProps',
-            'getInitialState',
             'state',
-            'constructor', // constructor moved here
-            'getChildContext',
+            'constructor',
+            'getDerivedStateFromProps',
             'componentWillMount',
+            'UNSAFE_componentWillMount',
             'componentDidMount',
             'componentWillReceiveProps',
+            'UNSAFE_componentWillReceiveProps',
             'shouldComponentUpdate',
             'componentWillUpdate',
+            'UNSAFE_componentWillUpdate',
+            'getSnapshotBeforeUpdate',
             'componentDidUpdate',
+            'componentDidCatch',
             'componentWillUnmount',
           ],
           rendering: ['/^render.+$/', 'render'],
@@ -77,10 +72,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/issues/1009
     'react/require-default-props': 'off',
 
-    /* not release in airbnb yet */
-
-    // Disallow multiple spaces between inline JSX props
-    // https://github.com/yannickcr/eslint-plugin-react/blob/ac102885765be5ff37847a871f239c6703e1c7cc/docs/rules/jsx-props-no-multi-spaces.md
-    'react/jsx-props-no-multi-spaces': 'error',
+    // disable force destructuring for state and props
+    'react/destructuring-assignment': 'off',
   },
 };

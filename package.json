@@ -2,7 +2,7 @@
   "name": "eslint-config-pob",
   "version": "20.0.0",
   "description": "eslint config files",
-  "main": "base.js",
+  "main": "index.js",
   "engines": {
     "node": ">= 6.0.0"
   },
@@ -15,25 +15,25 @@
   "license": "ISC",
   "repository": "christophehurpeau/eslint-config-pob",
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.13.5"
+    "eslint": "^5.0.1",
+    "eslint-plugin-prettier": "^2.6.1",
+    "prettier": "^1.13.7"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-flowtype": "^2.49.3",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-prettier": "^2.6.1",
+    "eslint-plugin-react": "^7.10.0",
     "pob-release": "^3.1.0",
-    "prettier": "^1.13.5"
+    "prettier": "^1.13.7"
   }
 }
