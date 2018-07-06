@@ -1,3 +1,18 @@
+<a name="21.1.0"></a>
+# [21.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v20.0.0...v21.1.0) (2018-07-06)
+
+
+### Features
+
+* eslint 5, airbnb-base 13, airbnb 17 ([62c1119](https://github.com/christophehurpeau/eslint-config-pob/commit/62c1119))
+* eslint-plugin-prettier@2.6.2 ([0de9ae3](https://github.com/christophehurpeau/eslint-config-pob/commit/0de9ae3))
+
+
+### BREAKING CHANGES
+
+* airbnb-base v13, airbnb v17
+
+
 <a name="21.0.0"></a>
 # [21.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v20.0.0...v21.0.0) (2018-07-06)
 
