@@ -1,3 +1,12 @@
+<a name="21.1.1"></a>
+## [21.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.1.0...v21.1.1) (2018-07-24)
+
+
+### Bug Fixes
+
+* disable unicorn/no-fn-reference-in-iterator ([0826095](https://github.com/christophehurpeau/eslint-config-pob/commit/0826095))
+
+
 <a name="21.1.0"></a>
 # [21.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v20.0.0...v21.1.0) (2018-07-06)
 
