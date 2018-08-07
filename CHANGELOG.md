@@ -1,3 +1,12 @@
+<a name="21.1.2"></a>
+## [21.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.1.1...v21.1.2) (2018-08-07)
+
+
+### Bug Fixes
+
+* **typescript:** disable no-restricted-globals ([2707ab3](https://github.com/christophehurpeau/eslint-config-pob/commit/2707ab3))
+
+
 <a name="21.1.1"></a>
 ## [21.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.1.0...v21.1.1) (2018-07-24)
 
