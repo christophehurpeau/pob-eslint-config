@@ -1,3 +1,12 @@
+<a name="21.2.0"></a>
+# [21.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.1.2...v21.2.0) (2018-08-09)
+
+
+### Features
+
+* add babel-node config ([f6a108e](https://github.com/christophehurpeau/eslint-config-pob/commit/f6a108e))
+
+
 <a name="21.1.2"></a>
 ## [21.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.1.1...v21.1.2) (2018-08-07)
 
