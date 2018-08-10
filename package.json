@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pob",
-  "version": "21.2.0",
+  "version": "21.2.1",
   "description": "eslint config files",
   "main": "index.js",
   "engines": {

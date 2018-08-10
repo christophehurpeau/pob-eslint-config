@@ -1,3 +1,12 @@
+<a name="21.2.1"></a>
+## [21.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.2.0...v21.2.1) (2018-08-10)
+
+
+### Bug Fixes
+
+* babel-node turn off no-unsupported-features/es-syntax ([995bca4](https://github.com/christophehurpeau/eslint-config-pob/commit/995bca4))
+
+
 <a name="21.2.0"></a>
 # [21.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.1.2...v21.2.0) (2018-08-09)
 
