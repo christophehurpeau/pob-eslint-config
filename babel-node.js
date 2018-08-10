@@ -6,5 +6,6 @@ module.exports = {
   rules: {
     // disable no-unsupported-features when using babel
     'node/no-unsupported-features': 'off',
+    'node/no-unsupported-features/es-syntax': 'off',
   },
 };
