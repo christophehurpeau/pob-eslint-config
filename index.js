@@ -3,7 +3,6 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
-    './plugins/filenames',
     './plugins/prettier',
     './plugins/unicorn',
     './rules/best-practices',
