@@ -1,3 +1,7 @@
+<a name="22.0.1"></a>
+## [22.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.0...v22.0.1) (2018-08-17)
+
+
 <a name="22.0.0"></a>
 # [22.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.2.1...v22.0.0) (2018-08-17)
 
