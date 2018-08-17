@@ -18,6 +18,26 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
     'react/no-direct-mutation-state': 'error',
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
+    'react/jsx-sort-props': [
+      'error',
+      {
+        noSortAlphabetically: false,
+        reservedFirst: true,
+        shorthandFirst: true,
+        callbacksLast: true,
+      },
+    ],
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
+    'react/sort-prop-types': [
+      'error',
+      {
+        noSortAlphabetically: false,
+        requiredFirst: true,
+        callbacksLast: true,
+      },
+    ],
+
     /* changed rules */
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
