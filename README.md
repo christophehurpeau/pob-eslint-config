@@ -1,8 +1,16 @@
-# eslint-config-pob
+<h3 align="center">
+  eslint-config-pob
+</h3>
 
-Eslint config for Pile Of Bones.
+<p align="center">
+  eslint config files
+</p>
 
-Based on Airbnb.
+<p align="center">
+  <a href="https://npmjs.org/package/eslint-config-pob"><img src="https://img.shields.io/npm/v/eslint-config-pob.svg?style=flat-square"></a>
+  <a href="https://david-dm.org/christophehurpeau/eslint-config-pob"><img src="https://david-dm.org/christophehurpeau/eslint-config-pob.svg?style=flat-square"></a>
+  <a href="https://dependencyci.com/github/christophehurpeau/eslint-config-pob"><img src="https://dependencyci.com/github/christophehurpeau/eslint-config-pob/badge?style=flat-square"></a>
+</p>
 
 ### base
 
