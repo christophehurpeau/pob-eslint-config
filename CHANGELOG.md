@@ -1,3 +1,21 @@
+<a name="22.0.0"></a>
+# [22.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.2.1...v22.0.0) (2018-08-17)
+
+
+### Features
+
+* add eslint-plugin-filenames ([8f48d6d](https://github.com/christophehurpeau/eslint-config-pob/commit/8f48d6d))
+* enable react/jsx-sort-props and react/sort-prop-types ([e6e7458](https://github.com/christophehurpeau/eslint-config-pob/commit/e6e7458))
+* reenable rules curly and quotes disabled by prettier config ([0eb3b20](https://github.com/christophehurpeau/eslint-config-pob/commit/0eb3b20))
+
+
+### BREAKING CHANGES
+
+* new rules enabled: react/jsx-sort-props react/sort-prop-types
+* rules `curly` and `quotes` reenabled
+* eslint-plugin-filenames
+
+
 <a name="21.2.1"></a>
 ## [21.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v21.2.0...v21.2.1) (2018-08-10)
 
