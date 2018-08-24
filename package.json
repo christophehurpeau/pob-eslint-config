@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pob",
-  "version": "22.0.1",
+  "version": "22.0.2",
   "description": "eslint config files",
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",

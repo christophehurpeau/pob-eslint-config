@@ -1,3 +1,12 @@
+<a name="22.0.2"></a>
+## [22.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.1...v22.0.2) (2018-08-24)
+
+
+### Bug Fixes
+
+* typescript disable no-unused-vars ([c014066](https://github.com/christophehurpeau/eslint-config-pob/commit/c014066))
+
+
 <a name="22.0.1"></a>
 ## [22.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.0...v22.0.1) (2018-08-17)
 
