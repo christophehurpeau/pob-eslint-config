@@ -35,5 +35,7 @@ module.exports = {
     'no-undef': 'off',
     // https://github.com/eslint/typescript-eslint-parser/issues/414
     'no-restricted-globals': 'off',
+    // issue with generics
+    'no-unused-vars': 'off',
   },
 };
