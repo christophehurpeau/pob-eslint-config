@@ -25,7 +25,9 @@ module.exports = {
     'typescript/member-ordering': 'error',
     'typescript/no-angle-bracket-type-assertion': 'error',
     'typescript/no-array-constructor': 'error',
-    'typescript/no-empty-interface': 'error',
+
+    // interface can be used for empty props
+    'typescript/no-empty-interface': 'off',
     'typescript/no-namespace': 'error',
     'typescript/no-unused-vars': 'error',
     'typescript/no-use-before-define': 'error',
