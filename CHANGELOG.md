@@ -1,3 +1,12 @@
+<a name="22.0.3"></a>
+## [22.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.2...v22.0.3) (2018-08-25)
+
+
+### Bug Fixes
+
+* disable typescript/no-empty-interface ([8bbb792](https://github.com/christophehurpeau/eslint-config-pob/commit/8bbb792))
+
+
 <a name="22.0.2"></a>
 ## [22.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.1...v22.0.2) (2018-08-24)
 
