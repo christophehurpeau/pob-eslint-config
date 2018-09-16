@@ -12,13 +12,13 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.mjs', '.js', '.json', '.ts', '.tsx'],
+        extensions: ['.mjs', '.js', '.json', '.jsx'],
       },
     },
   },
 
   rules: {
-    'import/extensions': ['error', { extensions: ['ts', 'tsx', 'js'] }],
-    'react/jsx-filename-extension': ['error', { extensions: ['tsx'] }],
+    'import/extensions': ['error', { extensions: ['jsx', 'js'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['jsx'] }],
   },
 };
