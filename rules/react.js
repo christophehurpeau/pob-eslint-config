@@ -6,13 +6,13 @@ module.exports = {
 
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
-    'react/jsx-handler-names': [
-      'error',
-      {
-        eventHandlerPrefix: 'handle',
-        eventHandlerPropPrefix: 'on',
-      },
-    ],
+    // 'react/jsx-handler-names': [
+    //   'error',
+    //   {
+    //     eventHandlerPrefix: 'handle',
+    //     eventHandlerPropPrefix: 'on',
+    //   },
+    // ],
 
     // Prevent direct mutation of this.state
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
@@ -28,12 +28,13 @@ module.exports = {
         callbacksLast: true,
       },
     ],
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
     'react/sort-prop-types': [
       'error',
       {
         noSortAlphabetically: false,
-        requiredFirst: true,
+        requiredFirst: false,
         callbacksLast: true,
       },
     ],
