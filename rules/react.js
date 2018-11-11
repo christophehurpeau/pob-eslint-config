@@ -22,7 +22,7 @@ module.exports = {
     'react/jsx-sort-props': [
       'error',
       {
-        noSortAlphabetically: false,
+        noSortAlphabetically: true,
         reservedFirst: true,
         shorthandFirst: true,
         callbacksLast: true,
@@ -33,7 +33,7 @@ module.exports = {
     'react/sort-prop-types': [
       'error',
       {
-        noSortAlphabetically: false,
+        noSortAlphabetically: true,
         requiredFirst: false,
         callbacksLast: true,
       },
