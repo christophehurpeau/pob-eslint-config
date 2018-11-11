@@ -1,3 +1,22 @@
+<a name="24.0.0"></a>
+# [24.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v23.0.0...v24.0.0) (2018-11-11)
+
+
+### Bug Fixes
+
+* disable required first in react/sort-prop-types and disable react/jsx-handler-na ([c00c01f](https://github.com/christophehurpeau/eslint-config-pob/commit/c00c01f))
+
+### Features
+
+* unicorn plugin add prefer-exponentiation-operator ([13cf2a9](https://github.com/christophehurpeau/eslint-config-pob/commit/13cf2a9))
+* upgrade dependencies ([3408bf8](https://github.com/christophehurpeau/eslint-config-pob/commit/3408bf8))
+
+
+### BREAKING CHANGES
+
+* S: eslint 5.9, prettier 1.15.2
+
+
 <a name="23.0.0"></a>
 # [23.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.3...v23.0.0) (2018-09-16)
 
