@@ -1,3 +1,12 @@
+<a name="24.0.1"></a>
+## [24.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.0...v24.0.1) (2018-11-11)
+
+
+### Bug Fixes
+
+* disable alphabetical sort ([66ba68c](https://github.com/christophehurpeau/eslint-config-pob/commit/66ba68c))
+
+
 <a name="24.0.0"></a>
 # [24.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v23.0.0...v24.0.0) (2018-11-11)
 
