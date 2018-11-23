@@ -1,3 +1,12 @@
+<a name="24.0.2"></a>
+## [24.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.1...v24.0.2) (2018-11-23)
+
+
+### Bug Fixes
+
+* **typescript:** disable no-use-before-define ([0cd7f76](https://github.com/christophehurpeau/eslint-config-pob/commit/0cd7f76))
+
+
 <a name="24.0.1"></a>
 ## [24.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.0...v24.0.1) (2018-11-11)
 
