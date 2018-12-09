@@ -14,5 +14,8 @@ module.exports = {
   rules: {
     'import/extensions': ['error', { extensions: ['ts', 'tsx', 'js'] }],
     'react/jsx-filename-extension': ['error', { extensions: ['tsx'] }],
+
+    // override js config for babel plugin react-require
+    'react/react-in-jsx-scope': 'error',
   },
 };
