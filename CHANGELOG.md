@@ -1,3 +1,17 @@
+<a name="26.0.0"></a>
+# [26.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v25.0.0...v26.0.0) (2019-02-02)
+
+
+### Features
+
+* use @typescript-eslint ([b0ec225](https://github.com/christophehurpeau/eslint-config-pob/commit/b0ec225))
+
+
+### BREAKING CHANGES
+
+* eslint-plugin-typescript replaced by @typescript-eslint
+
+
 <a name="25.0.0"></a>
 # [25.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.3...v25.0.0) (2019-01-15)
 
