@@ -26,6 +26,11 @@ module.exports = {
   rules: {
     'import/extensions': ['error', { extensions: ['ts', 'js'] }],
 
+    /* issues */
+
+    /* some exported type doesnt work. tsc check that anyway */
+    'import/named': 'off',
+
     /* typescript-eslint rules */
     // disabled by prettier : indent, member-delimiter-style, type-annotation-spacing
 
