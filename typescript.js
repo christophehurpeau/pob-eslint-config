@@ -2,7 +2,7 @@
 
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@​typescript-eslint'],
+  plugins: ['@typescript-eslint'],
 
   extends: [
     // disable base eslint rules, plugin rules are overrided below
