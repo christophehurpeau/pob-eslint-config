@@ -36,7 +36,6 @@ module.exports = {
     '@typescript-eslint/camelcase': 'error',
     '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/explicit-function-return-type': 'warn',
-    '@typescript-eslint/explicit-member-accessibility': 'error',
     '@typescript-eslint/interface-name-prefix': 'error',
     '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
@@ -65,6 +64,9 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
 
     /* changed */
+    // default error, changed to warn
+    '@typescript-eslint/explicit-member-accessibility': 'warn',
+
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
