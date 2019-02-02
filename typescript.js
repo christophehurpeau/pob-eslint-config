@@ -45,7 +45,6 @@ module.exports = {
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/no-non-null-assertion': 'error',
-    '@typescript-eslint/no-object-literal-type-assertion': 'error',
     '@typescript-eslint/no-parameter-properties': 'error',
     '@typescript-eslint/no-triple-slash-reference': 'error',
     '@typescript-eslint/no-use-before-define': 'error',
@@ -79,5 +78,7 @@ module.exports = {
 
     // interface can be used for empty props
     '@typescript-eslint/no-empty-interface': 'off',
+
+    '@typescript-eslint/no-object-literal-type-assertion': 'off',
   },
 };
