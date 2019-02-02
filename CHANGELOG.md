@@ -1,3 +1,12 @@
+<a name="26.0.5"></a>
+## [26.0.5](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.4...v26.0.5) (2019-02-02)
+
+
+### Bug Fixes
+
+* invisible space ([253090f](https://github.com/christophehurpeau/eslint-config-pob/commit/253090f))
+
+
 <a name="26.0.4"></a>
 ## [26.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.3...v26.0.4) (2019-02-02)
 
