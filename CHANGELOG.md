@@ -1,3 +1,12 @@
+<a name="26.0.6"></a>
+## [26.0.6](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.5...v26.0.6) (2019-02-02)
+
+
+### Bug Fixes
+
+* disable no-object-literal-type-assertion ([f9a2021](https://github.com/christophehurpeau/eslint-config-pob/commit/f9a2021))
+
+
 <a name="26.0.5"></a>
 ## [26.0.5](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.4...v26.0.5) (2019-02-02)
 
