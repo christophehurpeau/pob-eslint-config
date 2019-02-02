@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     // disable base eslint rules, plugin rules are overrided below
     'plugin:@typescript-eslint/recommended',
-    require.resove('eslint-config-prettier/@typescript-eslint'),
+    require.resolgve('eslint-config-prettier/@typescript-eslint'),
   ],
 
   settings: {
