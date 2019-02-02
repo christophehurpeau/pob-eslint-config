@@ -1,3 +1,12 @@
+<a name="26.0.2"></a>
+## [26.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.1...v26.0.2) (2019-02-02)
+
+
+### Bug Fixes
+
+* typo ([8d81583](https://github.com/christophehurpeau/eslint-config-pob/commit/8d81583))
+
+
 <a name="26.0.1"></a>
 ## [26.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.0...v26.0.1) (2019-02-02)
 
