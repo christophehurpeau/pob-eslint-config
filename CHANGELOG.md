@@ -1,3 +1,12 @@
+<a name="26.0.7"></a>
+## [26.0.7](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.6...v26.0.7) (2019-02-02)
+
+
+### Bug Fixes
+
+* change @typescript-eslint/explicit-member-accessibility to "warn" ([0ce538e](https://github.com/christophehurpeau/eslint-config-pob/commit/0ce538e))
+
+
 <a name="26.0.6"></a>
 ## [26.0.6](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.5...v26.0.6) (2019-02-02)
 
