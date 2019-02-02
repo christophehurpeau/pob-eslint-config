@@ -1,3 +1,12 @@
+<a name="26.0.4"></a>
+## [26.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.3...v26.0.4) (2019-02-02)
+
+
+### Bug Fixes
+
+* recommended typescript-eslint config path ([b0dd620](https://github.com/christophehurpeau/eslint-config-pob/commit/b0dd620))
+
+
 <a name="26.0.3"></a>
 ## [26.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.2...v26.0.3) (2019-02-02)
 
