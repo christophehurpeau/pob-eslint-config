@@ -1,3 +1,17 @@
+<a name="27.0.0"></a>
+# [27.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.8...v27.0.0) (2019-02-10)
+
+
+### Features
+
+* enable react-hooks plugin ([c4b469d](https://github.com/christophehurpeau/eslint-config-pob/commit/c4b469d))
+
+
+### BREAKING CHANGES
+
+* if you use react, you will need to install `eslint-plugin-react-hooks` in your devDependencies
+
+
 <a name="26.0.8"></a>
 ## [26.0.8](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.7...v26.0.8) (2019-02-02)
 
