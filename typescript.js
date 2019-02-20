@@ -6,7 +6,7 @@ module.exports = {
 
   extends: [
     // disable base eslint rules, plugin rules are overrided below
-    '@typescript-eslint/eslint-plugin/lib/configs/recommended.json',
+    '@typescript-eslint/eslint-plugin/dist/configs/recommended.json',
     'eslint-config-prettier/@typescript-eslint',
   ].map(require.resolve),
 
