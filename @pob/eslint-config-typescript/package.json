@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-typescript",
-  "version": "28.0.1",
+  "version": "29.0.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
