@@ -1,12 +1,19 @@
 {
   "pob": {
-    "pob-config": {
-      "entries": [
-        "index"
-      ],
-      "documentation": false,
+    "monorepo": {
+      "ci": true,
       "testing": false,
-      "envs": []
+      "documentation": false,
+      "packageNames": [
+        "eslint-config",
+        "eslint-config-babel",
+        "eslint-config-babel-node",
+        "eslint-config-node",
+        "eslint-config-react",
+        "eslint-config-typescript",
+        "eslint-config-typescript-react"
+      ],
+      "typescript": false
     }
   }
 }

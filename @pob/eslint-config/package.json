@@ -1,0 +1,42 @@
+{
+  "name": "@pob/eslint-config",
+  "version": "28.0.1",
+  "description": "eslint config files",
+  "keywords": [],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:christophehurpeau/eslint-config-pob.git",
+    "directory": "@pob/eslint-config"
+  },
+  "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
+  "engines": {
+    "node": ">=6.5.0"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "peerDependencies": {
+    "eslint": "^5.9.0",
+    "prettier": "^1.15.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prefer-class-properties": "^1.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-unicorn": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "5.15.1",
+    "prettier": "1.16.4"
+  }
+}

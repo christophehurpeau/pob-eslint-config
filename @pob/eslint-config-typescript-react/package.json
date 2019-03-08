@@ -1,0 +1,36 @@
+{
+  "name": "@pob/eslint-config-typescript-react",
+  "version": "28.0.1",
+  "description": "eslint config files",
+  "keywords": [],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:christophehurpeau/eslint-config-pob.git",
+    "directory": "@pob/eslint-config-typescript-react"
+  },
+  "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
+  "engines": {
+    "node": ">=6.5.0"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "peerDependencies": {
+    "@pob/eslint-config-typescript": "28.0.1"
+  },
+  "dependencies": {
+    "@pob/eslint-config-react": "28.0.1"
+  },
+  "devDependencies": {
+    "eslint": "5.15.1",
+    "prettier": "1.16.4"
+  }
+}

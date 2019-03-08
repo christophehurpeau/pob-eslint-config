@@ -4,16 +4,15 @@ module.exports = {
   extends: [
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
-    './plugins/prettier',
+    '@pob/eslint-config/lib/plugins/prettier',
     './plugins/prefer-class-properties',
-    './plugins/unicorn',
-    './rules/best-practices',
-    './rules/code-quality',
-    './rules/style',
-    './rules/expert',
+    '@pob/eslint-config/lib/plugins/unicorn',
+    '@pob/eslint-config/lib/rules/best-practices',
+    '@pob/eslint-config/lib/rules/code-quality',
+    '@pob/eslint-config/lib/rules/style',
+    '@pob/eslint-config/lib/rules/expert',
   ].map(require.resolve),
 
-  plugins: ['babel'],
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module',

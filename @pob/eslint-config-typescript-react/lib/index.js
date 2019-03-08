@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: ['./react'].map(require.resolve),
+  extends: ['@pob/eslint-config-react'].map(require.resolve),
 
   settings: {
     'import/resolver': {

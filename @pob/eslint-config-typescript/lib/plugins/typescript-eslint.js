@@ -1,37 +1,13 @@
 'use strict';
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-
   extends: [
-    // disable base eslint rules, plugin rules are overrided below
-    '@typescript-eslint/eslint-plugin/dist/configs/recommended.json',
-    'eslint-config-prettier/@typescript-eslint',
-  ].map(require.resolve),
-
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.mjs', '.js', '.json', '.ts'],
-      },
-    },
-    'import/extensions': ['.js', '.mjs', '.ts'],
-
-    'import/core-modules': [
-      'pob-babel', // import typings
-    ],
-  },
+    'plugin:@typescript-eslint/recommended',
+    require.resolve('eslint-config-prettier/@typescript-eslint'),
+  ],
 
   rules: {
-    'import/extensions': ['error', { extensions: ['ts', 'js'] }],
-
-    /* issues */
-
-    /* some exported type doesnt work. tsc check that anyway */
-    'import/named': 'off',
-
-    /* typescript-eslint rules */
     // disabled by prettier : indent, member-delimiter-style, type-annotation-spacing
 
     /* same as recommended */
