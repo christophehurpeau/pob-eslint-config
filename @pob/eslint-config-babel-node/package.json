@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-babel-node",
-  "version": "29.0.0",
+  "version": "29.0.1",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -27,7 +27,7 @@
     "arrowParens": "always"
   },
   "dependencies": {
-    "@pob/eslint-config-node": "^29.0.0"
+    "@pob/eslint-config-node": "^29.0.1"
   },
   "devDependencies": {
     "eslint": "5.15.1",
