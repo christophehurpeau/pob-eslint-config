@@ -12,7 +12,16 @@ module.exports = {
   },
 
   rules: {
-    'import/extensions': ['error', { extensions: ['ts', 'tsx', 'js'] }],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        mjs: 'never',
+        js: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
     'react/jsx-filename-extension': ['error', { extensions: ['tsx'] }],
 
     // override js config for babel plugin react-require

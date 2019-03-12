@@ -20,7 +20,15 @@ module.exports = {
   plugins: ['eslint-plugin-react-hooks'],
 
   rules: {
-    'import/extensions': ['error', { extensions: ['jsx', 'js'] }],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        mjs: 'never',
+        js: 'never',
+        jsx: 'never',
+      },
+    ],
     'react/jsx-filename-extension': ['error', { extensions: ['jsx'] }],
 
     'react-hooks/rules-of-hooks': 'error',
