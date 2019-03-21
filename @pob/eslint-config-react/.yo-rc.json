@@ -8,5 +8,10 @@
       "testing": false,
       "envs": []
     }
+  },
+  "@pob/eslint-config-react": {
+    "type": {
+      "type": "lib"
+    }
   }
 }
