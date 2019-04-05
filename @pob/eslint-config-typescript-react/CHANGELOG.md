@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [29.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v29.1.0...v29.1.1) (2019-04-05)
+
+**Note:** Version bump only for package @pob/eslint-config-typescript-react
+
+
+
+
+
 # [29.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v29.0.1...v29.1.0) (2019-03-21)
 
 

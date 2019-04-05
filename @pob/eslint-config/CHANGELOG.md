@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [29.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v29.1.0...v29.1.1) (2019-04-05)
+
+
+### Bug Fixes
+
+* disable unicorn/prevent-abbreviations ([70ef05a](https://github.com/christophehurpeau/eslint-config-pob/commit/70ef05a))
+* **deps:** update dependency eslint-plugin-unicorn to v8 ([#67](https://github.com/christophehurpeau/eslint-config-pob/issues/67)) ([c1c81e1](https://github.com/christophehurpeau/eslint-config-pob/commit/c1c81e1))
+
+
+
+
+
 # [29.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v29.0.1...v29.1.0) (2019-03-21)
 
 
