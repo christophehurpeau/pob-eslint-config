@@ -88,7 +88,7 @@ module.exports = {
     'unicorn/no-console-spaces': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
-    'unicorn/prevent-abbreviations': 'error',
+    'unicorn/prevent-abbreviations': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
     'unicorn/no-for-loop': 'off',
