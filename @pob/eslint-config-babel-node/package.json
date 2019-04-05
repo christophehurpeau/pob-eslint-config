@@ -30,7 +30,7 @@
     "@pob/eslint-config-node": "^29.1.0"
   },
   "devDependencies": {
-    "eslint": "5.15.3",
+    "eslint": "5.16.0",
     "prettier": "1.16.4"
   }
 }
