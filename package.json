@@ -49,7 +49,7 @@
     "lint-staged": "8.1.5",
     "prettier": "1.16.4",
     "repository-check-dirty": "1.0.2",
-    "yarn-update-lock": "0.3.4",
+    "yarn-update-lock": "0.4.0",
     "yarnhook": "0.4.0"
   }
 }
