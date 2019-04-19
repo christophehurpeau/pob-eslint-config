@@ -45,8 +45,9 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
 
     /* changed */
-    // default error, changed to warn
-    '@typescript-eslint/explicit-member-accessibility': 'warn',
+    // https://github.com/typescript-eslint/typescript-eslint/issues/201
+    // private is comming in js world and no-public will be the most common way to read a js file (and probably ts)
+    '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
 
     '@typescript-eslint/no-unused-vars': [
       'error',
