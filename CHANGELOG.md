@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [30.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v30.0.0...v30.0.1) (2019-04-22)
+
+
+### Bug Fixes
+
+* update [@typescript-eslint](https://github.com/typescript-eslint) deps ([ae3d6d8](https://github.com/christophehurpeau/eslint-config-pob/commit/ae3d6d8))
+
+
+
+
+
 # [30.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v29.2.0...v30.0.0) (2019-04-19)
 
 
