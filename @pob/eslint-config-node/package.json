@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-node",
-  "version": "30.0.0",
+  "version": "31.0.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",

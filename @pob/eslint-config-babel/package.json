@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-babel",
-  "version": "30.0.0",
+  "version": "31.0.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -27,7 +27,7 @@
     "arrowParens": "always"
   },
   "dependencies": {
-    "@pob/eslint-config": "^30.0.0",
+    "@pob/eslint-config": "^31.0.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
