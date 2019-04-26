@@ -43,6 +43,8 @@ module.exports = {
 
     /* enabled */
     '@typescript-eslint/no-useless-constructor': 'error',
+    '@typescript-eslint/prefer-includes': 'error',
+    '@typescript-eslint/prefer-string-starts-ends-with': 'error',
 
     /* changed */
     // https://github.com/typescript-eslint/typescript-eslint/issues/201
