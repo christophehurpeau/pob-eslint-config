@@ -31,5 +31,18 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-extraneous-dependencies.md
     // override default airbnb exceptions
     'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
+
+    'import/no-anonymous-default-export': [
+      'error',
+      {
+        allowArray: true,
+        allowArrowFunction: false,
+        allowAnonymousClass: false,
+        allowAnonymousFunction: false,
+        allowCallExpression: true,
+        allowLiteral: true,
+        allowObject: true,
+      },
+    ],
   },
 };
