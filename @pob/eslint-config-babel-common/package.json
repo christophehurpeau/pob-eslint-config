@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@pob/eslint-config": "^31.0.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
   },
   "devDependencies": {

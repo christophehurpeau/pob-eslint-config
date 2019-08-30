@@ -4,9 +4,9 @@ module.exports = {
   rules: {
     /* changed rules */
 
-    // changed properties: 'never' to properties: 'always'
+    // changed properties: 'never' to properties: 'always' ; true to 'ignoreDestructuring': false
     // http://eslint.org/docs/rules/camelcase
-    camelcase: ['error', { properties: 'always' }],
+    camelcase: ['error', { properties: 'always', ignoreDestructuring: false }],
 
     // stricter rule
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
