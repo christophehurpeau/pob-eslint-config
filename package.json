@@ -44,7 +44,7 @@
   "devDependencies": {
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
-    "eslint": "5.16.0",
+    "eslint": "6.2.2",
     "husky": "2.2.0",
     "lerna": "3.13.3",
     "lint-staged": "8.1.5",

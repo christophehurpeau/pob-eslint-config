@@ -30,7 +30,7 @@
     "eslint-plugin-node": "^9.0.0"
   },
   "devDependencies": {
-    "eslint": "5.16.0",
+    "eslint": "6.2.2",
     "prettier": "1.17.0"
   }
 }
