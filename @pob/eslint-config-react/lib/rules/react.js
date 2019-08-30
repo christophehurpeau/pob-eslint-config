@@ -98,5 +98,7 @@ module.exports = {
 
     // disable enforcing state in constructor
     'react/state-in-constructor': 'off',
+
+    'react/static-property-placement': 'off',
   },
 };
