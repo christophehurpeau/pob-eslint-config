@@ -3,7 +3,10 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
 
-  extends: ['./plugins/typescript-eslint'].map(require.resolve),
+  extends: [
+    '@pob/eslint-config-babel-common',
+    './plugins/typescript-eslint',
+  ].map(require.resolve),
 
   settings: {
     'import/resolver': {

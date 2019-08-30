@@ -27,6 +27,7 @@
     "arrowParens": "always"
   },
   "dependencies": {
+    "@pob/eslint-config-babel-common": "^31.0.0",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "@typescript-eslint/parser": "^1.7.0",
     "eslint-config-prettier": "^4.1.0"

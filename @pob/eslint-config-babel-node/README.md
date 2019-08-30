@@ -11,7 +11,12 @@
   <a href="https://david-dm.org/christophehurpeau/eslint-config-pob?path=packages/@pob/eslint-config-babel-node"><img src="https://david-dm.org/christophehurpeau/eslint-config-pob.svg?path=packages/@pob/eslint-config-babel-node?style=flat-square"></a>
 </p>
 
-## Install
+## Install - babel
+
+1. `npm install --save-dev eslint @pob/eslint-config-babel @pob/eslint-config-babel-node`
+2. add `"extends": ["@pob/eslint-config-babel", "@pob/eslint-config-babel-node"]` to your .eslintrc
+
+## Install - typescript
 
 1. `npm install --save-dev eslint @pob/eslint-config-babel @pob/eslint-config-babel-node`
 2. add `"extends": ["@pob/eslint-config-babel", "@pob/eslint-config-babel-node"]` to your .eslintrc

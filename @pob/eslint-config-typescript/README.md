@@ -11,12 +11,12 @@
   <a href="https://david-dm.org/christophehurpeau/eslint-config-pob?path=packages/@pob/eslint-config-typescript"><img src="https://david-dm.org/christophehurpeau/eslint-config-pob.svg?path=packages/@pob/eslint-config-typescript?style=flat-square"></a>
 </p>
 
+## Install
+       
+1. `npm install --save-dev eslint @pob/eslint-config-typescript`
+2. add `"extends": ["@pob/eslint-config-typescript"]` to your .eslintrc
+
 ## Install with node
-
-1. `npm install --save-dev eslint @pob/eslint-config-babel @pob/eslint-config-babel-node @pob/eslint-config-typescript`
-2. add `"extends": ["@pob/eslint-config-babel", "@pob/eslint-config-babel-node", "@pob/eslint-config-typescript"]` to your .eslintrc
-
-## Install without node
-
-1. `npm install --save-dev eslint @pob/eslint-config-babel @pob/eslint-config-typescript`
-2. add `"extends": ["@pob/eslint-config-babel", "@pob/eslint-config-typescript"]` to your .eslintrc
+     
+1. `npm install --save-dev eslint @pob/eslint-config-typescript @pob/eslint-config-babel-node`
+2. add `"extends": ["@pob/eslint-config-typescript", "@pob/eslint-config-babel-node"]` to your .eslintrc
