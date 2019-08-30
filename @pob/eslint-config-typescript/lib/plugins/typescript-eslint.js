@@ -45,7 +45,6 @@ module.exports = {
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/require-await': 'error',
-    '@typescript-eslint/unbound-method': 'error',
 
     /* Not enabled */
 
@@ -96,5 +95,7 @@ module.exports = {
 
     // interface can be used for empty props
     '@typescript-eslint/no-empty-interface': 'off',
+    // too much errors on existing code
+    '@typescript-eslint/unbound-method': 'off',
   },
 };
