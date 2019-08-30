@@ -29,9 +29,6 @@ module.exports = {
       },
     ],
 
-    // disable enforcing state in constructor
-    'react/state-in-constructor': 'off',
-
     'react/jsx-filename-extension': ['error', { extensions: ['jsx'] }],
   },
 };

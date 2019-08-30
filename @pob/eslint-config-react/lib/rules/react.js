@@ -95,5 +95,8 @@ module.exports = {
 
     // project should use babel-plugin-transform-react-remove-prop-types
     'react/forbid-foreign-prop-types': 'off',
+
+    // disable enforcing state in constructor
+    'react/state-in-constructor': 'off',
   },
 };
