@@ -27,9 +27,6 @@
     "arrowParens": "always"
   },
   "pob": {},
-  "dependencies": {
-    "@pob/eslint-config-node": "^32.0.0"
-  },
   "devDependencies": {
     "eslint": "6.2.2",
     "prettier": "1.18.2"
