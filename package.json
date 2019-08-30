@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pob",
-  "version": "29.2.0",
   "private": true,
+  "version": "29.2.0",
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
   "repository": "https://github.com:christophehurpeau/eslint-config-pob.git",
@@ -13,25 +13,7 @@
   "scripts": {
     "lint": "lerna run --stream lint",
     "preversion": "yarn run lint --since && repository-check-dirty",
-    "release": "GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --github-release -m 'chore: release' && lerna publish from-git"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS",
-      "post-checkout": "yarnhook",
-      "post-merge": "yarnhook",
-      "post-rewrite": "yarnhook",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "yarn.lock": ["yarn-update-lock", "git add"],
-    "{package.json,@pob/*/package.json,.eslintrc.json}": [
-      "prettier --parser json --write",
-      "git add"
-    ],
-    "{@pob/*}/lib/**/*.json": ["prettier --parser json --write", "git add"],
-    "{@pob/*}/lib/**/*.js": ["eslint --fix --quiet", "git add"]
+    "release": "cross-env GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --conventional-graduate --create-release=github -m 'chore: release' && lerna publish from-git"
   },
   "prettier": {
     "trailingComma": "es5",
@@ -42,15 +24,12 @@
     "extends": ["@commitlint/config-conventional"]
   },
   "devDependencies": {
-    "@commitlint/cli": "7.5.2",
-    "@commitlint/config-conventional": "7.5.0",
+    "@pob/repo-config": "1.0.0",
+    "@pob/version": "4.33.0",
     "eslint": "6.2.2",
-    "husky": "2.2.0",
-    "lerna": "3.13.3",
-    "lint-staged": "8.1.5",
-    "prettier": "1.17.0",
-    "repository-check-dirty": "1.0.2",
-    "yarn-update-lock": "1.0.0",
-    "yarnhook": "0.4.0"
+    "husky": "3.0.4",
+    "lerna": "3.16.4",
+    "prettier": "1.18.2",
+    "repository-check-dirty": "1.0.2"
   }
 }

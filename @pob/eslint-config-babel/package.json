@@ -26,12 +26,13 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
+  "pob": {},
   "dependencies": {
     "@pob/eslint-config-babel-common": "^31.0.0",
     "babel-eslint": "^10.0.3"
   },
   "devDependencies": {
     "eslint": "6.2.2",
-    "prettier": "1.17.0"
+    "prettier": "1.18.2"
   }
 }

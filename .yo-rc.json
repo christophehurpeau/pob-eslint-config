@@ -5,13 +5,14 @@
       "testing": false,
       "documentation": false,
       "packageNames": [
-        "eslint-config",
-        "eslint-config-babel",
-        "eslint-config-babel-node",
-        "eslint-config-node",
-        "eslint-config-react",
-        "eslint-config-typescript",
-        "eslint-config-typescript-react"
+        "@pob/eslint-config-node",
+        "@pob/eslint-config-react",
+        "@pob/eslint-config",
+        "@pob/eslint-config-babel-common",
+        "@pob/eslint-config-babel-node",
+        "@pob/eslint-config-typescript-react",
+        "@pob/eslint-config-babel",
+        "@pob/eslint-config-typescript"
       ],
       "typescript": false
     },

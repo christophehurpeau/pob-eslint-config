@@ -1,16 +1,16 @@
 {
   "pob": {
     "pob-config": {
-      "entries": [
-        "index"
-      ],
       "documentation": false,
-      "testing": false,
-      "envs": [],
-      "withReact": false
+      "testing": false
     }
   },
   "@pob/eslint-config-babel": {
+    "type": {
+      "type": "lib"
+    }
+  },
+  "@pob/eslint-config-babel-common": {
     "type": {
       "type": "lib"
     }
