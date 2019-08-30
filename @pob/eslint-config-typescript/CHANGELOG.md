@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [32.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v31.1.0...v32.0.0) (2019-08-30)
+
+
+### Features
+
+* @pob/eslint-config-babel-common ([4ebad20](https://github.com/christophehurpeau/eslint-config-pob/commit/4ebad20))
+* pob update ([20e7be9](https://github.com/christophehurpeau/eslint-config-pob/commit/20e7be9))
+* update eslint ([10031d3](https://github.com/christophehurpeau/eslint-config-pob/commit/10031d3))
+* update typescript-eslint ([8b91022](https://github.com/christophehurpeau/eslint-config-pob/commit/8b91022))
+
+
+### BREAKING CHANGES
+
+* v2 of typescript-eslint and changes in rules
+* requires eslint 6
+* @pob/eslint-config-typescript no longer requires to import @pob/eslint-config-babel
+
+
+
+
+
 # [31.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v31.0.0...v31.1.0) (2019-04-26)
 
 
