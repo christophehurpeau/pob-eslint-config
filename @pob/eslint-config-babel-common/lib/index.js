@@ -3,7 +3,6 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
-    'eslint-config-airbnb-base/rules/strict',
     '@pob/eslint-config/lib/plugins/prettier',
     './plugins/prefer-class-properties',
     '@pob/eslint-config/lib/plugins/unicorn',
@@ -12,6 +11,10 @@ module.exports = {
     '@pob/eslint-config/lib/rules/style',
     '@pob/eslint-config/lib/rules/expert',
   ].map(require.resolve),
+
+  parserOptions: {
+    sourceType: 'module',
+  },
 
   rules: {
     // 'new-cap': 0,
