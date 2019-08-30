@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [32.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.3...v32.0.4) (2019-08-30)
+
+
+### Bug Fixes
+
+* config eslint-config-babel-node ([9e2961e](https://github.com/christophehurpeau/eslint-config-pob/commit/9e2961e))
+
+
+
+
+
 # [32.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v31.1.0...v32.0.0) (2019-08-30)
 
 
