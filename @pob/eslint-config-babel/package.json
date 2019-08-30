@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-babel",
-  "version": "32.0.2",
+  "version": "32.0.3",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -28,7 +28,7 @@
   },
   "pob": {},
   "dependencies": {
-    "@pob/eslint-config-babel-common": "^32.0.2",
+    "@pob/eslint-config-babel-common": "^32.0.3",
     "babel-eslint": "^10.0.3"
   },
   "devDependencies": {
