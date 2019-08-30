@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     'eslint-config-airbnb/rules/react',
     'eslint-config-airbnb/rules/react-a11y',
+    'eslint-config-airbnb/rules/react-hooks',
     'eslint-config-prettier',
     'eslint-config-prettier/react',
     './rules/react',
@@ -17,8 +18,6 @@ module.exports = {
     },
   },
 
-  plugins: ['eslint-plugin-react-hooks'],
-
   rules: {
     'import/extensions': [
       'error',
@@ -29,8 +28,10 @@ module.exports = {
         jsx: 'never',
       },
     ],
-    'react/jsx-filename-extension': ['error', { extensions: ['jsx'] }],
 
-    'react-hooks/rules-of-hooks': 'error',
+    // disable enforcing state in constructor
+    'react/state-in-constructor': 'off',
+
+    'react/jsx-filename-extension': ['error', { extensions: ['jsx'] }],
   },
 };
