@@ -102,7 +102,13 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-text-content.md
     'unicorn/prefer-text-content': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-remove.md
-    'unicorn/prefer-node-remove': 'error',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-event-key.md
+    'unicorn/prefer-event-key': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-flat-map.md
+    'unicorn/prefer-flat-map': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-keyword-prefix.md
+    'unicorn/no-keyword-prefix': 'off',
   },
 };
