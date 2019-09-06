@@ -100,5 +100,8 @@ module.exports = {
     'react/state-in-constructor': 'off',
 
     'react/static-property-placement': 'off',
+
+    // allow props spreading
+    'react/jsx-props-no-spreading': 'off',
   },
 };
