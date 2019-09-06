@@ -32,6 +32,13 @@ module.exports = {
       },
     ],
 
+    'import/no-unresolved': [
+      'error',
+      {
+        ignore: ['type-fest'],
+      },
+    ],
+
     /* issues */
 
     /* some exported type doesnt work. tsc check that anyway */
