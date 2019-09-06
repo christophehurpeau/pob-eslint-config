@@ -19,7 +19,6 @@ module.exports = {
     '@typescript-eslint/camelcase': 'error',
     '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/consistent-type-assertions': 'error',
-    '@typescript-eslint/explicit-function-return-type': 'warn',
     '@typescript-eslint/interface-name-prefix': 'error',
     '@typescript-eslint/member-delimiter-style': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
@@ -75,6 +74,11 @@ module.exports = {
     '@typescript-eslint/prefer-readonly': 'error',
 
     /* changed */
+    '@typescript-eslint/explicit-function-return-type': [
+      'warn',
+      { allowTypedFunctionExpressions: true },
+    ],
+
     // https://github.com/typescript-eslint/typescript-eslint/issues/201
     // private is coming in js world and no-public will be the most common way to read a js file (and probably ts)
     '@typescript-eslint/explicit-member-accessibility': [
