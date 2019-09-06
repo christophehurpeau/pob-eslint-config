@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-react",
-  "version": "32.0.9",
+  "version": "32.0.10",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
