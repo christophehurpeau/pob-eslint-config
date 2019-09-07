@@ -39,7 +39,6 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-misused-promises': 'error',
-    '@typescript-eslint/no-unnecessary-type-assertion': 'error',
     '@typescript-eslint/prefer-includes': 'error',
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
@@ -101,5 +100,8 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': 'off',
     // too much errors on existing code
     '@typescript-eslint/unbound-method': 'off',
+
+    // issue when as is used to remove undefined (in liwi for example)
+    '@typescript-eslint/no-unnecessary-type-assertion': 'off',
   },
 };
