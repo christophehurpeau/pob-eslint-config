@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [32.0.13](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.12...v32.0.13) (2019-09-07)
+
+
+### Bug Fixes
+
+* disable no-unnecessary-type-assertion ([d72bcf9](https://github.com/christophehurpeau/eslint-config-pob/commit/d72bcf9))
+
+
+
+
+
 ## [32.0.12](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.11...v32.0.12) (2019-09-06)
 
 
