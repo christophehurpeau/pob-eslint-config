@@ -28,7 +28,7 @@
   },
   "pob": {},
   "peerDependencies": {
-    "@pob/eslint-config-typescript": "28.0.1"
+    "@pob/eslint-config-typescript": "^32.0.13"
   },
   "dependencies": {
     "@pob/eslint-config-react": "^32.0.10"
