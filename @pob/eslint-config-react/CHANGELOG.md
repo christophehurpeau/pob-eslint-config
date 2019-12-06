@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [33.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.2...v33.0.3) (2019-12-06)
+
+
+### Bug Fixes
+
+* import eslint-config in eslint-config-react ([c476327](https://github.com/christophehurpeau/eslint-config-pob/commit/c476327a7d8d3c65899d7c86146ba9302ab28517))
+
+
+
+
+
 ## [33.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.1...v33.0.2) (2019-12-06)
 
 
