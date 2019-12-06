@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [33.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.1.0...v33.0.0) (2019-12-06)
+
+
+### Features
+
+* update [@typescript-eslint](https://github.com/typescript-eslint) ([2dd50d0](https://github.com/christophehurpeau/eslint-config-pob/commit/2dd50d0f433538957df7b53f18e2c7bcfd4cb3ba))
+* update eslint-config-prettier ([2b46b87](https://github.com/christophehurpeau/eslint-config-pob/commit/2b46b8713f836700b1bc357495a4124a35fc038a))
+
+
+### BREAKING CHANGES
+
+* enabled rules and requires typescript 3.7
+
+
+
+
+
 # [32.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.13...v32.1.0) (2019-09-13)
 
 

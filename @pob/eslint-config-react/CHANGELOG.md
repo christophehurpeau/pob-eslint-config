@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [33.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.1.0...v33.0.0) (2019-12-06)
+
+
+### Features
+
+* update eslint-config-prettier ([2b46b87](https://github.com/christophehurpeau/eslint-config-pob/commit/2b46b8713f836700b1bc357495a4124a35fc038a))
+* update eslint-plugin-react ([8e6dbe4](https://github.com/christophehurpeau/eslint-config-pob/commit/8e6dbe4744ad021fbececffb208d0a5cf97b5b3f))
+* update eslint-plugin-react-hooks ([1af0ec0](https://github.com/christophehurpeau/eslint-config-pob/commit/1af0ec0fd59051d19fc14dc2d9381577518879df))
+
+
+
+
+
 # [32.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.13...v32.1.0) (2019-09-13)
 
 

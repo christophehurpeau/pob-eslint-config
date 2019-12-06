@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [33.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.1.0...v33.0.0) (2019-12-06)
+
+**Note:** Version bump only for package @pob/eslint-config-babel
+
+
+
+
+
 # [32.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.13...v32.1.0) (2019-09-13)
 
 

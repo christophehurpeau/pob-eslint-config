@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [33.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.1.0...v33.0.0) (2019-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v14 ([#99](https://github.com/christophehurpeau/eslint-config-pob/issues/99)) ([fdf1185](https://github.com/christophehurpeau/eslint-config-pob/commit/fdf1185420796c8a55f26a484879fd48aa68d6ba))
+
+
+### Features
+
+* update eslint-config-prettier ([2b46b87](https://github.com/christophehurpeau/eslint-config-pob/commit/2b46b8713f836700b1bc357495a4124a35fc038a))
+
+
+### BREAKING CHANGES
+
+* **deps:** this commit enables new rules
+
+
+
+
+
 # [32.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.13...v32.1.0) (2019-09-13)
 
 

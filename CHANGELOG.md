@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [33.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.1.0...v33.0.0) (2019-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v14 ([#99](https://github.com/christophehurpeau/eslint-config-pob/issues/99)) ([fdf1185](https://github.com/christophehurpeau/eslint-config-pob/commit/fdf1185420796c8a55f26a484879fd48aa68d6ba))
+
+
+### Features
+
+* update [@typescript-eslint](https://github.com/typescript-eslint) ([2dd50d0](https://github.com/christophehurpeau/eslint-config-pob/commit/2dd50d0f433538957df7b53f18e2c7bcfd4cb3ba))
+* update eslint-config-prettier ([2b46b87](https://github.com/christophehurpeau/eslint-config-pob/commit/2b46b8713f836700b1bc357495a4124a35fc038a))
+* update eslint-plugin-react ([8e6dbe4](https://github.com/christophehurpeau/eslint-config-pob/commit/8e6dbe4744ad021fbececffb208d0a5cf97b5b3f))
+* update eslint-plugin-react-hooks ([1af0ec0](https://github.com/christophehurpeau/eslint-config-pob/commit/1af0ec0fd59051d19fc14dc2d9381577518879df))
+
+
+### BREAKING CHANGES
+
+* enabled rules and requires typescript 3.7
+* **deps:** this commit enables new rules
+
+
+
+
+
 # [32.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.13...v32.1.0) (2019-09-13)
 
 
