@@ -100,7 +100,7 @@ module.exports = {
 
     /* disabled */
     // some callback/implmentations could do nothing
-    '@typescript-eslint/no-empty-function': 'error',
+    '@typescript-eslint/no-empty-function': 'off',
 
     // interface can be used for empty props
     '@typescript-eslint/no-empty-interface': 'off',
