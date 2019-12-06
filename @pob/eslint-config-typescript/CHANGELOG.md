@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [33.0.7](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.6...v33.0.7) (2019-12-06)
+
+
+### Bug Fixes
+
+* disable @typescript-eslint/no-empty-function ([73b96b1](https://github.com/christophehurpeau/eslint-config-pob/commit/73b96b19a58aa91cc57528fd238e83e2398e02a1))
+
+
+
+
+
 ## [33.0.6](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.5...v33.0.6) (2019-12-06)
 
 
