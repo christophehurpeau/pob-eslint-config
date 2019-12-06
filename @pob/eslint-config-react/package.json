@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-react",
-  "version": "33.0.4",
+  "version": "33.0.5",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -28,7 +28,7 @@
   },
   "pob": {},
   "dependencies": {
-    "@pob/eslint-config": "^33.0.0",
+    "@pob/eslint-config": "^33.0.5",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",

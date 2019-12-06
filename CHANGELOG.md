@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [33.0.5](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.4...v33.0.5) (2019-12-06)
+
+
+### Bug Fixes
+
+* pass allowWarningComments to true ([6d93030](https://github.com/christophehurpeau/eslint-config-pob/commit/6d930307477cd70e5bd52f7575654a1606afa505))
+
+
+
+
+
 ## [33.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.3...v33.0.4) (2019-12-06)
 
 
