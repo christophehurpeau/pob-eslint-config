@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [33.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.3...v33.0.4) (2019-12-06)
+
+
+### Bug Fixes
+
+* path rules expert ([df32552](https://github.com/christophehurpeau/eslint-config-pob/commit/df3255202885883273a59f56a6fdabd0aea70c38))
+
+
+
+
+
 ## [33.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.2...v33.0.3) (2019-12-06)
 
 
