@@ -115,7 +115,7 @@ module.exports = {
     'unicorn/expiring-todo-comments': [
       'error',
       {
-        allowWarningComments: false,
+        allowWarningComments: true,
       },
     ],
 
