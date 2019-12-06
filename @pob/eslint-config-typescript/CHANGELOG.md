@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [33.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.0...v33.0.1) (2019-12-06)
+
+
+### Bug Fixes
+
+* disable typescript rule no-unnecessary-condition ([c7ea4eb](https://github.com/christophehurpeau/eslint-config-pob/commit/c7ea4eb726dcdc7783f9bb6147dc65c5c7ec8489))
+
+
+
+
+
 # [33.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.1.0...v33.0.0) (2019-12-06)
 
 
