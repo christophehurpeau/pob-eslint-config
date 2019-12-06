@@ -22,7 +22,6 @@ module.exports = {
     '@typescript-eslint/interface-name-prefix': 'error',
     '@typescript-eslint/member-delimiter-style': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
-    '@typescript-eslint/no-empty-function': 'error',
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-inferrable-types': 'error',
     '@typescript-eslint/no-misused-new': 'error',
@@ -100,6 +99,8 @@ module.exports = {
     ],
 
     /* disabled */
+    // some callback/implmentations could do nothing
+    '@typescript-eslint/no-empty-function': 'error',
 
     // interface can be used for empty props
     '@typescript-eslint/no-empty-interface': 'off',
