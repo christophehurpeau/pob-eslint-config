@@ -63,6 +63,8 @@ module.exports = {
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/typedef': 'off',
     '@typescript-eslint/unified-signatures': 'off',
+    '@typescript-eslint/restrict-template-expressions': 'off',
+    '@typescript-eslint/prefer-nullish-coalescing': 'off',
 
     /* enabled */
     '@typescript-eslint/array-type': 'error',
@@ -71,6 +73,9 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
+    '@typescript-eslint/no-unnecessary-condition': 'error',
+    '@typescript-eslint/no-extra-non-null-assertion': 'error',
+    '@typescript-eslint/prefer-optional-chain': 'error',
 
     /* changed */
     '@typescript-eslint/explicit-function-return-type': [
