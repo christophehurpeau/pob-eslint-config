@@ -7,7 +7,6 @@ module.exports = {
     // like commons
     'node/no-deprecated-api': 'error',
     'node/no-extraneous-import': 'error',
-    'node/no-unpublished-import': 'error',
     'node/no-unpublished-bin': 'error',
     'node/no-unpublished-require': 'error',
     'node/no-unsupported-features/es-builtins': 'error',
@@ -19,5 +18,6 @@ module.exports = {
     'node/no-unsupported-features': 'off',
     'node/no-unsupported-features/es-syntax': 'off',
     'node/no-missing-import': 'off',
+    'node/no-unpublished-import': 'off',
   },
 };
