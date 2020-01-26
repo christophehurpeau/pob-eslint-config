@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [34.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.8...v34.0.0) (2020-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-node to v11 ([#108](https://github.com/christophehurpeau/eslint-config-pob/issues/108)) ([8ed140e](https://github.com/christophehurpeau/eslint-config-pob/commit/8ed140e0caf83db866cdfb00db99b64472a35e33))
+
+
+### chore
+
+* update eslint and node 10 ([ce42ab5](https://github.com/christophehurpeau/eslint-config-pob/commit/ce42ab5be5bb6cbb857de47d536805d95e4782e5))
+
+
+### BREAKING CHANGES
+
+* **deps:** eslint-plugin-node new major (version 11)
+* requires node 10
+
+
+
+
+
 # [33.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.1.0...v33.0.0) (2019-12-06)
 
 **Note:** Version bump only for package @pob/eslint-config-node

@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [34.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.8...v34.0.0) (2020-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-node to v11 ([#108](https://github.com/christophehurpeau/eslint-config-pob/issues/108)) ([8ed140e](https://github.com/christophehurpeau/eslint-config-pob/commit/8ed140e0caf83db866cdfb00db99b64472a35e33))
+* **deps:** update dependency eslint-plugin-unicorn to v15 ([#107](https://github.com/christophehurpeau/eslint-config-pob/issues/107)) ([e3ef973](https://github.com/christophehurpeau/eslint-config-pob/commit/e3ef9737636c68e5e18a9be22b557299e637f61d))
+* disable node/no-unpublished-import ([8ca55ab](https://github.com/christophehurpeau/eslint-config-pob/commit/8ca55ab210daefa3d6455b2453828a698a1f8284))
+
+
+### chore
+
+* update eslint and node 10 ([ce42ab5](https://github.com/christophehurpeau/eslint-config-pob/commit/ce42ab5be5bb6cbb857de47d536805d95e4782e5))
+
+
+### Features
+
+* configure all options in explicit-function-return-type ([561fe9b](https://github.com/christophehurpeau/eslint-config-pob/commit/561fe9ba2495315f3ba3a419a2e2e9ee55dda35a))
+* enable new unicorn rule prefer-modern-dom-apis ([8576577](https://github.com/christophehurpeau/eslint-config-pob/commit/8576577be0ba46f9ae6ae62272e0d4894c9a3c2c))
+
+
+### Reverts
+
+* Revert "chore(deps): update dependency husky to v4 (#109)" ([7371005](https://github.com/christophehurpeau/eslint-config-pob/commit/73710055e8d871fcb3a2d8a627b05a20a47d9cee)), closes [#109](https://github.com/christophehurpeau/eslint-config-pob/issues/109)
+
+
+### BREAKING CHANGES
+
+* new rule unicorn/prefer-modern-dom-apis enabled
+* **deps:** eslint-plugin-node new major (version 11)
+* requires node 10
+
+
+
+
+
 ## [33.0.8](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.7...v33.0.8) (2019-12-06)
 
 

@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [34.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.8...v34.0.0) (2020-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v15 ([#107](https://github.com/christophehurpeau/eslint-config-pob/issues/107)) ([e3ef973](https://github.com/christophehurpeau/eslint-config-pob/commit/e3ef9737636c68e5e18a9be22b557299e637f61d))
+
+
+### chore
+
+* update eslint and node 10 ([ce42ab5](https://github.com/christophehurpeau/eslint-config-pob/commit/ce42ab5be5bb6cbb857de47d536805d95e4782e5))
+
+
+### Features
+
+* enable new unicorn rule prefer-modern-dom-apis ([8576577](https://github.com/christophehurpeau/eslint-config-pob/commit/8576577be0ba46f9ae6ae62272e0d4894c9a3c2c))
+
+
+### BREAKING CHANGES
+
+* new rule unicorn/prefer-modern-dom-apis enabled
+* requires node 10
+
+
+
+
+
 ## [33.0.8](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.7...v33.0.8) (2019-12-06)
 
 
