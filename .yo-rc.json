@@ -5,6 +5,7 @@
       "testing": false,
       "documentation": false,
       "packageNames": [
+        "@pob/use-eslint-plugin",
         "@pob/eslint-config-babel-node",
         "@pob/eslint-config-node",
         "@pob/eslint-config",
@@ -14,7 +15,8 @@
         "@pob/eslint-config-typescript-react",
         "@pob/eslint-config-typescript"
       ],
-      "typescript": false
+      "typescript": false,
+      "eslint": true
     },
     "renovate": {
       "enable": true

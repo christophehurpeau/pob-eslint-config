@@ -18,4 +18,18 @@ module.exports = {
   rules: {
     strict: ['error', 'safe'],
   },
+
+  overrides: [
+    {
+      files: ['lint-staged.config.js', 'husky.config.js'],
+      rules: {
+        'import/no-extraneous-dependencies': [
+          'error',
+          {
+            devDependencies: true,
+          },
+        ],
+      },
+    },
+  ],
 };

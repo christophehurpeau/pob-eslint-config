@@ -1,0 +1,18 @@
+{
+  "eslint-config-pob": {
+    "type": {
+      "type": "lib"
+    }
+  },
+  "pob": {
+    "pob-config": {
+      "documentation": false,
+      "testing": false
+    }
+  },
+  "@pob/use-eslint-plugin": {
+    "type": {
+      "type": "lib"
+    }
+  }
+}

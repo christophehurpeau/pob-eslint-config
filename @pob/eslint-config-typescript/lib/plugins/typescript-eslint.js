@@ -1,7 +1,11 @@
 'use strict';
 
+const usePlugin = require('@pob/use-eslint-plugin');
+
+usePlugin(require('@typescript-eslint/eslint-plugin/package.json'));
+
 module.exports = {
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',

@@ -9,7 +9,9 @@
   "engines": {
     "node": ">=6.5.0"
   },
-  "workspaces": ["@pob/*"],
+  "workspaces": [
+    "@pob/*"
+  ],
   "scripts": {
     "lint": "lerna run --stream lint",
     "preversion": "yarn run lint --since && repository-check-dirty",
@@ -21,11 +23,21 @@
     "arrowParens": "always"
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "devDependencies": {
     "@pob/repo-config": "1.0.3",
     "@pob/version": "5.0.1",
+    "@yarnpkg/pnpify": "^2.0.0-rc.16",
+    "eslint": "^6.8.0",
+    "eslint-import-resolver-node": "^0.3.3",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prefer-class-properties": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-unicorn": "^15.0.1",
     "husky": "4.2.1",
     "lerna": "3.20.2",
     "prettier": "1.19.1",

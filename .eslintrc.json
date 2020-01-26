@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "extends": [
+    "./@pob/eslint-config/lib/index.js",
+    "./@pob/eslint-config-node/lib/index.js"
+  ]
+}

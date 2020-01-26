@@ -29,18 +29,17 @@
   "pob": {},
   "peerDependencies": {
     "eslint": "^6.2.2",
+    "eslint-plugin-prefer-class-properties": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-unicorn": "^15.0.1",
     "prettier": "^1.15.2"
   },
   "dependencies": {
+    "@pob/use-eslint-plugin": "^0.1.0-pre",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prefer-class-properties": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-unicorn": "^15.0.0"
-  },
-  "devDependencies": {
-    "eslint": "6.8.0",
-    "prettier": "1.19.1"
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-unicorn": "^15.0.1"
   }
 }

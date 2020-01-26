@@ -28,10 +28,7 @@
   },
   "pob": {},
   "dependencies": {
+    "@pob/use-eslint-plugin": "^0.1.0-pre",
     "eslint-plugin-node": "^11.0.0"
-  },
-  "devDependencies": {
-    "eslint": "6.8.0",
-    "prettier": "1.19.1"
   }
 }

@@ -1,5 +1,9 @@
 'use strict';
 
+const usePlugin = require('@pob/use-eslint-plugin');
+
+usePlugin(require('eslint-plugin-node/package.json'));
+
 module.exports = {
   plugins: ['node'],
 
@@ -8,7 +12,6 @@ module.exports = {
     'node/no-deprecated-api': 'error',
     'node/no-extraneous-import': 'error',
     'node/no-unpublished-bin': 'error',
-    'node/no-unpublished-require': 'error',
     'node/no-unsupported-features/es-builtins': 'error',
     'node/no-unsupported-features/node-builtins': 'error',
     'node/process-exit-as-throw': 'error',
@@ -19,5 +22,8 @@ module.exports = {
     'node/no-unsupported-features/es-syntax': 'off',
     'node/no-missing-import': 'off',
     'node/no-unpublished-import': 'off',
+
+    // already checked by import plugin
+    'node/no-unpublished-require': 'off',
   },
 };

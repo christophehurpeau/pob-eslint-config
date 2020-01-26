@@ -20,4 +20,5 @@ This repository is a monorepo that we manage using [Lerna](https://github.com/le
 | [@pob/eslint-config-react](@pob/eslint-config-react) | <a href="https://npmjs.org/package/@pob/eslint-config-react"><img src="https://img.shields.io/npm/v/@pob/eslint-config-react.svg?style=flat-square"></a>  | eslint config files
 | [@pob/eslint-config-typescript](@pob/eslint-config-typescript) | <a href="https://npmjs.org/package/@pob/eslint-config-typescript"><img src="https://img.shields.io/npm/v/@pob/eslint-config-typescript.svg?style=flat-square"></a>  | eslint config files
 | [@pob/eslint-config-typescript-react](@pob/eslint-config-typescript-react) | <a href="https://npmjs.org/package/@pob/eslint-config-typescript-react"><img src="https://img.shields.io/npm/v/@pob/eslint-config-typescript-react.svg?style=flat-square"></a>  | eslint config files
+| [@pob/use-eslint-plugin](@pob/use-eslint-plugin) | <a href="https://npmjs.org/package/@pob/use-eslint-plugin"><img src="https://img.shields.io/npm/v/@pob/use-eslint-plugin.svg?style=flat-square"></a>  | check plugin version between dependency and root
 

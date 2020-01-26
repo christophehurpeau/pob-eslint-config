@@ -1,0 +1,30 @@
+{
+  "name": "@pob/use-eslint-plugin",
+  "version": "0.1.0-pre",
+  "description": "check plugin version between dependency and root",
+  "keywords": [],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:christophehurpeau/eslint-config-pob.git",
+    "directory": "@pob/use-eslint-plugin"
+  },
+  "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint --quiet lib"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "pob": {}
+}

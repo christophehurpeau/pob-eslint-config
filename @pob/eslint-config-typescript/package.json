@@ -29,12 +29,9 @@
   "pob": {},
   "dependencies": {
     "@pob/eslint-config-babel-common": "^34.0.0",
+    "@pob/use-eslint-plugin": "^0.1.0-pre",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
     "eslint-config-prettier": "^6.7.0"
-  },
-  "devDependencies": {
-    "eslint": "6.8.0",
-    "prettier": "1.19.1"
   }
 }

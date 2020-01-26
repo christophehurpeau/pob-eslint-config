@@ -1,5 +1,9 @@
 'use strict';
 
+const usePlugin = require('@pob/use-eslint-plugin');
+
+usePlugin(require('eslint-plugin-prettier/package.json'));
+
 module.exports = {
   plugins: ['prettier'],
   extends: ['eslint-config-prettier'].map(require.resolve),
