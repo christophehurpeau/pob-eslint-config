@@ -27,9 +27,6 @@
     "arrowParens": "always"
   },
   "pob": {},
-  "peerDependencies": {
-    "@pob/eslint-config-typescript": "^32.0.13"
-  },
   "dependencies": {
     "@pob/eslint-config-react": "^34.0.0"
   }
