@@ -1,4 +1,5 @@
 {
   "eslint.nodePath": ".vscode/pnpify",
-  "prettier.prettierPath": ".vscode/pnpify/prettier"
+  "prettier.prettierPath": ".vscode/pnpify/prettier/index.js",
+  "eslint.enable": true
 }
