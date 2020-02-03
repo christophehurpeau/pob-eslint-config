@@ -17,7 +17,15 @@
   "prettier": {
     "trailingComma": "es5",
     "singleQuote": true,
-    "arrowParens": "always"
+    "arrowParens": "always",
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "parser": "json"
+        }
+      }
+    ]
   },
   "commitlint": {
     "extends": ["@commitlint/config-conventional"]

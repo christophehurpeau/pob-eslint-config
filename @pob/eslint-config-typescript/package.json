@@ -27,6 +27,10 @@
     "arrowParens": "always"
   },
   "pob": {},
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0"
+  },
   "dependencies": {
     "@pob/eslint-config-babel-common": "^34.0.0",
     "@pob/use-eslint-plugin": "^0.1.0-pre",
