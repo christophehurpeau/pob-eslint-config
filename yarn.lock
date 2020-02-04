@@ -1394,9 +1394,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/repo-config@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@pob/repo-config@npm:1.1.2"
+"@pob/repo-config@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@pob/repo-config@npm:1.1.3"
   dependencies:
     "@commitlint/cli": 8.3.5
     "@commitlint/config-conventional": 8.3.4
@@ -1410,7 +1410,7 @@ __metadata:
     husky: ^3.0.4 || ^4.2.1
   bin:
     lint-staged: ./lint-staged.js
-  checksum: 864758e3caf73ae5087c180364595f0fdb15571fc6895cf06b5571e6c6e5a3e6a91a06055aa00be1079fa605e51a948e9b03315fd6a3428a1bdf0728b2c749ae
+  checksum: 1df13dba33e7f2f3841ad88e9a1a9dce309535369fc3a12ee4d9e2e32856b80228f283871bbd1d333ae025300cec22ec7808cc4c6bf3350a6eff0eaa02c79b42
   languageName: node
   linkType: hard
 
@@ -7531,7 +7531,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@pob/repo-config": 1.1.2
+    "@pob/repo-config": 1.1.3
     "@pob/version": 5.1.0
     "@yarnpkg/pnpify": 2.0.0-rc.17
     eslint: 6.8.0
