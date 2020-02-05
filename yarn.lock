@@ -1301,6 +1301,9 @@ __metadata:
     eslint-plugin-prefer-class-properties: ^1.0.0
   peerDependencies:
     eslint-plugin-prefer-class-properties: ^1.0.0
+  peerDependenciesMeta:
+    eslint-plugin-prefer-class-properties:
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1312,6 +1315,9 @@ __metadata:
     eslint-plugin-node: ^11.0.0
   peerDependencies:
     eslint-plugin-node: ^11.0.0
+  peerDependenciesMeta:
+    eslint-plugin-node:
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1332,6 +1338,9 @@ __metadata:
     eslint-plugin-node: ^11.0.0
   peerDependencies:
     eslint-plugin-node: ^11.0.0
+  peerDependenciesMeta:
+    eslint-plugin-node:
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1349,6 +1358,13 @@ __metadata:
     eslint-plugin-jsx-a11y: ^6.2.3
     eslint-plugin-react: ^7.17.0
     eslint-plugin-react-hooks: ^2.3.0
+  peerDependenciesMeta:
+    eslint-plugin-jsx-a11y:
+      optional: true
+    eslint-plugin-react:
+      optional: true
+    eslint-plugin-react-hooks:
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1372,6 +1388,9 @@ __metadata:
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^2.10.0
     "@typescript-eslint/parser": ^2.10.0
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1391,6 +1410,11 @@ __metadata:
     eslint-plugin-prettier: ^3.1.2
     eslint-plugin-unicorn: ^15.0.1
     prettier: ^1.15.2
+  peerDependenciesMeta:
+    eslint-plugin-prefer-class-properties:
+      optional: true
+    eslint-plugin-prettier:
+      optional: true
   languageName: unknown
   linkType: soft
 

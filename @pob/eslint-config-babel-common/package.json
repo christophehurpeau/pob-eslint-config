@@ -30,6 +30,11 @@
   "peerDependencies": {
     "eslint-plugin-prefer-class-properties": "^1.0.0"
   },
+  "peerDependenciesMeta": {
+    "eslint-plugin-prefer-class-properties": {
+      "optional": true
+    }
+  },
   "dependencies": {
     "@pob/eslint-config": "^35.0.0",
     "@pob/use-eslint-plugin": "^35.0.0",

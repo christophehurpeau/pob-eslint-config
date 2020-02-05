@@ -31,6 +31,11 @@
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0"
   },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    }
+  },
   "dependencies": {
     "@pob/eslint-config-babel-common": "^35.0.0",
     "@pob/use-eslint-plugin": "^35.0.0",

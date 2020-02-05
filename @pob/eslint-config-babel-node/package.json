@@ -30,6 +30,11 @@
   "peerDependencies": {
     "eslint-plugin-node": "^11.0.0"
   },
+  "peerDependenciesMeta": {
+    "eslint-plugin-node": {
+      "optional": true
+    }
+  },
   "dependencies": {
     "@pob/use-eslint-plugin": "^35.0.0",
     "eslint-plugin-node": "^11.0.0"
