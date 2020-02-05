@@ -1330,6 +1330,27 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@pob/eslint-config-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@pob/eslint-config-monorepo@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^8.3.4
+    "@pob/repo-config": 1.2.0
+    "@pob/version": 5.1.0
+    "@yarnpkg/pnpify": 2.0.0-rc.17
+    eslint: 6.8.0
+    eslint-import-resolver-node: 0.3.3
+    eslint-plugin-import: 2.20.0
+    eslint-plugin-node: 11.0.0
+    eslint-plugin-prefer-class-properties: 1.0.0
+    eslint-plugin-prettier: 3.1.2
+    eslint-plugin-unicorn: 15.0.1
+    husky: 4.2.1
+    lerna: 3.20.2
+    prettier: 1.19.1
+  languageName: unknown
+  linkType: soft
+
 "@pob/eslint-config-node@workspace:@pob/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-node@workspace:@pob/eslint-config-node"
@@ -7551,27 +7572,6 @@ __metadata:
   checksum: 580678159cca56caf1a5600414716c66ffae68e2c8e31991080f304cf19a3c6b84983cd11405da22bd8b508dd60d492d573bb4e76b7ac8c080cf03f54fcb529e
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^8.3.4
-    "@pob/repo-config": 1.2.0
-    "@pob/version": 5.1.0
-    "@yarnpkg/pnpify": 2.0.0-rc.17
-    eslint: 6.8.0
-    eslint-import-resolver-node: 0.3.3
-    eslint-plugin-import: 2.20.0
-    eslint-plugin-node: 11.0.0
-    eslint-plugin-prefer-class-properties: 1.0.0
-    eslint-plugin-prettier: 3.1.2
-    eslint-plugin-unicorn: 15.0.1
-    husky: 4.2.1
-    lerna: 3.20.2
-    prettier: 1.19.1
-  languageName: unknown
-  linkType: soft
 
 "run-async@npm:^2.2.0":
   version: 2.3.0

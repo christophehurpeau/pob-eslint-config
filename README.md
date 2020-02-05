@@ -1,6 +1,10 @@
 <h3 align="center">
-  eslint-config-pob
+  @pob/eslint-config-monorepo
 </h3>
+
+<p align="center">
+  pob eslint configs
+</p>
 
 <h1>Packages</h1>
 
