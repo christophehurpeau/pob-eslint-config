@@ -12,11 +12,11 @@
 </p>
 
 ## Install
-       
+
 1. `npm install --save-dev eslint @pob/eslint-config-typescript`
 2. add `"extends": ["@pob/eslint-config-typescript"]` to your .eslintrc
 
 ## Install with node
-     
+
 1. `npm install --save-dev eslint @pob/eslint-config-typescript @pob/eslint-config-babel-node`
 2. add `"extends": ["@pob/eslint-config-typescript", "@pob/eslint-config-babel-node"]` to your .eslintrc
