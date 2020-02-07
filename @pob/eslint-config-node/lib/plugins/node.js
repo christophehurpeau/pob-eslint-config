@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     // already checked by import plugin
     'node/no-unpublished-require': 'off',
+    'node/no-extraneous-require': 'off',
   },
   // env: {
   //   browser: false,
