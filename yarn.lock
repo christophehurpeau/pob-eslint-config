@@ -1344,7 +1344,7 @@ __metadata:
   resolution: "@pob/eslint-config-monorepo@workspace:."
   dependencies:
     "@pob/commitlint-config": 1.0.0
-    "@pob/root": 1.3.2
+    "@pob/root": 1.3.4
     "@yarnpkg/pnpify": 2.0.0-rc.17
     eslint: 6.8.0
     eslint-import-resolver-node: 0.3.3
@@ -1353,7 +1353,7 @@ __metadata:
     eslint-plugin-prefer-class-properties: 1.0.0
     eslint-plugin-prettier: 3.1.2
     eslint-plugin-unicorn: 15.0.1
-    husky: 4.2.1
+    husky: 4.2.3
     lerna: 3.20.2
     prettier: 1.19.1
   languageName: unknown
@@ -1447,25 +1447,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/root@npm:1.3.2":
-  version: 1.3.2
-  resolution: "@pob/root@npm:1.3.2"
+"@pob/root@npm:1.3.4":
+  version: 1.3.4
+  resolution: "@pob/root@npm:1.3.4"
   dependencies:
     "@commitlint/cli": 8.3.5
     cross-env: ^7.0.0
     lint-staged: 10.0.7
-    repository-check-dirty: ^1.1.0
+    repository-check-dirty: ^1.2.1
     semver: ^7.1.2
     which-pm-runs: 1.0.0
     yarn-deduplicate: 1.1.1
     yarnhook: ^0.4.3
   peerDependencies:
-    husky: ^3.0.4 || ^4.2.1
+    husky: ^3.0.4 || ^4.2.3
   bin:
     commitlint: ./bin/commitlint.js
     lint-staged: ./bin/lint-staged.js
     repository-check-dirty: ./bin/repository-check-dirty.js
-  checksum: e6515c8ea3652553c9d1c3ca544df62083e1aa148cc38882a5ee1325ad5eff10ff2a742613d18a4164e9734322e10b5e4484ee60907d1d7a53c709db84796319
+  checksum: 4a8f3373e9c954e584c8b1fc2cfa85bfeb95369294ae7d35605cf86f8146bf0cef48253febcf3bed396c517192d614de561dccafc7b20e114927fd04ea2a57ba
   languageName: node
   linkType: hard
 
@@ -4600,9 +4600,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:4.2.1":
-  version: 4.2.1
-  resolution: "husky@npm:4.2.1"
+"husky@npm:4.2.3":
+  version: 4.2.3
+  resolution: "husky@npm:4.2.3"
   dependencies:
     chalk: ^3.0.0
     ci-info: ^2.0.0
@@ -4617,7 +4617,7 @@ __metadata:
   bin:
     husky-run: bin/run.js
     husky-upgrade: lib/upgrader/bin.js
-  checksum: 687d8482f0fd5d4e0723bb3e91bd64fb7b9abbb1fda7ac86f5f6cac56f6318a96a8b5302e33a80f26098a8734e6a9373f2b2a21ad1f2969424b6935736ed9b7b
+  checksum: 60614c0dfcadb2ada6a5c52a235b3974b84c560133370cc9166da57bc001bece2d765a33a779f8fe1a0086254064bc658d80b3aad9c26b3e0ae5f8c981be1b70
   languageName: node
   linkType: hard
 
@@ -7399,14 +7399,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"repository-check-dirty@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "repository-check-dirty@npm:1.1.0"
-  dependencies:
-    "@lerna/check-working-tree": 3.16.5
+"repository-check-dirty@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "repository-check-dirty@npm:1.2.1"
   bin:
     repository-check-dirty: ./bin/repository-check-dirty.js
-  checksum: 9ad54c78e6cd135993bb0997fca8d7a9b2aa7f8511fe613cc80b1815914ec37e40b8f999e204c88bc34c63633c2d79acef27f555e1e3f55202e4949a4621ed3e
+  checksum: 2211f30aff95e6ed10ce372ffc767637e84a792487b30cb4325e1c2a741837ccea5361d2385785d762d18aca6dc8e1ce7e2563c311a42f75890e14d4e3ab2fef
   languageName: node
   linkType: hard
 
