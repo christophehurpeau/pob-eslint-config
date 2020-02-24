@@ -30,6 +30,9 @@ jobs:
       - name: Check Dependencies
         run: yarn install --immutable
 
+      - name: Checks
+        run: yarn checks
+
       - name: Lint
         run: yarn run lint
         if: startsWith(matrix.node-version, '12.')

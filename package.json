@@ -14,6 +14,7 @@
     "@pob/*"
   ],
   "scripts": {
+    "checks": "node ./scripts/check-packages-dependencies.js",
     "lint": "eslint .",
     "preversion": "eslint . && repository-check-dirty",
     "release": "GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --conventional-graduate --create-release=github -m 'chore: release' && lerna publish from-git"
