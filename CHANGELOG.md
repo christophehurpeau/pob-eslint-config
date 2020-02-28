@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [36.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v35.0.1...v36.0.0) (2020-02-28)
+
+
+### chore
+
+* **deps:** update dependency eslint-plugin-unicorn to v16 ([#119](https://github.com/christophehurpeau/eslint-config-pob/issues/119)) ([bab9d7e](https://github.com/christophehurpeau/eslint-config-pob/commit/bab9d7e49d0c8d2a7ec3eb0d3d5251360c026865))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint-plugin-unicorn 16
+
+Co-authored-by: WhiteSource Renovate <renovatebot@gmail.com>
+Co-authored-by: Christophe Hurpeau <christophe.hurpeau+github@gmail.com>
+
+
+
+
+
 ## [35.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v35.0.0...v35.0.1) (2020-02-07)
 
 
