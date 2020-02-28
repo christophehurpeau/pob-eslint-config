@@ -1355,7 +1355,7 @@ __metadata:
     eslint-plugin-node: 11.0.0
     eslint-plugin-prefer-class-properties: 1.0.0
     eslint-plugin-prettier: 3.1.2
-    eslint-plugin-unicorn: 15.0.1
+    eslint-plugin-unicorn: 16.1.1
     husky: 4.2.3
     lerna: 3.20.2
     prettier: 1.19.1
@@ -1437,13 +1437,13 @@ __metadata:
     eslint-config-prettier: ^6.7.0
     eslint-plugin-prefer-class-properties: ^1.0.0
     eslint-plugin-prettier: ^3.1.2
-    eslint-plugin-unicorn: ^15.0.1
+    eslint-plugin-unicorn: ^16.0.0
   peerDependencies:
     eslint: ^6.2.2
     eslint-plugin-import: ^2.18.2
     eslint-plugin-prefer-class-properties: ^1.0.0
     eslint-plugin-prettier: ^3.1.2
-    eslint-plugin-unicorn: ^15.0.1
+    eslint-plugin-unicorn: ^16.0.0
     prettier: ^1.15.2
   peerDependenciesMeta:
     eslint-plugin-prefer-class-properties:
@@ -3533,9 +3533,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:15.0.1, eslint-plugin-unicorn@npm:^15.0.1":
-  version: 15.0.1
-  resolution: "eslint-plugin-unicorn@npm:15.0.1"
+"eslint-plugin-unicorn@npm:16.1.1, eslint-plugin-unicorn@npm:^16.0.0":
+  version: 16.1.1
+  resolution: "eslint-plugin-unicorn@npm:16.1.1"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -3552,10 +3552,10 @@ __metadata:
     regexpp: ^3.0.0
     reserved-words: ^0.1.2
     safe-regex: ^2.1.1
-    semver: ^6.3.0
+    semver: ^7.1.2
   peerDependencies:
     eslint: ">=6.7.1"
-  checksum: 2/701ed519a89f7123d0de94e21b321398707442950c4467c6d1a9ed686bcac1bca1052a29becdc9610c911586f25300cce176af7ff1832c5f5649a72fe24ca049
+  checksum: 2/10ff62cc31c8dc4cbb291385f48c391dfc9dafec43444779ab585b8d2f239494f1e51d68f87641c07e40ef7e8332120acefecf36b3c2595dd2b593c137d7d60b
   languageName: node
   linkType: hard
 
