@@ -59,7 +59,7 @@ module.exports = {
     'unicorn/new-for-builtins': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
-    'unicorn/regex-shorthand': 'error',
+    'unicorn/better-regex': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'error',
@@ -141,11 +141,20 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
     'unicorn/prefer-negative-index': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
+    // https://github.com/sindr esorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
     'unicorn/prefer-modern-dom-apis': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-replace-all.md
     'unicorn/prefer-replace-all': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md
+    'unicorn/string-content': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md
+    'unicorn/prefer-number-properties': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md
+    'unicorn/prefer-set-has': 'off',
   },
 
   overrides: [

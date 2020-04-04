@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prefer-class-properties": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-unicorn": "^16.0.0",
+    "eslint-plugin-unicorn": "^18.0.1",
     "prettier": "^2.0.2"
   },
   "peerDependenciesMeta": {
@@ -49,6 +49,6 @@
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prefer-class-properties": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-unicorn": "^16.0.0"
+    "eslint-plugin-unicorn": "^18.0.1"
   }
 }
