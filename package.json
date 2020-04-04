@@ -44,7 +44,7 @@
     "eslint-plugin-unicorn": "16.1.1",
     "husky": "4.2.3",
     "lerna": "3.20.2",
-    "prettier": "1.19.1",
+    "prettier": "2.0.2",
     "semver": "7.1.3"
   }
 }
