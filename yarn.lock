@@ -1306,7 +1306,7 @@ __metadata:
   dependencies:
     "@pob/eslint-config": ^36.0.0
     "@pob/use-eslint-plugin": ^36.0.0
-    eslint-config-airbnb-base: ^14.0.0
+    eslint-config-airbnb-base: ^14.1.0
     eslint-plugin-prefer-class-properties: ^1.0.0
   peerDependencies:
     eslint-plugin-import: ^2.18.2
@@ -1348,8 +1348,8 @@ __metadata:
     "@pob/root": 1.3.4
     "@yarnpkg/pnpify": 2.0.0-rc.17
     eslint: 6.8.0
-    eslint-config-airbnb: 18.0.1
-    eslint-config-airbnb-base: 14.0.0
+    eslint-config-airbnb: 18.1.0
+    eslint-config-airbnb-base: 14.1.0
     eslint-import-resolver-node: 0.3.3
     eslint-plugin-import: 2.20.0
     eslint-plugin-node: 11.0.0
@@ -1382,7 +1382,7 @@ __metadata:
   resolution: "@pob/eslint-config-react@workspace:@pob/eslint-config-react"
   dependencies:
     "@pob/eslint-config": ^36.0.0
-    eslint-config-airbnb: ^18.0.1
+    eslint-config-airbnb: ^18.1.0
     eslint-config-prettier: ^6.7.0
     eslint-plugin-jsx-a11y: ^6.2.3
     eslint-plugin-react: ^7.17.0
@@ -1433,7 +1433,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@pob/use-eslint-plugin": ^36.0.0
-    eslint-config-airbnb-base: ^14.0.0
+    eslint-config-airbnb-base: ^14.1.0
     eslint-config-prettier: ^6.7.0
     eslint-plugin-prefer-class-properties: ^1.0.0
     eslint-plugin-prettier: ^3.1.2
@@ -2654,7 +2654,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"confusing-browser-globals@npm:^1.0.7":
+"confusing-browser-globals@npm:^1.0.9":
   version: 1.0.9
   resolution: "confusing-browser-globals@npm:1.0.9"
   checksum: 2/319e6d15384745d3ff4a5ca0357b687e0d36a1ab29a03084e192ea12802532de0fa7319169b09e971aba6a291f8a5ca333105e0fb239ed3f6c891f13eea2bea6
@@ -3351,34 +3351,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:14.0.0, eslint-config-airbnb-base@npm:^14.0.0":
-  version: 14.0.0
-  resolution: "eslint-config-airbnb-base@npm:14.0.0"
+"eslint-config-airbnb-base@npm:14.1.0, eslint-config-airbnb-base@npm:^14.1.0":
+  version: 14.1.0
+  resolution: "eslint-config-airbnb-base@npm:14.1.0"
   dependencies:
-    confusing-browser-globals: ^1.0.7
+    confusing-browser-globals: ^1.0.9
     object.assign: ^4.1.0
-    object.entries: ^1.1.0
+    object.entries: ^1.1.1
   peerDependencies:
-    eslint: ^5.16.0 || ^6.1.0
-    eslint-plugin-import: ^2.18.2
-  checksum: 2/5f08678cc509dd0fcd48f95856e7874e00ce6a74577e3eadd2fd70ed5dd5bc4fab411fe371c22982ecfbfe57afe86549e4ba121d7db4b18427d8a28647d85695
+    eslint: ^5.16.0 || ^6.8.0
+    eslint-plugin-import: ^2.20.1
+  checksum: 2/d397634f4e9423d4a2cdc9eddfbe0da59502be1129f1f0701be380e23f68348530c12eb10c18b63d57c44af19bf2ccc12d0e8ea2bad215282b98a380f4ea2a2f
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb@npm:18.0.1, eslint-config-airbnb@npm:^18.0.1":
-  version: 18.0.1
-  resolution: "eslint-config-airbnb@npm:18.0.1"
+"eslint-config-airbnb@npm:18.1.0, eslint-config-airbnb@npm:^18.1.0":
+  version: 18.1.0
+  resolution: "eslint-config-airbnb@npm:18.1.0"
   dependencies:
-    eslint-config-airbnb-base: ^14.0.0
+    eslint-config-airbnb-base: ^14.1.0
     object.assign: ^4.1.0
-    object.entries: ^1.1.0
+    object.entries: ^1.1.1
   peerDependencies:
-    eslint: ^5.16.0 || ^6.1.0
-    eslint-plugin-import: ^2.18.2
+    eslint: ^5.16.0 || ^6.8.0
+    eslint-plugin-import: ^2.20.1
     eslint-plugin-jsx-a11y: ^6.2.3
-    eslint-plugin-react: ^7.14.3
-    eslint-plugin-react-hooks: ^1.7.0
-  checksum: 2/ab20b863b07aeb2c5dfb374c649405b0dabd624ecd6bc6dbd3aa3aae3d3888701258f8ad7e80dade7b308499334ee03546cf2d5cee3694a03bc65fcc10ff3d60
+    eslint-plugin-react: ^7.19.0
+    eslint-plugin-react-hooks: ^2.5.0 || ^1.7.0
+  checksum: 2/229f67ab3a5007be7e7431add143f68e7a6b145f330542c2632ed6f11ce4a43d6cee31d7069817ef88a56e18bfc18eae2e62719c6b25cae0ed7b4bd8a4c67cb2
   languageName: node
   linkType: hard
 
@@ -6361,7 +6361,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.entries@npm:^1.1.0, object.entries@npm:^1.1.1":
+"object.entries@npm:^1.1.1":
   version: 1.1.1
   resolution: "object.entries@npm:1.1.1"
   dependencies:

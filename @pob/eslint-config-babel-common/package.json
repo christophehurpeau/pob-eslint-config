@@ -39,7 +39,7 @@
   "dependencies": {
     "@pob/eslint-config": "^36.0.0",
     "@pob/use-eslint-plugin": "^36.0.0",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
   }
 }
