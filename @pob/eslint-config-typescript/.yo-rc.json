@@ -6,7 +6,7 @@
     }
   },
   "@pob/eslint-config-typescript": {
-    "type": {
+    "project": {
       "type": "lib"
     }
   }

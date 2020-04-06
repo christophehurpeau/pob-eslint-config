@@ -1291,12 +1291,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@pob/commitlint-config@npm:1.0.0"
+"@pob/commitlint-config@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@pob/commitlint-config@npm:1.1.1"
   dependencies:
     "@commitlint/config-conventional": ^8.3.4
-  checksum: 2/46ad08d3b7cb86d565f4956268331156affff84847fc396183ce72c69627e50050f7dd89c91e403954005d8b675bd43533dec66631dd2d75d77025ceafd56569
+  checksum: 2/a921578741f421f433810792b3fa65958f643744fdcc935b5dd7271994edf0395e559c285e7f0c14a469c2bd224aac42c807dd922f03b18ba248b509bb76d513
   languageName: node
   linkType: hard
 
@@ -1344,9 +1344,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-monorepo@workspace:."
   dependencies:
-    "@pob/commitlint-config": 1.0.0
-    "@pob/root": 1.3.4
-    "@yarnpkg/pnpify": 2.0.0-rc.17
+    "@pob/commitlint-config": 1.1.1
+    "@pob/root": 1.4.0
+    "@yarnpkg/pnpify": 2.0.0-rc.20
     eslint: 6.8.0
     eslint-config-airbnb: 18.1.0
     eslint-config-airbnb-base: 14.1.0
@@ -1453,17 +1453,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/root@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@pob/root@npm:1.3.4"
+"@pob/root@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@pob/root@npm:1.4.0"
   dependencies:
     "@commitlint/cli": 8.3.5
     cross-env: ^7.0.0
-    lint-staged: 10.0.7
+    lint-staged: 10.1.2
     repository-check-dirty: ^1.2.1
     semver: ^7.1.2
     which-pm-runs: 1.0.0
-    yarn-deduplicate: 1.1.1
+    yarn-deduplicate: 2.0.0
     yarnhook: ^0.4.3
   peerDependencies:
     husky: ^3.0.4 || ^4.2.3
@@ -1471,7 +1471,7 @@ __metadata:
     commitlint: ./bin/commitlint.js
     lint-staged: ./bin/lint-staged.js
     repository-check-dirty: ./bin/repository-check-dirty.js
-  checksum: 2/5207a9ce03b7e2c813b7c406b1a4f1b95a18531a06b986fe8dbde40b67a38a31422e1162626d3e44348e3cae90cbf8c9de89716027ec5a0537999251591cc5d3
+  checksum: 2/cdcc6d229dc8edea0c9e669a394a30d82652eb791039e4860fb80c147ef59a45f85d64bb63a14c2594f92ac6c75c9c8e380d562f57bda5a2c98877160384b38b
   languageName: node
   linkType: hard
 
@@ -1494,6 +1494,13 @@ __metadata:
   version: 1.1.1
   resolution: "@types/color-name@npm:1.1.1"
   checksum: 2/8311db94a9c4ecd247763b81e783ee49d87678b4ce6a7ee502e2bd5cea242b7357804a04855db009f713174bc654cc0c01c7303d40d757e5d710f5ac0368500f
+  languageName: node
+  linkType: hard
+
+"@types/emscripten@npm:^1.38.0":
+  version: 1.39.3
+  resolution: "@types/emscripten@npm:1.39.3"
+  checksum: 2/dd6453e0de7e5ec31850e021749a2ea6c25af9477d41cc973b1d6ce6cd14da97301d13da7a75e6161064800b0fcfb6c8e4be4b1b730039f724d8decd4e3b8fff
   languageName: node
   linkType: hard
 
@@ -1628,20 +1635,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^2.0.0-rc.15":
-  version: 2.0.0-rc.15
-  resolution: "@yarnpkg/fslib@npm:2.0.0-rc.15"
+"@yarnpkg/fslib@npm:^2.0.0-rc.17":
+  version: 2.0.0-rc.17
+  resolution: "@yarnpkg/fslib@npm:2.0.0-rc.17"
   dependencies:
-    "@yarnpkg/libzip": ^2.0.0-rc.8
-    tmp: ^0.1.0
-  checksum: 2/dae3ab76e835196758ab6d8066149369e5a8d33fc2626df2aa289f1608193b3db072427fdf8b57445a0083f9bb9e73db07ce7da36b2683fc18a5645807d99cb3
+    "@yarnpkg/libzip": ^2.0.0-rc.10
+  checksum: 2/4e90a046f1645bac793c88811beb7da945af63cc9ce48930199714050c601adb52c7dab1dd3cac7d9fb200dbade4bcf15248925b98ccb3ed7546c339b9f66817
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^2.0.0-rc.8":
-  version: 2.0.0-rc.9
-  resolution: "@yarnpkg/libzip@npm:2.0.0-rc.9"
-  checksum: 2/8c0254aaae483a25a841454bcbb0d1c9d55c1fd7654ec3bb1743ad99e2b2637479bf62b2651a293c806377c045a9178d6288d92f8aba23a3fc57b39367cf367d
+"@yarnpkg/libzip@npm:^2.0.0-rc.10":
+  version: 2.0.0-rc.10
+  resolution: "@yarnpkg/libzip@npm:2.0.0-rc.10"
+  dependencies:
+    "@types/emscripten": ^1.38.0
+  checksum: 2/95ae332b349eee4d53e0f098b7d1e4a399960d6661f33873f26cce47d32daa7e0cca7fbeb5f236aa17a20a1e5fd0d250e585267ec356df7732b6a835d934bd66
   languageName: node
   linkType: hard
 
@@ -1652,11 +1660,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnpify@npm:2.0.0-rc.17":
-  version: 2.0.0-rc.17
-  resolution: "@yarnpkg/pnpify@npm:2.0.0-rc.17"
+"@yarnpkg/pnpify@npm:2.0.0-rc.20":
+  version: 2.0.0-rc.20
+  resolution: "@yarnpkg/pnpify@npm:2.0.0-rc.20"
   dependencies:
-    "@yarnpkg/fslib": ^2.0.0-rc.15
+    "@yarnpkg/fslib": ^2.0.0-rc.17
+    chalk: ^3.0.0
     comment-json: ^2.2.0
     cross-spawn: 6.0.5
   peerDependencies:
@@ -1669,7 +1678,7 @@ __metadata:
       optional: true
   bin:
     pnpify: ./lib/cli.js
-  checksum: 2/0a4a84ea1ae649f57406c871700d8c11dfccbe6f04524ad4e8e355ebf445846d3081b810912dbfa5fb1bd3855baccf683af4f7b39c8a15de6c6512b706e20ef7
+  checksum: 2/26b1656ffe13ce6760b3abd94d6bbc0f63b567cb7cabecaf14517a61dc79cbefb09bd07732a300e922c3f4edc7c6119c4500f30f9fa39cd67194ae154c5accce
   languageName: node
   linkType: hard
 
@@ -2563,7 +2572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^2.10.0, commander@npm:^2.11.0, commander@npm:~2.20.3":
+"commander@npm:^2.11.0, commander@npm:~2.20.3":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
   checksum: 2/b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
@@ -2574,6 +2583,13 @@ __metadata:
   version: 4.1.0
   resolution: "commander@npm:4.1.0"
   checksum: 2/90e7ae2735d850e3b33986e26fdc44dcaf0aacc464aba9b7c38f10aa28f2379f6984266bcb5e23cc04baf6945b10cfc0829f0bb58339783d805d37408bac1dde
+  languageName: node
+  linkType: hard
+
+"commander@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "commander@npm:4.1.1"
+  checksum: 2/448585071bf8fb4c0bf9dd52abaee43dea086f801334caec2c8e8c9f456f8abc224c1614ccbbdbf7da5ac2524d230f13cf1fc86c233cf8a041ebecea7df106e9
   languageName: node
   linkType: hard
 
@@ -5377,9 +5393,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:10.0.7":
-  version: 10.0.7
-  resolution: "lint-staged@npm:10.0.7"
+"lint-staged@npm:10.1.2":
+  version: 10.1.2
+  resolution: "lint-staged@npm:10.1.2"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -5396,7 +5412,7 @@ __metadata:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 2/dbab471dd41c2cc0bdfb612bdbfbf6a4fb0b4e2d4924024326e4610c88887b14e3586e24afb19d777f6b80161f0f3523c7e1482e3a8d6184871703ea494dcdf8
+  checksum: 2/3548e35efcbce5f327ac9f3d2f78c53200b3a6bae0dd9cc7dc2ca594ffd46d20243255409eccf861f2ce032168aac7436233037dd86e03d486287095626b6ff2
   languageName: node
   linkType: hard
 
@@ -7639,7 +7655,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:2 || 3 || 4 || 5, semver@npm:2.x || 3.x || 4 || 5, semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.5.1, semver@npm:^5.6.0, semver@npm:^5.7.0, semver@npm:^5.7.1":
+"semver@npm:2 || 3 || 4 || 5, semver@npm:2.x || 3.x || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.5.1, semver@npm:^5.6.0, semver@npm:^5.7.0, semver@npm:^5.7.1":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -8362,15 +8378,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tmp@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "tmp@npm:0.1.0"
-  dependencies:
-    rimraf: ^2.6.3
-  checksum: 2/b505e9f4f5e8076a1789fa1cec50b42220fdb90dec3e44ff0598d74701e340333ef7c28a55ed2d59b24112e2668e98e92852352ad4dc20352250a7be5cc1a973
-  languageName: node
-  linkType: hard
-
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0
   resolution: "to-fast-properties@npm:2.0.0"
@@ -8959,16 +8966,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn-deduplicate@npm:1.1.1":
-  version: 1.1.1
-  resolution: "yarn-deduplicate@npm:1.1.1"
+"yarn-deduplicate@npm:2.0.0":
+  version: 2.0.0
+  resolution: "yarn-deduplicate@npm:2.0.0"
   dependencies:
     "@yarnpkg/lockfile": ^1.1.0
-    commander: ^2.10.0
-    semver: ^5.3.0
+    commander: ^4.1.1
+    semver: 7.1.3
   bin:
-    yarn-deduplicate: ./cli.js
-  checksum: 2/cbed123ea21b36d94c126e01e950ff8dfc0c0413595f4baba6e9adef6a9670aaaad0e80e9c534b6e85d1ff8c109a72fd8319f2dd187cc1ec7425901c3b003b9b
+    yarn-deduplicate: cli.js
+  checksum: 2/14aad820f96cba5a15d17fadc162f5b31b08fb912875c9720778e6493d5de54f5aa6157e194328c045a9c95c8a3392ffba2d2f0cbd13d18d6cdbda98022fd8d4
   languageName: node
   linkType: hard
 

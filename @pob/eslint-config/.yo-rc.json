@@ -6,7 +6,7 @@
     }
   },
   "@pob/eslint-config": {
-    "type": {
+    "project": {
       "type": "lib"
     }
   }

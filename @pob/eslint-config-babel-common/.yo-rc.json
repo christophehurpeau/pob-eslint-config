@@ -5,13 +5,8 @@
       "testing": false
     }
   },
-  "@pob/eslint-config-babel": {
-    "type": {
-      "type": "lib"
-    }
-  },
   "@pob/eslint-config-babel-common": {
-    "type": {
+    "project": {
       "type": "lib"
     }
   }

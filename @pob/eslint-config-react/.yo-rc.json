@@ -6,7 +6,7 @@
     }
   },
   "@pob/eslint-config-react": {
-    "type": {
+    "project": {
       "type": "lib"
     }
   }
