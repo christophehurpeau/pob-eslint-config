@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [37.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.0.0...v37.0.1) (2020-04-07)
+
+
+### Bug Fixes
+
+* required peer dep eslint match eslint-config-airbnb-base ([b22adb0](https://github.com/christophehurpeau/eslint-config-pob/commit/b22adb0e23af1c627b427b4b4cf8137afce94894))
+
+
+
+
+
 # [37.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v36.0.0...v37.0.0) (2020-04-04)
 
 

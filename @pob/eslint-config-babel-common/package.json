@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-babel-common",
-  "version": "37.0.0",
+  "version": "37.0.1",
   "description": "eslint config common babel",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -37,8 +37,8 @@
     }
   },
   "dependencies": {
-    "@pob/eslint-config": "^37.0.0",
-    "@pob/use-eslint-plugin": "^37.0.0",
+    "@pob/eslint-config": "^37.0.1",
+    "@pob/use-eslint-plugin": "^37.0.1",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
   }

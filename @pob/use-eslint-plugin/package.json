@@ -1,6 +1,6 @@
 {
   "name": "@pob/use-eslint-plugin",
-  "version": "37.0.0",
+  "version": "37.0.1",
   "description": "check plugin version between dependency and root",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
