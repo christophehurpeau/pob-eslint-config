@@ -1359,7 +1359,7 @@ __metadata:
     husky: 4.2.5
     lerna: 3.20.2
     prettier: 2.0.4
-    semver: 7.2.3
+    semver: 7.3.2
   languageName: unknown
   linkType: soft
 
@@ -7718,12 +7718,12 @@ resolve@^1.15.1:
   languageName: node
   linkType: hard
 
-"semver@npm:7.2.3":
-  version: 7.2.3
-  resolution: "semver@npm:7.2.3"
+"semver@npm:7.3.2":
+  version: 7.3.2
+  resolution: "semver@npm:7.3.2"
   bin:
     semver: bin/semver.js
-  checksum: 2/1559c92a0c60673c303cac48ac924ab129b9a1968b372c166e92b0a862627d0f4f75b543f85ad4bc5fbb6f2832edbf928d7b3cceb2a412e5b9692837482fce94
+  checksum: 2/bceb46d396d039afb5be2b2860bce1b0a43ecbadc72dde7ebe9c56dd9035ca50d9b8e086208ff9bbe53773ebde0bcfc6fc0842d7358398bca7054bb9ced801e3
   languageName: node
   linkType: hard
 
