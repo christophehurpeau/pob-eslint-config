@@ -46,6 +46,6 @@
     "lerna": "3.20.2",
     "prettier": "2.0.4",
     "semver": "7.3.2",
-    "yarn-berry-deduplicate": "^2.0.0"
+    "yarn-berry-deduplicate": "2.0.0"
   }
 }
