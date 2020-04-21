@@ -20,7 +20,20 @@ npm install --save pob-use-eslint-plugin
 ## Usage
 
 ```js
-import pobUseEslintPlugin from 'pob-use-eslint-plugin';
+'use strict';
 
-console.log(pobUseEslintPlugin);
+const usePlugin = require('@pob/use-eslint-plugin');
+
+usePlugin(require('eslint-plugin-prefer-class-properties/package.json'));
+
+module.exports = {
+  plugins: ['prefer-class-properties'],
+
+  rules: {
+    // https://www.npmjs.com/package/eslint-plugin-prefer-class-properties
+    'prefer-class-properties/prefer-class-properties': 'error',
+  },
+};
 ```
+
+@pob/use-eslint-plugin will ensure both version from this package config and the root package has the same value
