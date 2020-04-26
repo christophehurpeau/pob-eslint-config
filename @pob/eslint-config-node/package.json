@@ -19,7 +19,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint --quiet lib"
+    "lint": "eslint --quiet *.js lib"
   },
   "prettier": {
     "trailingComma": "es5",
@@ -38,5 +38,8 @@
   "dependencies": {
     "@pob/use-eslint-plugin": "^37.0.1",
     "eslint-plugin-node": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0"
   }
 }

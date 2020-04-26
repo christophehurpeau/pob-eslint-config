@@ -3,11 +3,10 @@
     "pob-config": {
       "documentation": false,
       "testing": false
-    }
-  },
-  "@pob/use-eslint-plugin": {
+    },
     "project": {
       "type": "lib"
     }
-  }
+  },
+  "@pob/use-eslint-plugin": {}
 }

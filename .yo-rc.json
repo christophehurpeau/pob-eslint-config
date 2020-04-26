@@ -20,12 +20,11 @@
     },
     "renovate": {
       "enable": true
-    }
-  },
-  "@pob/eslint-config-monorepo": {
+    },
     "project": {
       "type": "lib",
       "yarn2": true
     }
-  }
+  },
+  "@pob/eslint-config-monorepo": {}
 }
