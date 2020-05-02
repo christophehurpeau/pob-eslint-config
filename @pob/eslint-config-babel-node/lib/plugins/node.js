@@ -10,7 +10,6 @@ module.exports = {
   rules: {
     // like commons
     'node/no-deprecated-api': 'error',
-    'node/no-extraneous-import': 'error',
     'node/no-unpublished-bin': 'error',
     'node/no-unsupported-features/es-builtins': 'error',
     'node/no-unsupported-features/node-builtins': 'error',
@@ -24,6 +23,7 @@ module.exports = {
     'node/no-unpublished-import': 'off',
 
     // already checked by import plugin
+    'node/no-extraneous-import': 'off',
     'node/no-unpublished-require': 'off',
   },
 };
