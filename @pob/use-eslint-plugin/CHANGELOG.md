@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [37.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.1.0...v37.2.0) (2020-05-30)
+
+
+### Features
+
+* remove prefer-class-properties ([#141](https://github.com/christophehurpeau/eslint-config-pob/issues/141)) ([dce2126](https://github.com/christophehurpeau/eslint-config-pob/commit/dce21266b2d92aa7c124655c6625e22d42ade084))
+
+
+
+
+
 ## [37.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.0.1...v37.0.2) (2020-05-02)
 
 **Note:** Version bump only for package @pob/use-eslint-plugin

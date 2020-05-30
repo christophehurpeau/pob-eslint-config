@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-node",
-  "version": "37.0.2",
+  "version": "37.2.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -36,7 +36,7 @@
     }
   },
   "dependencies": {
-    "@pob/use-eslint-plugin": "^37.0.2",
+    "@pob/use-eslint-plugin": "^37.2.0",
     "eslint-plugin-node": "^11.0.0"
   }
 }

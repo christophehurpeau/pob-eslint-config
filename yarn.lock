@@ -1300,12 +1300,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/eslint-config-babel-common@^37.1.0, @pob/eslint-config-babel-common@workspace:@pob/eslint-config-babel-common":
+"@pob/eslint-config-babel-common@^37.2.0, @pob/eslint-config-babel-common@workspace:@pob/eslint-config-babel-common":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-babel-common@workspace:@pob/eslint-config-babel-common"
   dependencies:
-    "@pob/eslint-config": ^37.1.0
-    "@pob/use-eslint-plugin": ^37.0.2
+    "@pob/eslint-config": ^37.2.0
+    "@pob/use-eslint-plugin": ^37.2.0
     eslint-config-airbnb-base: ^14.1.0
   peerDependencies:
     eslint-plugin-import: ^2.20.1
@@ -1316,7 +1316,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-babel-node@workspace:@pob/eslint-config-babel-node"
   dependencies:
-    "@pob/use-eslint-plugin": ^37.0.2
+    "@pob/use-eslint-plugin": ^37.2.0
     eslint-plugin-node: ^11.0.0
   peerDependencies:
     eslint-plugin-node: ^11.0.0
@@ -1330,7 +1330,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-babel@workspace:@pob/eslint-config-babel"
   dependencies:
-    "@pob/eslint-config-babel-common": ^37.1.0
+    "@pob/eslint-config-babel-common": ^37.2.0
     babel-eslint: ^10.0.3
   languageName: unknown
   linkType: soft
@@ -1361,7 +1361,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-node@workspace:@pob/eslint-config-node"
   dependencies:
-    "@pob/use-eslint-plugin": ^37.0.2
+    "@pob/use-eslint-plugin": ^37.2.0
     eslint-plugin-node: ^11.0.0
   peerDependencies:
     eslint-plugin-node: ^11.0.0
@@ -1371,11 +1371,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config-react@^37.1.0, @pob/eslint-config-react@workspace:@pob/eslint-config-react":
+"@pob/eslint-config-react@^37.2.0, @pob/eslint-config-react@workspace:@pob/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-react@workspace:@pob/eslint-config-react"
   dependencies:
-    "@pob/eslint-config": ^37.1.0
+    "@pob/eslint-config": ^37.2.0
     eslint-config-airbnb: ^18.1.0
     eslint-config-prettier: ^6.11.0
     eslint-plugin-jsx-a11y: ^6.2.3
@@ -1400,7 +1400,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
-    "@pob/eslint-config-react": ^37.1.0
+    "@pob/eslint-config-react": ^37.2.0
   languageName: unknown
   linkType: soft
 
@@ -1408,8 +1408,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript"
   dependencies:
-    "@pob/eslint-config-babel-common": ^37.1.0
-    "@pob/use-eslint-plugin": ^37.0.2
+    "@pob/eslint-config-babel-common": ^37.2.0
+    "@pob/use-eslint-plugin": ^37.2.0
     "@typescript-eslint/eslint-plugin": ^2.26.0
     "@typescript-eslint/parser": ^2.26.0
     eslint-config-prettier: ^6.11.0
@@ -1422,11 +1422,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config@^37.1.0, @pob/eslint-config@workspace:@pob/eslint-config":
+"@pob/eslint-config@^37.2.0, @pob/eslint-config@workspace:@pob/eslint-config":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
-    "@pob/use-eslint-plugin": ^37.0.2
+    "@pob/use-eslint-plugin": ^37.2.0
     eslint: 6.8.0
     eslint-config-airbnb-base: ^14.1.0
     eslint-config-prettier: ^6.11.0
@@ -1466,7 +1466,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/use-eslint-plugin@^37.0.2, @pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin":
+"@pob/use-eslint-plugin@^37.2.0, @pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin":
   version: 0.0.0-use.local
   resolution: "@pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin"
   languageName: unknown
