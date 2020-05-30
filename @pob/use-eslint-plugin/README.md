@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npm install --save pob-use-eslint-plugin
+npm install --save @pob/use-eslint-plugin
 ```
 
 ## Usage
@@ -24,14 +24,13 @@ npm install --save pob-use-eslint-plugin
 
 const usePlugin = require('@pob/use-eslint-plugin');
 
-usePlugin(require('eslint-plugin-prefer-class-properties/package.json'));
+usePlugin(require('eslint-plugin-prettier/package.json'));
 
 module.exports = {
-  plugins: ['prefer-class-properties'],
+  plugins: ['prettier'],
 
   rules: {
-    // https://www.npmjs.com/package/eslint-plugin-prefer-class-properties
-    'prefer-class-properties/prefer-class-properties': 'error',
+    'prettier/prettier': 'error',
   },
 };
 ```

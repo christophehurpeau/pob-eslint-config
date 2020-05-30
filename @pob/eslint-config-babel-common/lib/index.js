@@ -4,7 +4,6 @@ module.exports = {
   extends: [
     'eslint-config-airbnb-base',
     '@pob/eslint-config/lib/plugins/prettier',
-    './plugins/prefer-class-properties',
     '@pob/eslint-config/lib/plugins/unicorn',
     '@pob/eslint-config/lib/rules/best-practices',
     '@pob/eslint-config/lib/rules/code-quality',

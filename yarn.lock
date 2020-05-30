@@ -1307,13 +1307,8 @@ __metadata:
     "@pob/eslint-config": ^37.1.0
     "@pob/use-eslint-plugin": ^37.0.2
     eslint-config-airbnb-base: ^14.1.0
-    eslint-plugin-prefer-class-properties: ^1.0.0
   peerDependencies:
     eslint-plugin-import: ^2.20.1
-    eslint-plugin-prefer-class-properties: ^1.0.0
-  peerDependenciesMeta:
-    eslint-plugin-prefer-class-properties:
-      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1352,7 +1347,6 @@ __metadata:
     eslint-import-resolver-node: 0.3.3
     eslint-plugin-import: 2.20.2
     eslint-plugin-node: 11.1.0
-    eslint-plugin-prefer-class-properties: 1.0.0
     eslint-plugin-prettier: 3.1.3
     eslint-plugin-unicorn: 18.0.1
     husky: 4.2.5
@@ -1436,19 +1430,15 @@ __metadata:
     eslint: 6.8.0
     eslint-config-airbnb-base: ^14.1.0
     eslint-config-prettier: ^6.11.0
-    eslint-plugin-prefer-class-properties: ^1.0.0
     eslint-plugin-prettier: ^3.1.3
     eslint-plugin-unicorn: ^18.0.1
   peerDependencies:
     eslint: ^6.8.0
     eslint-plugin-import: ^2.20.1
-    eslint-plugin-prefer-class-properties: ^1.0.0
     eslint-plugin-prettier: ^3.1.3
     eslint-plugin-unicorn: ^18.0.1
     prettier: ^2.0.2
   peerDependenciesMeta:
-    eslint-plugin-prefer-class-properties:
-      optional: true
     eslint-plugin-prettier:
       optional: true
   languageName: unknown
@@ -3461,15 +3451,6 @@ __metadata:
   peerDependencies:
     eslint: ">=5.16.0"
   checksum: 3/634e03613a4aa0ffd5ccf0807a375840a915797781a4e5d44fb1c4d331cd2a5e6b3da41924a0d6a2123c1a51626db032a038210153fbba6a0012e0b7c7f26499
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-prefer-class-properties@npm:1.0.0, eslint-plugin-prefer-class-properties@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "eslint-plugin-prefer-class-properties@npm:1.0.0"
-  dependencies:
-    requireindex: ~1.1.0
-  checksum: 3/d272a0537b1da47ea3a3d7083b0661ffc01ac1a5ee623308b712575f440dde6828efd93edab185eb1f55d24ce9f2aca73c20987d99b60289c36a605b4a0ef931
   languageName: node
   linkType: hard
 
@@ -7360,13 +7341,6 @@ __metadata:
   version: 2.0.0
   resolution: "require-main-filename@npm:2.0.0"
   checksum: 3/8d3633149a7fef67d14613146247137fe1dc4cc969bf2d1adcd40e3c28056de503229f41e78cba5efebad3a223cbfb4215fd220d879148df10c6d9a877099dbd
-  languageName: node
-  linkType: hard
-
-"requireindex@npm:~1.1.0":
-  version: 1.1.0
-  resolution: "requireindex@npm:1.1.0"
-  checksum: 3/571a7c97bc3c881321c757c8a1bee09da41eeefab8294bd7858bc4f108eab73e4ad4ce80f8206e7c20ffa1482eda842f3b3021f28ab543ddfc1756272659c71e
   languageName: node
   linkType: hard
 

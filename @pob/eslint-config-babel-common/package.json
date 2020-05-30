@@ -28,18 +28,11 @@
   },
   "pob": {},
   "peerDependencies": {
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-prefer-class-properties": "^1.0.0"
-  },
-  "peerDependenciesMeta": {
-    "eslint-plugin-prefer-class-properties": {
-      "optional": true
-    }
+    "eslint-plugin-import": "^2.20.1"
   },
   "dependencies": {
     "@pob/eslint-config": "^37.1.0",
     "@pob/use-eslint-plugin": "^37.0.2",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-prefer-class-properties": "^1.0.0"
+    "eslint-config-airbnb-base": "^14.1.0"
   }
 }
