@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [38.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.0.0...v38.0.1) (2020-06-05)
+
+
+### Bug Fixes
+
+* ensure sourceType is set to module in typescript config ([908ffbf](https://github.com/christophehurpeau/eslint-config-pob/commit/908ffbf3bd44741e85f198cc4a4eba8d4759b548))
+
+
+
+
+
 # [38.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.2.0...v38.0.0) (2020-06-05)
 
 
