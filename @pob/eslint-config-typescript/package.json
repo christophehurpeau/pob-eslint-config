@@ -29,7 +29,8 @@
   "pob": {},
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0"
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint-plugin-import": "^2.20.1"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
@@ -37,10 +38,11 @@
     }
   },
   "dependencies": {
-    "@pob/eslint-config-babel-common": "^37.2.0",
+    "@pob/eslint-config": "^37.2.0",
     "@pob/use-eslint-plugin": "^37.2.0",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.11.0"
   }
 }

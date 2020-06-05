@@ -1,5 +1,5 @@
 {
-  "name": "@pob/eslint-config-babel-node",
+  "name": "@pob/eslint-config-typescript-node",
   "version": "37.2.0",
   "description": "eslint config files",
   "keywords": [],
@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com:christophehurpeau/eslint-config-pob.git",
-    "directory": "@pob/eslint-config-babel-node"
+    "directory": "@pob/eslint-config-typescript-node"
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "engines": {
@@ -19,7 +19,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "yarn --cwd ../.. eslint --quiet @pob/eslint-config-babel-node"
+    "lint": "yarn --cwd ../.. eslint --quiet @pob/eslint-config-typescript-node"
   },
   "prettier": {
     "trailingComma": "all",
@@ -27,16 +27,7 @@
     "arrowParens": "always"
   },
   "pob": {},
-  "peerDependencies": {
-    "eslint-plugin-node": "^11.0.0"
-  },
-  "peerDependenciesMeta": {
-    "eslint-plugin-node": {
-      "optional": true
-    }
-  },
   "dependencies": {
-    "@pob/use-eslint-plugin": "^37.2.0",
-    "eslint-plugin-node": "^11.0.0"
+    "@pob/eslint-config-node": "^37.2.0"
   }
 }

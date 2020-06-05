@@ -4,7 +4,13 @@ module.exports = {
   parser: '@typescript-eslint/parser',
 
   extends: [
-    '@pob/eslint-config-babel-common',
+    'eslint-config-airbnb-base',
+    '@pob/eslint-config/lib/plugins/prettier',
+    '@pob/eslint-config/lib/plugins/unicorn',
+    '@pob/eslint-config/lib/rules/best-practices',
+    '@pob/eslint-config/lib/rules/code-quality',
+    '@pob/eslint-config/lib/rules/style',
+    '@pob/eslint-config/lib/rules/expert',
     './plugins/typescript-eslint',
   ].map(require.resolve),
 
@@ -22,6 +28,30 @@ module.exports = {
   },
 
   rules: {
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
+    // disallow require when using babel
+    'import/no-commonjs': 'error',
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-extraneous-dependencies.md
+    // override default airbnb exceptions
+    'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-anonymous-default-export.md
+    // Reports if a module's default export is unnamed
+    'import/no-anonymous-default-export': [
+      'error',
+      {
+        allowArray: true,
+        allowArrowFunction: false,
+        allowAnonymousClass: false,
+        allowAnonymousFunction: false,
+        allowCallExpression: true,
+        allowLiteral: true,
+        allowObject: true,
+      },
+    ],
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
     'import/extensions': [
       'error',
       'ignorePackages',

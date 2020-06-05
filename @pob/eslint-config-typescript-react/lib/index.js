@@ -1,7 +1,15 @@
 'use strict';
 
 module.exports = {
-  extends: ['@pob/eslint-config-react'].map(require.resolve),
+  extends: [
+    'eslint-config-airbnb/rules/react',
+    'eslint-config-airbnb/rules/react-a11y',
+    'eslint-config-airbnb/rules/react-hooks',
+    'eslint-config-prettier',
+    'eslint-config-prettier/react',
+    '@pob/eslint-config/lib/rules/expert', // reapply expert: eslint-config-airbnb/rules/react modifies no-underscore-dangle
+    './rules/react',
+  ].map(require.resolve),
 
   settings: {
     'import/resolver': {

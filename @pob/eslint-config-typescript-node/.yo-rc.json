@@ -7,6 +7,5 @@
     "project": {
       "type": "lib"
     }
-  },
-  "@pob/eslint-config-babel": {}
+  }
 }

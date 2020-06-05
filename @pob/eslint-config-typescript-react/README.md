@@ -13,5 +13,5 @@
 
 ### Install
 
-1. `npm install --save-dev eslint @pob/eslint-config-babel @pob/eslint-config-typescript @pob/eslint-config-typescript-react`
-2. add `"extends": ["@pob/eslint-config-babel", "@pob/eslint-config-typescript", "@pob/eslint-config-typescript-react"]` to your .eslintrc
+1. `npm install --save-dev eslint @pob/eslint-config-typescript @pob/eslint-config-typescript-react`
+2. add `"extends": ["@pob/eslint-config-typescript", "@pob/eslint-config-typescript-react"]` to your .eslintrc

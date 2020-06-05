@@ -18,5 +18,5 @@
 
 ## Install with node
 
-1. `npm install --save-dev eslint @pob/eslint-config-typescript @pob/eslint-config-babel-node`
-2. add `"extends": ["@pob/eslint-config-typescript", "@pob/eslint-config-babel-node"]` to your .eslintrc
+1. `npm install --save-dev eslint @pob/eslint-config-typescript @pob/eslint-config-typescript-node`
+2. add `"extends": ["@pob/eslint-config-typescript", "@pob/eslint-config-typescript-node"]` to your .eslintrc

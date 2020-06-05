@@ -6,12 +6,9 @@
       "documentation": false,
       "packageNames": [
         "@pob/use-eslint-plugin",
-        "@pob/eslint-config-babel-node",
         "@pob/eslint-config-node",
         "@pob/eslint-config",
-        "@pob/eslint-config-babel-common",
-        "@pob/eslint-config-react",
-        "@pob/eslint-config-babel",
+        "@pob/eslint-config-typescript-node",
         "@pob/eslint-config-typescript-react",
         "@pob/eslint-config-typescript"
       ],

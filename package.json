@@ -20,7 +20,7 @@
     "release": "GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --conventional-graduate --create-release=github -m 'chore: release' && lerna publish from-git"
   },
   "prettier": {
-    "trailingComma": "es5",
+    "trailingComma": "all",
     "singleQuote": true,
     "arrowParens": "always"
   },

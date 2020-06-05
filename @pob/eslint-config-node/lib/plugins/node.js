@@ -13,9 +13,4 @@ module.exports = {
     'node/no-unpublished-require': 'off',
     'node/no-extraneous-require': 'off',
   },
-  // env: {
-  //   browser: false,
-  //   node: true,
-  //   es6: true,
-  // },
 };

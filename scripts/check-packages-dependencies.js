@@ -41,7 +41,7 @@ try {
           const expectedVersion = pkg.dependencies[peerDep];
           if (pkg.peerDependencies[peerDep] !== expectedVersion) {
             throw new Error(
-              `Invalid ${peerDep} version in ${packageName}: should be ${expectedVersion}`
+              `Invalid ${peerDep} version in ${packageName}: should be ${expectedVersion}`,
             );
           }
         }
@@ -53,12 +53,12 @@ try {
         const expectedVersion = rootPkg.devDependencies[configDep];
         if (pkg.dependencies[configDep].slice(1) !== expectedVersion) {
           throw new Error(
-            `Invalid ${configDep} version in ${packageName}: should be ${expectedVersion}`
+            `Invalid ${configDep} version in ${packageName}: should be ${expectedVersion}`,
           );
         }
 
         const configDepPkg = readPackage(
-          require.resolve(`${configDep}/package.json`)
+          require.resolve(`${configDep}/package.json`),
         );
         Object.keys(configDepPkg.peerDependencies).forEach((peerDep) => {
           const expectedVersion = configDepPkg.peerDependencies[
@@ -70,7 +70,7 @@ try {
             if (peerDep === 'eslint') return;
 
             throw new Error(
-              `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`
+              `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`,
             );
           }
 
@@ -82,7 +82,7 @@ try {
             if (
               semver.gt(
                 semver.minVersion(actualVersion),
-                semver.minVersion(expectedVersion)
+                semver.minVersion(expectedVersion),
               )
             ) {
               console.warn(`Warning: ${message}`);
