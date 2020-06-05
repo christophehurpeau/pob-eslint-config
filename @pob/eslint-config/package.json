@@ -19,7 +19,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint --quiet lib"
+    "lint": "yarn --cwd ../.. eslint --quiet @pob/eslint-config"
   },
   "prettier": {
     "trailingComma": "all",
@@ -45,8 +45,5 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-unicorn": "^18.0.1"
-  },
-  "devDependencies": {
-    "eslint": "6.8.0"
   }
 }

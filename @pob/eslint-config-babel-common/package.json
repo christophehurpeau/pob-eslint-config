@@ -19,7 +19,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint --quiet lib"
+    "lint": "yarn --cwd ../.. eslint --quiet @pob/eslint-config-babel-common"
   },
   "prettier": {
     "trailingComma": "all",
