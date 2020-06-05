@@ -21,6 +21,7 @@ module.exports = {
           'sibling',
           'index',
         ],
+        alphabetize: { order: 'asc', caseInsensitive: false },
         'newlines-between': 'never',
       },
     ],
