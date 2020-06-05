@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [38.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.0.2...v38.1.0) (2020-06-05)
+
+
+### Features
+
+* enable explicit-function-return-type as error but allow expressions ([4f12c9f](https://github.com/christophehurpeau/eslint-config-pob/commit/4f12c9f6d53d527bc321809ad23aa5885bd2f0b0))
+
+
+
+
+
 ## [38.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.0.1...v38.0.2) (2020-06-05)
 
 
