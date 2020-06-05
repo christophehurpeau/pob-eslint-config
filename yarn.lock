@@ -1233,7 +1233,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config-node@^38.0.0, @pob/eslint-config-node@workspace:@pob/eslint-config-node":
+"@pob/eslint-config-node@workspace:@pob/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-node@workspace:@pob/eslint-config-node"
   dependencies:
@@ -1251,7 +1251,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-node@workspace:@pob/eslint-config-typescript-node"
   dependencies:
-    "@pob/eslint-config-node": ^38.0.0
+    "@pob/use-eslint-plugin": ^38.0.0
+    eslint-plugin-node: ^11.0.0
+  peerDependencies:
+    eslint-plugin-node: ^11.0.0
+  peerDependenciesMeta:
+    eslint-plugin-node:
+      optional: true
   languageName: unknown
   linkType: soft
 

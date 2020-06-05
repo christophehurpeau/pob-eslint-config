@@ -3,10 +3,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
 
-  parserOptions: {
-    sourceType: 'module',
-  },
-
   extends: [
     'eslint-config-airbnb-base',
     '@pob/eslint-config/lib/plugins/prettier',

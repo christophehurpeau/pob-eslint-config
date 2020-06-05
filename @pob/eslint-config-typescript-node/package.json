@@ -27,7 +27,16 @@
     "arrowParens": "always"
   },
   "pob": {},
+  "peerDependencies": {
+    "eslint-plugin-node": "^11.0.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-node": {
+      "optional": true
+    }
+  },
   "dependencies": {
-    "@pob/eslint-config-node": "^38.0.0"
+    "@pob/use-eslint-plugin": "^38.0.0",
+    "eslint-plugin-node": "^11.0.0"
   }
 }
