@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [38.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.0.1...v38.0.2) (2020-06-05)
+
+
+### Bug Fixes
+
+* typescript-node config node plugin ([787ee25](https://github.com/christophehurpeau/eslint-config-pob/commit/787ee25c646315a88cc8e2f5b934eec105d31078))
+
+
+
+
+
 ## [38.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.0.0...v38.0.1) (2020-06-05)
 
 
