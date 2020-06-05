@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [38.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.2.0...v38.0.0) (2020-06-05)
+
+**Note:** Version bump only for package @pob/use-eslint-plugin
+
+
+
+
+
 # [37.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.1.0...v37.2.0) (2020-05-30)
 
 

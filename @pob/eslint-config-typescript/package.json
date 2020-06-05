@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-typescript",
-  "version": "37.2.0",
+  "version": "38.0.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -38,8 +38,8 @@
     }
   },
   "dependencies": {
-    "@pob/eslint-config": "^37.2.0",
-    "@pob/use-eslint-plugin": "^37.2.0",
+    "@pob/eslint-config": "^38.0.0",
+    "@pob/use-eslint-plugin": "^38.0.0",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
     "eslint-config-airbnb-base": "^14.1.0",

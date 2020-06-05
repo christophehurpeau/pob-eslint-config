@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [38.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.2.0...v38.0.0) (2020-06-05)
+
+
+### Features
+
+* drop babel without typescript configurations ([91f390c](https://github.com/christophehurpeau/eslint-config-pob/commit/91f390c3f2b78c75ca8f52e559df60ef24a070f5))
+
+
+### BREAKING CHANGES
+
+* dropped @pob/eslint-config-babel, @pob/eslint-config-babel-common, @pob/eslint-config-react ; replaced @pob/eslint-config-babel-node by @pob/eslint-config-typescript-node
+
+
+
+
+
 # [37.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.1.0...v37.2.0) (2020-05-30)
 
 **Note:** Version bump only for package @pob/eslint-config-babel-node
