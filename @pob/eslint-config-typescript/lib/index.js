@@ -20,7 +20,7 @@ module.exports = {
         extensions: ['.mjs', '.js', '.json', '.ts'],
       },
     },
-    'import/extensions': ['.js', '.mjs', '.ts'],
+    'import/extensions': ['.js', '.mjs', '.ts', '.d.ts'],
 
     'import/core-modules': [
       'pob-babel', // import typings
