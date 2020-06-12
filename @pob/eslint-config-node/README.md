@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/@pob/eslint-config-node"><img src="https://img.shields.io/npm/v/@pob/eslint-config-node.svg?style=flat-square"></a>
-  <a href="https://david-dm.org/christophehurpeau/eslint-config-pob?path=@pob/eslint-config-node"><img src="https://david-dm.org/christophehurpeau/eslint-config-pob.svg?path=@pob/eslint-config-node?style=flat-square"></a>
 </p>
 
 ## Install

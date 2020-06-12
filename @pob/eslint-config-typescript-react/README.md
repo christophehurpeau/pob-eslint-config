@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/@pob/eslint-config-typescript-react"><img src="https://img.shields.io/npm/v/@pob/eslint-config-typescript-react.svg?style=flat-square"></a>
-  <a href="https://david-dm.org/christophehurpeau/eslint-config-pob?path=@pob/eslint-config-typescript-react"><img src="https://david-dm.org/christophehurpeau/eslint-config-pob.svg?path=@pob/eslint-config-typescript-react?style=flat-square"></a>
 </p>
 
 ### Install
