@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: ['./react'].map(require.resolve),
+  extends: ['.'].map(require.resolve),
 
   env: {
     browser: true,
@@ -20,7 +20,6 @@ module.exports = {
   },
 
   rules: {
-    'react/prefer-stateless-function': 'off',
     'react/no-unescaped-entities': 'off',
   },
 };
