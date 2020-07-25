@@ -4,11 +4,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "**/.yo-rc.json",
-        "**/renovate.json",
-        "**/.eslintrc.json"
-      ]
+      "ignoreChanges": ["**/.yo-rc.json", "**/.eslintrc.json"]
     }
   }
 }
