@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [39.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.2.0...v39.0.0) (2020-07-26)
+
+
+### Features
+
+* eslint 7 ([224cf76](https://github.com/christophehurpeau/eslint-config-pob/commit/224cf76a8df1c6b2a2d762b7cf80b11f1d985e1a))
+
+
+### BREAKING CHANGES
+
+* requires eslint 7 and other dependencies updated
+
+
+
+
+
 # [38.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.1.0...v38.2.0) (2020-07-18)
 
 **Note:** Version bump only for package @pob/eslint-config-node
