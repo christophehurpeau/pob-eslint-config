@@ -101,7 +101,7 @@ module.exports = {
     // Testing rules as warn
     '@typescript-eslint/prefer-as-const': 'warn',
     '@typescript-eslint/naming-convention': [
-      'error',
+      'warn',
       // Enforce that interface names do not begin with an I
       {
         selector: 'interface',
