@@ -102,30 +102,34 @@ module.exports = {
     '@typescript-eslint/prefer-as-const': 'warn',
     '@typescript-eslint/naming-convention': [
       'error',
-      [
-        {
-          selector: 'variable',
-          types: ['boolean'],
-          format: ['PascalCase'],
-          prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+      // Enforce that interface names do not begin with an I
+      {
+        selector: 'interface',
+        format: ['PascalCase'],
+        custom: {
+          regex: '^I[A-Z]',
+          match: false,
         },
-        // Enforce that interface names do not begin with an I
-        {
-          selector: 'interface',
-          format: ['PascalCase'],
-          custom: {
-            regex: '^I[A-Z]',
-            match: false,
-          },
-        },
-        // Enforce that boolean memberLike are prefixed with an allowed verb
-        {
-          selector: 'memberLike',
-          types: ['boolean'],
-          format: ['PascalCase'],
-          prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
-        },
-      ],
+      },
+      // Enforce that boolean variables are prefixed with an allowed verb
+      {
+        selector: 'variable',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+      },
+      // Enforce that boolean memberLike are prefixed with an allowed verb
+      {
+        selector: 'memberLike',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+      },
+      // Enforce that type is in PascalCase
+      {
+        selector: 'typeLike',
+        format: ['PascalCase'],
+      },
     ],
 
     /* changed */
