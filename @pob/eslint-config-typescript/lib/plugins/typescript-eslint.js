@@ -111,16 +111,21 @@ module.exports = {
           match: false,
         },
       },
-      // Enforce that boolean variables are prefixed with an allowed verb
+      // Enforce that boolean are prefixed with an allowed verb
       {
         selector: 'variable',
         types: ['boolean'],
         format: ['PascalCase'],
         prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
       },
-      // Enforce that boolean memberLike are prefixed with an allowed verb
       {
-        selector: 'memberLike',
+        selector: 'property',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+      },
+      {
+        selector: 'parameterProperty',
         types: ['boolean'],
         format: ['PascalCase'],
         prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
