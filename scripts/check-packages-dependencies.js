@@ -48,51 +48,75 @@ try {
       });
     }
 
-    configDependencies.forEach((configDep) => {
-      if (pkg.dependencies && pkg.dependencies[configDep]) {
-        const expectedVersion = rootPkg.devDependencies[configDep];
-        if (pkg.dependencies[configDep].slice(1) !== expectedVersion) {
-          throw new Error(
-            `Invalid ${configDep} version in ${packageName}: should be ${expectedVersion}`,
-          );
-        }
-
-        const configDepPkg = readPackage(
-          require.resolve(`${configDep}/package.json`),
-        );
-        Object.keys(configDepPkg.peerDependencies).forEach((peerDep) => {
-          const expectedVersion = configDepPkg.peerDependencies[
-            peerDep
-          ].replace(/^.*\|{2}\s(.*)$/, '$1');
-          const actualVersion = pkg.peerDependencies[peerDep];
-
-          if (!actualVersion) {
-            if (peerDep === 'eslint') return;
-
+    if (pkg.dependencies) {
+      configDependencies.forEach((configDep) => {
+        if (pkg.dependencies[configDep]) {
+          const expectedVersion = rootPkg.devDependencies[configDep];
+          if (pkg.dependencies[configDep].slice(1) !== expectedVersion) {
             throw new Error(
-              `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`,
+              `Invalid ${configDep} version in ${packageName}: should be ${expectedVersion}`,
             );
           }
+        }
+      });
 
-          if (
-            !semver.satisfies(semver.minVersion(actualVersion), expectedVersion)
-          ) {
-            const message = `${pkg.name}: Invalid ${peerDep} version: ${actualVersion} doesn't satisfies ${expectedVersion} (${configDep})`;
+      Object.keys(pkg.dependencies).forEach((configDep) => {
+        if (
+          configDep.startsWith('@pob') ||
+          configDependencies.includes(configDep)
+        ) {
+          const configDepPkg = readPackage(
+            require.resolve(
+              `${
+                configDep.startsWith('@pob') ? `../${configDep}` : configDep
+              }/package.json`,
+            ),
+          );
+
+          if (!configDepPkg.peerDependencies) return;
+
+          Object.keys(configDepPkg.peerDependencies).forEach((peerDep) => {
+            if (
+              !pkg.peerDependencies[peerDep] &&
+              configDepPkg.peerDependenciesMeta &&
+              configDepPkg.peerDependenciesMeta[peerDep] &&
+              configDepPkg.peerDependenciesMeta[peerDep].optional
+            ) {
+              return;
+            }
+
+            const expectedVersion = configDepPkg.peerDependencies[peerDep];
+            const actualVersion = pkg.peerDependencies[peerDep];
+
+            if (!actualVersion) {
+              throw new Error(
+                `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`,
+              );
+            }
 
             if (
-              semver.gt(
+              !semver.satisfies(
                 semver.minVersion(actualVersion),
-                semver.minVersion(expectedVersion),
+                expectedVersion,
               )
             ) {
-              console.warn(`Warning: ${message}`);
-            } else {
-              throw new Error(message);
+              const message = `${pkg.name}: Invalid ${peerDep} version: ${actualVersion} doesn't satisfies ${expectedVersion} (${configDep})`;
+
+              if (
+                semver.gt(
+                  semver.minVersion(actualVersion),
+                  semver.minVersion(expectedVersion),
+                )
+              ) {
+                console.warn(`Warning: ${message}`);
+              } else {
+                throw new Error(message);
+              }
             }
-          }
-        });
-      }
-    });
+          });
+        }
+      });
+    }
   });
 } catch (err) {
   console.error(err.message);

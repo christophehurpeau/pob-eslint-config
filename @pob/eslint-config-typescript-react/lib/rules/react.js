@@ -39,6 +39,14 @@ module.exports = {
       },
     ],
 
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'function-declaration',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
+
     /* changed rules */
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
@@ -50,7 +58,7 @@ module.exports = {
       'error',
       {
         order: [
-          'react-statics',
+          'static-variables',
           'static-methods',
           'instance-variables',
           'lifecycle',
@@ -62,7 +70,6 @@ module.exports = {
           'rendering',
         ],
         groups: {
-          'react-statics': ['propTypes', 'defaultProps'],
           lifecycle: [
             'state',
             'constructor',
@@ -85,6 +92,12 @@ module.exports = {
       },
     ],
 
+    // use class fields
+    'react/state-in-constructor': ['error', 'never'],
+
+    // use static public field
+    'react/static-property-placement': ['error', 'static public field'],
+
     /* disabled rules */
 
     // https://github.com/yannickcr/eslint-plugin-react/issues/1009
@@ -95,11 +108,6 @@ module.exports = {
 
     // project should use babel-plugin-transform-react-remove-prop-types
     'react/forbid-foreign-prop-types': 'off',
-
-    // disable enforcing state in constructor
-    'react/state-in-constructor': 'off',
-
-    'react/static-property-placement': 'off',
 
     // allow props spreading
     'react/jsx-props-no-spreading': 'off',

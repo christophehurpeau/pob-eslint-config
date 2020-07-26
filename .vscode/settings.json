@@ -1,5 +1,9 @@
 {
   "eslint.nodePath": ".yarn/sdks",
   "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
-  "eslint.enable": true
+  "eslint.enable": true,
+  "eslint.workingDirectories": ["."],
+  "eslint.options": {
+    "resolvePluginsRelativeTo": "."
+  }
 }

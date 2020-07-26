@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "checks": "node scripts/check-packages-dependencies.js",
-    "lint": "eslint --ext js,ts,tsx .",
+    "lint": "eslint --resolve-plugins-relative-to . --ext js,ts,tsx .",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --conventional-graduate --create-release=github -m 'chore: release' && lerna publish from-git"
   },
@@ -32,18 +32,17 @@
   "devDependencies": {
     "@pob/commitlint-config": "1.1.2",
     "@pob/root": "2.2.2",
-    "eslint": "6.8.0",
-    "eslint-config-airbnb": "18.1.0",
-    "eslint-config-airbnb-base": "14.1.0",
-    "eslint-import-resolver-node": "0.3.3",
-    "eslint-plugin-import": "2.20.2",
+    "eslint": "7.5.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-import-resolver-node": "0.3.4",
+    "eslint-plugin-import": "2.22.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.1.3",
-    "eslint-plugin-unicorn": "18.0.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-unicorn": "21.0.0",
     "husky": "4.2.5",
     "lerna": "3.22.1",
     "prettier": "2.0.5",
-    "semver": "7.3.2",
-    "yarn-berry-deduplicate": "2.0.0"
+    "semver": "7.3.2"
   }
 }

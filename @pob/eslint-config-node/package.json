@@ -28,7 +28,8 @@
   },
   "pob": {},
   "peerDependencies": {
-    "eslint-plugin-node": "^11.0.0"
+    "eslint": "^7.5.0",
+    "eslint-plugin-node": "^11.1.0"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-node": {
@@ -37,6 +38,6 @@
   },
   "dependencies": {
     "@pob/use-eslint-plugin": "^38.2.0",
-    "eslint-plugin-node": "^11.0.0"
+    "eslint-plugin-node": "^11.1.0"
   }
 }

@@ -1,4 +1,4 @@
-/* eslint-disable global-require, import/no-dynamic-require */
+/* eslint-disable import/no-dynamic-require */
 
 'use strict';
 
