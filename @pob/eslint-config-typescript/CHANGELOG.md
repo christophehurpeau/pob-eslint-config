@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [39.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.1...v39.0.2) (2020-07-26)
+
+
+### Bug Fixes
+
+* boolean prefix rule ([7fc4d21](https://github.com/christophehurpeau/eslint-config-pob/commit/7fc4d2136043096b66584cadd8d35b6fc6309ed1))
+
+
+
+
+
 ## [39.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.0...v39.0.1) (2020-07-26)
 
 
