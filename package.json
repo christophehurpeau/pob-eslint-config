@@ -32,7 +32,7 @@
   "devDependencies": {
     "@pob/commitlint-config": "1.1.2",
     "@pob/root": "2.2.2",
-    "eslint": "7.6.0",
+    "eslint": "7.7.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-import-resolver-node": "0.3.4",
