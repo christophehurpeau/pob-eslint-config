@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [39.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.3...v39.0.4) (2020-08-16)
+
+
+### Bug Fixes
+
+* disable spaced-comment rule in typescript ([7d25309](https://github.com/christophehurpeau/eslint-config-pob/commit/7d253098aa5ff57b93d4360ef730d0b21bbfc516))
+
+
+
+
+
 ## [39.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.2...v39.0.3) (2020-07-26)
 
 
