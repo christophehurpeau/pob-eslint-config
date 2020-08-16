@@ -71,6 +71,10 @@ module.exports = {
 
     /* issues */
 
+    // http://eslint.org/docs/rules/spaced-comment
+    // conflicts with typescript triple slash
+    'spaced-comment': 'off',
+
     /* some exported type doesnt work. tsc check that anyway */
     'import/named': 'off',
   },
