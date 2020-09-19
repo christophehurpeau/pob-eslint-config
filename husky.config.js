@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+
 'use strict';
 
 const { spawnSync } = require('child_process');

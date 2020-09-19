@@ -3,6 +3,7 @@
 /examples
 /samples
 /test
+/*.config.js
 .codeclimate.yml
 .yo-rc.json
 /yarn.lock
