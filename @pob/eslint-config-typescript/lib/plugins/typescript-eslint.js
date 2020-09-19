@@ -88,6 +88,9 @@ module.exports = {
     '@typescript-eslint/no-invalid-void-type': 'error',
     '@typescript-eslint/no-confusing-non-null-assertion': 'error',
     '@typescript-eslint/prefer-literal-enum-member': 'error',
+    '@typescript-eslint/consistent-type-imports': 'error',
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': 'error',
 
     // enable dot-notation, like https://github.com/airbnb/javascript/blob/5b462a04cdfebba712a3df18926edfcb4103d2a9/packages/eslint-config-airbnb-base/rules/best-practices.js#L40-L41
     'dot-notation': 'off',
