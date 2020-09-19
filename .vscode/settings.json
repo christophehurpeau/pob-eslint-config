@@ -15,7 +15,9 @@
   },
   // eslint config
   "eslint.enable": true,
-  "eslint.workingDirectories": ["."],
+  "eslint.workingDirectories": [
+    "."
+  ],
   "eslint.options": {
     "resolvePluginsRelativeTo": "."
   },

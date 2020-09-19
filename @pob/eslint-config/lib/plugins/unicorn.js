@@ -167,6 +167,9 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-reduce.md
     'unicorn/no-reduce': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/import-style.md
+    'unicorn/import-style': 'off',
   },
 
   overrides: [
