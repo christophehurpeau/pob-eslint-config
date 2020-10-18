@@ -14,7 +14,6 @@
     "source.organizeImports": false
   },
   // eslint config
-  "eslint.enable": true,
   "eslint.workingDirectories": [
     "."
   ],

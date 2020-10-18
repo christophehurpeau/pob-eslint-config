@@ -18,8 +18,9 @@
     "access": "public"
   },
   "main": "./lib/index.js",
+  "sideEffects": false,
   "scripts": {
-    "lint": "yarn --cwd ../.. eslint --quiet @pob/eslint-config-typescript"
+    "lint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/eslint-config-typescript"
   },
   "prettier": {
     "trailingComma": "all",
