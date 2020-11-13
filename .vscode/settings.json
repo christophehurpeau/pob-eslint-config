@@ -14,7 +14,9 @@
     "source.organizeImports": false
   },
   // eslint config
-  "eslint.workingDirectories": ["."],
+  "eslint.workingDirectories": [
+    "."
+  ],
   "eslint.options": {
     "resolvePluginsRelativeTo": ".",
     "reportUnusedDisableDirectives": true

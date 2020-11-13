@@ -7,12 +7,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com:christophehurpeau/eslint-config-pob.git",
+    "url": "https://github.com/christophehurpeau/eslint-config-pob.git",
     "directory": "@pob/eslint-config-node"
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "engines": {
-    "node": ">=10.13.0"
+    "node": ">=12.10.0"
   },
   "publishConfig": {
     "access": "public"
