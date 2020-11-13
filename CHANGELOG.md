@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [41.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.0.0...v41.0.1) (2020-11-13)
+
+
+### Bug Fixes
+
+* import prettier config in eslint-config-typescript ([a9b7e47](https://github.com/christophehurpeau/eslint-config-pob/commit/a9b7e473fddcb3381b15495a9477bfd4f8346f77))
+
+
+
+
+
 # [41.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v40.1.0...v41.0.0) (2020-11-13)
 
 
