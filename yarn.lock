@@ -1361,7 +1361,6 @@ __metadata:
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.1
     eslint-plugin-node: 11.1.0
-    eslint-plugin-prettier: 3.1.4
     eslint-plugin-unicorn: 23.0.0
     husky: 4.3.0
     lerna: 3.22.1
@@ -1468,18 +1467,14 @@ __metadata:
     "@pob/use-eslint-plugin": ^40.1.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^6.11.0
-    eslint-plugin-prettier: ^3.1.4
     eslint-plugin-unicorn: ^23.0.0
   peerDependencies:
     eslint: ^7.5.0
     eslint-plugin-import: ^2.22.1
-    eslint-plugin-prettier: ^3.1.4
     eslint-plugin-unicorn: ^23.0.0
     prettier: ^2.0.5
   peerDependenciesMeta:
     eslint-plugin-import:
-      optional: true
-    eslint-plugin-prettier:
       optional: true
     eslint-plugin-unicorn:
       optional: true
@@ -3544,7 +3539,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:3.1.4, eslint-plugin-prettier@npm:^3.1.4":
+"eslint-plugin-prettier@npm:^3.1.4":
   version: 3.1.4
   resolution: "eslint-plugin-prettier@npm:3.1.4"
   dependencies:
