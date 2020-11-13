@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [41.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v40.1.0...v41.0.0) (2020-11-13)
+
+
+### chore
+
+* requires node 12 ([82f6be7](https://github.com/christophehurpeau/eslint-config-pob/commit/82f6be79778dcd1de7bfaea2e5523b7bfb490a35))
+
+
+### BREAKING CHANGES
+
+* drop node 10 support
+
+
+
+
+
 # [40.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v40.0.0...v40.1.0) (2020-10-18)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript-node

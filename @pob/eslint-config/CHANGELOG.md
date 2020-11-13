@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [41.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v40.1.0...v41.0.0) (2020-11-13)
+
+
+### chore
+
+* requires node 12 ([82f6be7](https://github.com/christophehurpeau/eslint-config-pob/commit/82f6be79778dcd1de7bfaea2e5523b7bfb490a35))
+
+
+### Features
+
+* drop eslint-plugin-prettier ([71cfb3b](https://github.com/christophehurpeau/eslint-config-pob/commit/71cfb3ba5a51b192c39ce1faa912d850ea987969))
+
+
+### BREAKING CHANGES
+
+* drop node 10 support
+* removed plugin prettier, use prettier directly
+
+See the downsides of using plugin in https://prettier.io/docs/en/integrating-with-linters.html
+
+
+
+
+
 # [40.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v40.0.0...v40.1.0) (2020-10-18)
 
 
