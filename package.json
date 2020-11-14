@@ -15,7 +15,9 @@
   ],
   "scripts": {
     "checks": "node scripts/check-packages-dependencies.js",
-    "lint": "eslint --report-unused-disable-directives --quiet --resolve-plugins-relative-to . --ext js,ts,tsx .",
+    "lint": "yarn run lint:prettier && yarn run lint:eslint",
+    "lint:eslint": "eslint --report-unused-disable-directives --quiet --resolve-plugins-relative-to . --ext js,ts,tsx .",
+    "lint:prettier": "prettier --check .",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --conventional-graduate --create-release=github -m 'chore: release' && lerna publish from-git"
   },
@@ -30,8 +32,8 @@
     ]
   },
   "devDependencies": {
-    "@pob/commitlint-config": "1.1.3",
-    "@pob/root": "2.4.5",
+    "@pob/commitlint-config": "2.0.0",
+    "@pob/root": "3.0.0",
     "eslint": "7.13.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.1",

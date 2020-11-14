@@ -3,6 +3,5 @@
   "extends": [
     "../eslint-config/lib/index.js",
     "../eslint-config-node/lib/index.js"
-  ],
-  "ignorePatterns": ["/dist", "/test", "/public", "/build"]
+  ]
 }

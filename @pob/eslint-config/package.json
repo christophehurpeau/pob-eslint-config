@@ -20,7 +20,7 @@
   "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
-    "lint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/eslint-config"
+    "lint:eslint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/eslint-config"
   },
   "prettier": {
     "trailingComma": "all",
@@ -46,5 +46,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-unicorn": "^23.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.13.0"
   }
 }

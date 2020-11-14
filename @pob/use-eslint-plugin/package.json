@@ -20,12 +20,15 @@
   "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
-    "lint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/use-eslint-plugin"
+    "lint:eslint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/use-eslint-plugin"
   },
   "prettier": {
     "trailingComma": "all",
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "pob": {}
+  "pob": {},
+  "devDependencies": {
+    "eslint": "7.13.0"
+  }
 }
