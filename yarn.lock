@@ -1443,21 +1443,17 @@ __metadata:
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^6.11.0
     eslint-plugin-import: ^2.22.1
-    eslint-plugin-prettier: ^3.1.4
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
     eslint: ^7.5.0
     eslint-plugin-import: ^2.22.1
-    eslint-plugin-prettier: ^3.1.4
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     "@typescript-eslint/parser":
       optional: true
     eslint-plugin-import:
-      optional: true
-    eslint-plugin-prettier:
       optional: true
   languageName: unknown
   linkType: soft
@@ -3543,18 +3539,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^3.1.4":
-  version: 3.1.4
-  resolution: "eslint-plugin-prettier@npm:3.1.4"
-  dependencies:
-    prettier-linter-helpers: ^1.0.0
-  peerDependencies:
-    eslint: ">=5.0.0"
-    prettier: ">=1.13.0"
-  checksum: 4e4df155790a20a7ceef9008bbc22a677a8f7e790e9ef613a049a78dfe0b5dc3726afcd4bfd2a8ce41abc88c9a11db029819a722f70b940da32a03629e7f7832
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-react-hooks@npm:^4.1.2":
   version: 4.1.2
   resolution: "eslint-plugin-react-hooks@npm:4.1.2"
@@ -3902,13 +3886,6 @@ __metadata:
   version: 3.1.1
   resolution: "fast-deep-equal@npm:3.1.1"
   checksum: 38fe57c5ea7dbb42cf84f5d94166358b930beb49345619205ff16c4a0c896f8679a444f0fbd0f352a633f2ea800673173e2a150d81d3d85933d714d24498c688
-  languageName: node
-  linkType: hard
-
-"fast-diff@npm:^1.1.2":
-  version: 1.2.0
-  resolution: "fast-diff@npm:1.2.0"
-  checksum: 9c5407d9c4869407854fe8838b8d9d26065ca747c9b80697957ae37482e982e880de823efa2c97ea1cba05dc06fce853a005e7557d10550c64c052cf7021ba9e
   languageName: node
   linkType: hard
 
@@ -7057,15 +7034,6 @@ __metadata:
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
   checksum: bc1649f521e8928cde0e1b349b224de2e6f00b71361a4a44f2e4a615342b6e1ae30366c32d26412dabe74d999a40f79c0ae044ae6b17cf19af935e74d12ea4fa
-  languageName: node
-  linkType: hard
-
-"prettier-linter-helpers@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "prettier-linter-helpers@npm:1.0.0"
-  dependencies:
-    fast-diff: ^1.1.2
-  checksum: 6d698b9c8dc28e52c8d69df520cde3410cc06cc40471acf81b4b7c18ca08e73d0efb0f878654985bb02fce4f8d3d64cdf64fe9f3ffad3e1dc7e17b837d4ddcb2
   languageName: node
   linkType: hard
 
