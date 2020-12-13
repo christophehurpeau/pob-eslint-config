@@ -5,7 +5,7 @@ module.exports = {
     'eslint-config-airbnb/rules/react',
     'eslint-config-airbnb/rules/react-a11y',
     'eslint-config-airbnb/rules/react-hooks',
-    '@pob/eslint-config/prettier', // reapply prettier
+    '@pob/eslint-config/lib/prettier', // reapply prettier
     'eslint-config-prettier/react',
     '@pob/eslint-config/lib/rules/expert', // reapply expert: eslint-config-airbnb/rules/react modifies no-underscore-dangle
     './rules/react',
