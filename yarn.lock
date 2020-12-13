@@ -1373,7 +1373,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-node@workspace:@pob/eslint-config-node"
   dependencies:
-    "@pob/use-eslint-plugin": ^41.0.4
+    "@pob/use-eslint-plugin": ^41.1.0
     eslint: 7.15.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
@@ -1389,7 +1389,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-node@workspace:@pob/eslint-config-typescript-node"
   dependencies:
-    "@pob/use-eslint-plugin": ^41.0.4
+    "@pob/use-eslint-plugin": ^41.1.0
     eslint: 7.15.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
@@ -1408,7 +1408,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
-    "@pob/eslint-config": ^41.0.4
+    "@pob/eslint-config": ^41.1.0
     eslint: 7.15.0
     eslint-config-airbnb: ^18.2.1
     eslint-config-prettier: ^6.11.0
@@ -1435,8 +1435,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript"
   dependencies:
-    "@pob/eslint-config": ^41.0.4
-    "@pob/use-eslint-plugin": ^41.0.4
+    "@pob/eslint-config": ^41.1.0
+    "@pob/use-eslint-plugin": ^41.1.0
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
     eslint: 7.15.0
@@ -1458,11 +1458,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config@^41.0.4, @pob/eslint-config@workspace:@pob/eslint-config":
+"@pob/eslint-config@^41.1.0, @pob/eslint-config@workspace:@pob/eslint-config":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
-    "@pob/use-eslint-plugin": ^41.0.4
+    "@pob/use-eslint-plugin": ^41.1.0
     eslint: 7.15.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^6.11.0
@@ -1501,7 +1501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/use-eslint-plugin@^41.0.4, @pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin":
+"@pob/use-eslint-plugin@^41.1.0, @pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin":
   version: 0.0.0-use.local
   resolution: "@pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin"
   dependencies:

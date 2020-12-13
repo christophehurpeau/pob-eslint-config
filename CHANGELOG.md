@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [41.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.0.4...v41.1.0) (2020-12-13)
+
+
+### Features
+
+* add test config turning off some rules ([f4cd3a1](https://github.com/christophehurpeau/eslint-config-pob/commit/f4cd3a126d7f566650de8110885790d42c8e686d))
+
+
+
+
+
 ## [41.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.0.3...v41.0.4) (2020-11-15)
 
 
