@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config",
-  "version": "41.1.0",
+  "version": "41.1.2",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -42,7 +42,7 @@
     }
   },
   "dependencies": {
-    "@pob/use-eslint-plugin": "^41.1.0",
+    "@pob/use-eslint-plugin": "^41.1.2",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-unicorn": "^24.0.0"
