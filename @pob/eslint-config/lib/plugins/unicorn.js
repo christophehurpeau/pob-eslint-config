@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+
 'use strict';
 
 const usePlugin = require('@pob/use-eslint-plugin');
@@ -179,6 +181,15 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md
     'unicorn/prefer-ternary': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-lonely-if.md
+    'unicorn/no-lonely-if': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/empty-brace-spaces.md
+    'unicorn/empty-brace-spaces': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/empty-brace-spaces.md
+    'unicorn/prefer-date-now': 'error',
   },
 
   overrides: [
