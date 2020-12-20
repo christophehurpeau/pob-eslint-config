@@ -97,9 +97,12 @@ module.exports = {
     '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
 
     // enable no-loss-of-precision
-
     'no-loss-of-precision': 'off',
     '@typescript-eslint/no-loss-of-precision': ['error'],
+
+    // fix no-use-before-define
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
 
     // Testing rules as warn
     '@typescript-eslint/prefer-as-const': 'warn',
