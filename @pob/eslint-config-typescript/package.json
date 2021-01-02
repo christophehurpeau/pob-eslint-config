@@ -55,6 +55,6 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
-    "eslint": "7.16.0"
+    "eslint": "7.17.0"
   }
 }
