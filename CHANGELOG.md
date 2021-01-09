@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [42.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.1.3...v42.0.0) (2021-01-09)
+
+
+### Features
+
+* update eslint-config-prettier ([5195da6](https://github.com/christophehurpeau/eslint-config-pob/commit/5195da6c6deeeaf21b64d5b52f355ee23a5362b5))
+* update eslint-plugin-unicorn and enable two new rules ([738dd3f](https://github.com/christophehurpeau/eslint-config-pob/commit/738dd3f5635bbe45318e2d15d6ba08a500a6c716))
+
+
+### BREAKING CHANGES
+
+* enabled rules unicorn/prefer-array-some and unicorn/prefer-default-parameters
+
+
+
+
+
 ## [41.1.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.1.2...v41.1.3) (2020-12-20)
 
 
