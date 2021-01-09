@@ -1411,7 +1411,7 @@ __metadata:
     "@pob/eslint-config": ^41.1.2
     eslint: 7.17.0
     eslint-config-airbnb: ^18.2.1
-    eslint-config-prettier: ^6.11.0
+    eslint-config-prettier: ^7.1.0
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.21.5
     eslint-plugin-react-hooks: ^4.1.2
@@ -1441,7 +1441,7 @@ __metadata:
     "@typescript-eslint/parser": ^4.1.1
     eslint: 7.17.0
     eslint-config-airbnb-base: ^14.2.1
-    eslint-config-prettier: ^6.11.0
+    eslint-config-prettier: ^7.1.0
     eslint-plugin-import: ^2.22.1
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.1.1
@@ -1465,7 +1465,7 @@ __metadata:
     "@pob/use-eslint-plugin": ^41.1.2
     eslint: 7.17.0
     eslint-config-airbnb-base: ^14.2.1
-    eslint-config-prettier: ^6.11.0
+    eslint-config-prettier: ^7.1.0
     eslint-plugin-unicorn: ^24.0.0
   peerDependencies:
     eslint: ^7.5.0
@@ -3416,16 +3416,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^6.11.0":
-  version: 6.11.0
-  resolution: "eslint-config-prettier@npm:6.11.0"
-  dependencies:
-    get-stdin: ^6.0.0
+"eslint-config-prettier@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "eslint-config-prettier@npm:7.1.0"
   peerDependencies:
-    eslint: ">=3.14.1"
+    eslint: ">=7.0.0"
   bin:
-    eslint-config-prettier-check: bin/cli.js
-  checksum: 59efd906c78d47753a673c205ef515fdab19cd6ea0fd992c9cb2366804861746238244526ab565ccc7448569f5472ce7646a77d0c9998787192e4ebae95df71d
+    eslint-config-prettier: bin/cli.js
+  checksum: 968a1166c3c14ac769b5bd30192dfc81f02319e565a907f1299ae1322eccf836ebaab5a7ebdb5ceefc35b65f5c9d781e5bb92a72bf299d2dde4353b5a828a0f3
   languageName: node
   linkType: hard
 
@@ -4243,13 +4241,6 @@ __metadata:
   version: 4.0.1
   resolution: "get-stdin@npm:4.0.1"
   checksum: ba122b05691e29aa1c93f9dfe76671c23b311e5f299c4205c030c00a656045fcf56d2bb5a924b6cd576f278563643b6689b50aa54fc87abcdc2e6e8eda09920e
-  languageName: node
-  linkType: hard
-
-"get-stdin@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "get-stdin@npm:6.0.0"
-  checksum: b51d664838aef7f8353dc57371ce59cea54d8d584fec015a9d89d24561e95b97806d5b5ba120bc81574c9ed63cb3e210176ffa0ff9263c7e7ba4d56d0fe54913
   languageName: node
   linkType: hard
 
