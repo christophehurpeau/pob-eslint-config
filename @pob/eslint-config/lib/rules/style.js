@@ -43,5 +43,8 @@ module.exports = {
 
     // http://eslint.org/docs/rules/no-else-return
     'no-else-return': 'off',
+
+    // http://eslint.org/docs/rules/arrow-body-style
+    'arrow-body-style': 'off',
   },
 };
