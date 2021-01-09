@@ -5,9 +5,7 @@ const path = require('path');
 const semver = require('semver');
 
 try {
-  const readPackage = (path) => {
-    return JSON.parse(fs.readFileSync(path, 'utf-8'));
-  };
+  const readPackage = (path) => JSON.parse(fs.readFileSync(path, 'utf-8'));
 
   const configDependencies = [
     'eslint-config-airbnb-base',
