@@ -20,6 +20,7 @@
   "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
+    "lint": "yarn run lint:eslint",
     "lint:eslint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/eslint-config-typescript-react"
   },
   "prettier": {
@@ -55,6 +56,6 @@
     "eslint-plugin-react-hooks": "^4.1.2"
   },
   "devDependencies": {
-    "eslint": "7.17.0"
+    "eslint": "7.18.0"
   }
 }

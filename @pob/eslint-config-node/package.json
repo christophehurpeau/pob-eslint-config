@@ -20,6 +20,7 @@
   "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
+    "lint": "yarn run lint:eslint",
     "lint:eslint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/eslint-config-node"
   },
   "prettier": {
@@ -42,6 +43,6 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
-    "eslint": "7.17.0"
+    "eslint": "7.18.0"
   }
 }
