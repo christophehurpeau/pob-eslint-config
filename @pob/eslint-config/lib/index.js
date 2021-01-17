@@ -32,5 +32,11 @@ module.exports = {
         ],
       },
     },
+    {
+      files: ['*.mjs'],
+      parserOptions: {
+        sourceType: 'module',
+      },
+    },
   ],
 };
